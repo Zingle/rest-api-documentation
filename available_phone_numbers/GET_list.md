@@ -42,4 +42,4 @@ Returns a list of [Available Phone Number Objects][]
 }
 ```
 
-[Available Phone Number Objects]: /README.md
+[Available Phone Number Objects]: README.md
