@@ -13,6 +13,7 @@ Field | Data Type | Required | Description
 type | string | Y | Channel `type_class` to add. Note that adding certain Channel Types (such as phone numbers) will incur additional costs.
 value | string | Y | Channel value 
 country | string | Y | Required when provisioning phone numbers. ISO 3166-1 alpha-2 country code.
+display_name | string | N | 
 is_default_for_type | boolean | N | If set to true, will make this channel the default for this service for its Channel Type
 
 ## Example
