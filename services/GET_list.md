@@ -5,7 +5,18 @@
 Returns a list of [Service Objects][] the current user (as specified by API credentials) has access to
 
 ## Parameters
- - Pagination options (see [Overview - Request Modifiers][])
+Field | Wildcards | Description
+--- | --- | ---
+Pagination options | N | (see [Overview - Request Modifiers][])
+account_id | N | only return Services from this Account
+channel_value | Y | Filter by service channel values
+display_name | Y | Filter by Service display name
+address | Y | Filter by Service street address
+city | N | Filter by Service city
+state | N | Filter by Service state
+country | N | Filter by Service country
+postal_code | N | Filter by Service postal_code
+
 
 ## Example
 **Request**
