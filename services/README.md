@@ -15,5 +15,5 @@ updated_at | UNIX timestamp | Date the Account was last updated
 
 [Account Object]: /accounts/README.md
 [Plan Object]: /plans/README.md
-[Service Settings Objects]: /service_channels/README.md
+[Service Settings Objects]: /service_settings/README.md
 [Channel Type Objects]: /channel_types/README.md
