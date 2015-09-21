@@ -27,7 +27,7 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
     "type": "PhoneNumber",
     "value": "+18585556565",
     "country": "US",
-    "is_default_for_type": true
+    "is_default_for_type": false
 }
 ```
 
