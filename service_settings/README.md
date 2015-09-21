@@ -1,4 +1,4 @@
-# Service Object
+# Service Settings Object
 
 Field | Data Type | Description
 --- | --- | ---
