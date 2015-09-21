@@ -174,7 +174,7 @@ For a description of the available resources see the [Resource Overview](resourc
 - **[<code>POST</code> Create Service](/services/POST_create.md)**
 - **[<code>PUT</code> Update Service](/services/PUT_update_id.md)**
 - **[<code>DELETE</code> Cancel Service](/services/DELETE_id.md)**
-- **[<code>POST</code> Set Service Setting](/services/POST_setting_id.md)**
+- **[<code>POST</code> Set Service Setting](/service_settings/POST_create.md)**
 
 ## Service Channels
 - **[<code>GET</code> Service Channel](/service_channels/GET_id.md)**
