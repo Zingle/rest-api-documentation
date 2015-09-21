@@ -1,6 +1,6 @@
 # Create Contact
 
-    POST services/:service_id/contacts/:contact_id
+    POST services/:service_id/contacts
     
 Creates a new Contact for the specified Service and returns the newly-created [Contact Object]
 
