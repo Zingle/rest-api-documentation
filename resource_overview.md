@@ -45,3 +45,6 @@ Message Attachments provide the ability to add binary data, such as images, to m
 
 ### Automation
 Automations perform triggered tasks, based on conditions, within the Zingle platform without any direct user interaction.  Tasks include messaging contacts, applying labels, applying custom fields, printing to Zingle Printers, and much more.
+
+### Available Phone Number
+As part of the Zingle platform, you are able to search for, and provision new SMS-capable Phone Numbers.  These phone numbers will become an additional Channel on which Contacts can communicate to your Service.
