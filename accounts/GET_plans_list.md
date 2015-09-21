@@ -49,4 +49,4 @@ None
 }
 ```
 
-[Plans]: plan_resource.md
+[Plans]: /plans/README.md
