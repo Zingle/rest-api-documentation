@@ -167,7 +167,7 @@ For a description of the available resources see the [Resource Overview](resourc
 ## Accounts
 - **[<code>GET</code> Accounts list](/accounts/GET_list.md)**
 - **[<code>GET</code> Account](/accounts/GET_id.md)**
-- **[<code>GET</code> Account Plans](/accounts/GET_plans_id.md)**
+- **[<code>GET</code> Account Plans](/accounts/GET_plans_list.md)**
 
 ## Services
 - **[<code>GET</code> Services list](/services/GET_list.md)**
