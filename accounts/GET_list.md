@@ -5,7 +5,7 @@
 Returns a list of [Account Objects][] the current authorized user has access to
 
 ## Parameters
- - Pagination options (see [Overview - Request Modifiers][])
+Pagination options (see [Overview - Request Modifiers][])
 
 ## Example
 **Request**
