@@ -160,75 +160,75 @@ For a quick introduction to the entire Zingle system, including provision and us
 For a description of the available resources see the [Resource Overview](resource_overview.md).
 
 ## General
-- **[<code>GET</code> Time Zones list](/resources/general/GET_time_zone_list.md)**
-- **[<code>GET</code> Plans list](/resources/general/GET_plan_list.md)**
-- **[<code>GET</code> Available Phone Numbers list](/resources/general/GET_available_phone_number_list.md)**
+- **[<code>GET</code> Time Zones list](/general/GET_time_zone_list.md)**
+- **[<code>GET</code> Plans list](/general/GET_plan_list.md)**
+- **[<code>GET</code> Available Phone Numbers list](/general/GET_available_phone_number_list.md)**
 
 ## Accounts
-- **[<code>GET</code> Accounts list](/resources/accounts/GET_list.md)**
-- **[<code>GET</code> Account](/resources/accounts/GET_id.md)**
-- **[<code>GET</code> Account Plans](/resources/accounts/GET_plans_id.md)**
+- **[<code>GET</code> Accounts list](/accounts/GET_list.md)**
+- **[<code>GET</code> Account](/accounts/GET_id.md)**
+- **[<code>GET</code> Account Plans](/accounts/GET_plans_id.md)**
 
 ## Services
-- **[<code>GET</code> Services list](/resources/services/GET_list.md)**
-- **[<code>GET</code> Service](/resources/services/GET_id.md)**
-- **[<code>POST</code> Create Service](/resources/services/POST_create.md)**
-- **[<code>PUT</code> Update Service](/resources/services/PUT_update_id.md)**
-- **[<code>DELETE</code> Cancel Service](/resources/services/DELETE_id.md)**
-- **[<code>POST</code> Set Service Setting](/resources/services/POST_setting_id.md)**
+- **[<code>GET</code> Services list](/services/GET_list.md)**
+- **[<code>GET</code> Service](/services/GET_id.md)**
+- **[<code>POST</code> Create Service](/services/POST_create.md)**
+- **[<code>PUT</code> Update Service](/services/PUT_update_id.md)**
+- **[<code>DELETE</code> Cancel Service](/services/DELETE_id.md)**
+- **[<code>POST</code> Set Service Setting](/services/POST_setting_id.md)**
 
 ## Service Channels
-- **[<code>GET</code> Service Channel](/resources/service_channels/GET_id.md)**
-- **[<code>POST</code> Create Service Channel](/resources/service_channels/POST_create.md)**
-- **[<code>PUT</code> Update Service Channel](/resources/service_channels/PUT_update_id.md)**
-- **[<code>DELETE</code> Delete Service Channel](/resources/service_channels/DELETE_id.md)**
+- **[<code>GET</code> Service Channel](/service_channels/GET_id.md)**
+- **[<code>POST</code> Create Service Channel](/service_channels/POST_create.md)**
+- **[<code>PUT</code> Update Service Channel](/service_channels/PUT_update_id.md)**
+- **[<code>DELETE</code> Delete Service Channel](/service_channels/DELETE_id.md)**
 
 ## Contacts
-- **[<code>GET</code> Contact list](/resources/contacts/GET_list.md)**
-- **[<code>GET</code> Contact](/resources/contacts/GET_id.md)**
-- **[<code>POST</code> Create Contact](/resources/contacts/POST_create.md)**
-- **[<code>PUT</code> Update Contact](/resources/contacts/PUT_update_id.md)**
-- **[<code>DELETE</code> Delete Contact](/resources/contacts/DELETE_id.md)**
-- **[<code>POST</code> Set Contact Custom Field Value](/resources/contacts/POST_custom_field_value_id.md)** 
-- **[<code>POST</code> Trigger automation for Contact](/resources/contacts/POST_trigger_automation_id.md)** 
-- **[<code>POST</code> Attach Label to Contact](/resources/contacts/POST_attach_label_id.md)** 
-- **[<code>DELETE</code> Detach Label from Contact](/resources/contacts/DELETE_detach_label_id.md)** 
+- **[<code>GET</code> Contact list](/contacts/GET_list.md)**
+- **[<code>GET</code> Contact](/contacts/GET_id.md)**
+- **[<code>POST</code> Create Contact](/contacts/POST_create.md)**
+- **[<code>PUT</code> Update Contact](/contacts/PUT_update_id.md)**
+- **[<code>DELETE</code> Delete Contact](/contacts/DELETE_id.md)**
+- **[<code>POST</code> Set Contact Custom Field Value](/contacts/POST_custom_field_value_id.md)** 
+- **[<code>POST</code> Trigger automation for Contact](/contacts/POST_trigger_automation_id.md)** 
+- **[<code>POST</code> Attach Label to Contact](/contacts/POST_attach_label_id.md)** 
+- **[<code>DELETE</code> Detach Label from Contact](/contacts/DELETE_detach_label_id.md)** 
 
 ## Contact Channels
-- **[<code>GET</code> Contact Channel](/resources/contact_channels/GET_id.md)**
-- **[<code>POST</code> Create Contact Channel](/resources/contact_channels/POST_create.md)**
-- **[<code>PUT</code> Update Contact Channel](/resources/contact_channels/PUT_update_id.md)**
-- **[<code>DELETE</code> Delete Contact Channel](/resources/contact_channels/DELETE_id.md)**
+- **[<code>GET</code> Contact Channel](/contact_channels/GET_id.md)**
+- **[<code>POST</code> Create Contact Channel](/contact_channels/POST_create.md)**
+- **[<code>PUT</code> Update Contact Channel](/contact_channels/PUT_update_id.md)**
+- **[<code>DELETE</code> Delete Contact Channel](/contact_channels/DELETE_id.md)**
 
 ## Messages
-- **[<code>GET</code> Message List](/resources/messages/GET_list.md)**
-- **[<code>GET</code> Message](/resources/messages/GET_id.md)**
-- **[<code>POST</code> Send Message](/resources/messages/POST_create.md)**
-- **[<code>POST</code> Set Message 'Read' Status](/resources/messages/POST_read_id.md)**
+- **[<code>GET</code> Message List](/messages/GET_list.md)**
+- **[<code>GET</code> Message](/messages/GET_id.md)**
+- **[<code>POST</code> Send Message](/messages/POST_create.md)**
+- **[<code>POST</code> Set Message 'Read' Status](/messages/POST_read_id.md)**
 
 ## Contact Fields
-- **[<code>GET</code> Contact Field list](/resources/contact_fields/GET_list.md)**
-- **[<code>GET</code> Contact Field](/resources/contact_fields/GET_id.md)**
-- **[<code>POST</code> Create Contact Field](/resources/contact_fields/POST_create.md)**
-- **[<code>PUT</code> Update Contact Field](/resources/contact_fields/PUT_update_id.md)**
-- **[<code>DELETE</code> Delete Contact Field](/resources/contact_fields/DELETE_id.md)** 
+- **[<code>GET</code> Contact Field list](/contact_fields/GET_list.md)**
+- **[<code>GET</code> Contact Field](/contact_fields/GET_id.md)**
+- **[<code>POST</code> Create Contact Field](/contact_fields/POST_create.md)**
+- **[<code>PUT</code> Update Contact Field](/contact_fields/PUT_update_id.md)**
+- **[<code>DELETE</code> Delete Contact Field](/contact_fields/DELETE_id.md)** 
 
 ## Labels
-- **[<code>GET</code> Label list](/resources/labels/GET_list.md)**
-- **[<code>GET</code> Label](/resources/labels/GET_id.md)**
-- **[<code>POST</code> Create Label](/resources/labels/POST_create.md)**
-- **[<code>PUT</code> Update Label](/resources/labels/PUT_update_id.md)**
-- **[<code>DELETE</code> Delete Label](/resources/labels/DELETE_id.md)**
+- **[<code>GET</code> Label list](/labels/GET_list.md)**
+- **[<code>GET</code> Label](/labels/GET_id.md)**
+- **[<code>POST</code> Create Label](/labels/POST_create.md)**
+- **[<code>PUT</code> Update Label](/labels/PUT_update_id.md)**
+- **[<code>DELETE</code> Delete Label](/labels/DELETE_id.md)**
 
 ## Templates
-- **[<code>GET</code> Template list](/resources/templates/GET_list.md)**
-- **[<code>GET</code> Template](/resources/templates/GET_id.md)**
-- **[<code>POST</code> Create Template](/resources/templates/POST_create.md)**
-- **[<code>PUT</code> Update Template](/resources/templates/PUT_update_id.md)**
-- **[<code>DELETE</code> Delete Template](/resources/templates/DELETE_id.md)** 
+- **[<code>GET</code> Template list](/templates/GET_list.md)**
+- **[<code>GET</code> Template](/templates/GET_id.md)**
+- **[<code>POST</code> Create Template](/templates/POST_create.md)**
+- **[<code>PUT</code> Update Template](/templates/PUT_update_id.md)**
+- **[<code>DELETE</code> Delete Template](/templates/DELETE_id.md)** 
 
 ## Automations
-- **[<code>GET</code> Automation list](/resources/automations/GET_list.md)**
-- **[<code>GET</code> Automation](/resources/automations/GET_id.md)**
-- **[<code>PUT</code> Update Automation](/resources/automations/PUT_update_id.md)**
+- **[<code>GET</code> Automation list](/automations/GET_list.md)**
+- **[<code>GET</code> Automation](/automations/GET_id.md)**
+- **[<code>PUT</code> Update Automation](/automations/PUT_update_id.md)**
 
