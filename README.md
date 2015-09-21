@@ -30,7 +30,7 @@ All API requests are made by sending a secure HTTPS request using one of the fol
 For PUT and POST requests the body of your request may include a JSON payload, and the URI being requested may include a query string specifying additional filters or commands, all of which are outlined in the following sections.
 
 ## HTTP Responses
-Each response will include a `status` object and `result` array.  The `status` object contains an HTTP status code, message, description, error message (if an error occurred) and info about the result. The `result` contains the result of a successful request.  For example, a request to the `/services/` resource might return this:
+Each response will include a `status` object and (if successful) a `result` (`result` will be an object for single-record queries and an array for list queries).  The `status` object contains an HTTP `status_code`, `text`, `description`, `error_message` (if an error occurred) and pagination info about the result. The `result` contains the result of a successful request.  For example, a request to the `/services/` resource might return this:
 
 ``` JSON
 {
@@ -152,3 +152,23 @@ https://api.zingle.me/v1/services/f762cdf9-6b0c-4563-a774-3e9d86f908f9/messages?
 ```
 
 #### Note that all dates are in the form of Unix timestamps (seconds since January 1, 1970) and returned in GMT - you will have to account for time zone adjustment depending on your client's location.
+
+## Quick Start
+For a quick introduction to the entire Zingle system, including provision and use of a service, see the [REST API Quick Start](/quick_start.md). 
+
+## Resources
+For a description of the available resources see the [Resource Overview](resource_overview.md).
+
+## Accounts
+- **[<code>GET</code> Accounts list](/resources/accounts/GET_list.md)**
+- **[<code>GET</code> Account](/resources/GET_id.md)**
+
+## Services
+- **[<code>GET</code> Services list](/resources/services/GET_list.md)**
+- **[<code>GET</code> Service](/resources/GET_id.md)**
+- **[<code>POST</code> Create Service](/resources/POST_create.md)**
+- **[<code>PUT</code> Update Service](/resources/PUT_update.md)**
+- **[<code>DELETE</code> Cancel Service](/resources/DELETE_cancel.md)**
+- **[<code>POST</code> Set Service Setting](/resources/POST_setting.md)**
+
+
