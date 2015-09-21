@@ -2,13 +2,10 @@
 
     GET accounts
     
-Returns a list of accounts the current authorized user has access to
+Returns a list of [Account Objects][] the current authorized user has access to
 
 ## Parameters
  - Pagination options (see [Overview - Request Modifiers][])
-
-## Return format
-See [Account Object Format][]
 
 ## Example
 **Request**
@@ -53,4 +50,4 @@ See [Account Object Format][]
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
-[Account Object Format]: README.md
+[Account Objects]: README.md
