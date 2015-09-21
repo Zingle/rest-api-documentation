@@ -18,13 +18,7 @@ None
     "status": {
         "text": "OK",
         "status_code": 200,
-        "description": null,
-        "sort_field": "display_name",
-        "sort_direction": "asc",
-        "page": 1,
-        "page_size": 10,
-        "total_pages": 1,
-        "total_records": 3
+        "description": null
     },
     "result": {
             "id": "2d89b706-47f2-471d-8e1b-4a180b448838",
