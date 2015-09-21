@@ -1,4 +1,5 @@
-Object | Description
+# Resource Overview
+Resource | Description
 --- | ---
 Account | An Account is the master record for a Business that uses Zingle.  As the developer you will be granted access to specific Accounts, and be provided the ability to perform operations on their behalf.  An Account is a container for one or more Services.
 Service | A Service is a distinct messaging center that contains collections of conversations with Contacts. 
