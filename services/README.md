@@ -10,6 +10,7 @@ plan | object | [Plan Object][]
 channels | array | Array of [Service Channel Objects][]
 channel_types | array | Array of [Channel Type Objects][]
 settings | array | Array of [Service Settings Objects][] representing settings on the Service
+service_address | object | [Service Address Object][] 
 created_at | UNIX timestamp | Date the Account was created
 updated_at | UNIX timestamp | Date the Account was last updated
 
@@ -18,3 +19,4 @@ updated_at | UNIX timestamp | Date the Account was last updated
 [Service Channel Objects]: /service_channels/README.md
 [Channel Type Objects]: /channel_types/README.md
 [Service Settings Objects]: /service_settings/README.md
+[Service Address Object]: /service_addresses/README.md
