@@ -1,4 +1,4 @@
-# Create Service
+# Update Service Setting
 
     POST services/:service_id/settings/:settings_field_id
     
