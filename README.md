@@ -160,9 +160,9 @@ For a quick introduction to the entire Zingle system, including provision and us
 For a description of the available resources see the [Resource Overview](resource_overview.md).
 
 ## General
-- **[<code>GET</code> Accounts list](/resources/general/GET_time_zone_list.md)**
-- **[<code>GET</code> Plans](/resources/general/GET_plan_list.md)**
-- **[<code>GET</code> Plans](/resources/general/GET_available_phone_number_list.md)**
+- **[<code>GET</code> Time Zones list](/resources/general/GET_time_zone_list.md)**
+- **[<code>GET</code> Plans list](/resources/general/GET_plan_list.md)**
+- **[<code>GET</code> Available Phone Numbers list](/resources/general/GET_available_phone_number_list.md)**
 
 ## Accounts
 - **[<code>GET</code> Accounts list](/resources/accounts/GET_list.md)**
