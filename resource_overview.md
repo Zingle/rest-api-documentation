@@ -1,4 +1,6 @@
 # Resource Overview
+The following resources are accessible via the REST API or are concepts core to the Zingle Platform that you should familiarize yourself with.
+
 Resource | Description
 --- | ---
 Account | An Account is the master record for a Business that uses Zingle.  As the developer you will be granted access to specific Accounts, and be provided the ability to perform operations on their behalf.  An Account is a container for one or more Services.
