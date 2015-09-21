@@ -39,13 +39,6 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
         "description": null
     },
     "result": {
-{
-    "status": {
-        "text": "OK",
-        "status_code": 200,
-        "description": null
-    },
-    "result": {
       "id": "d9f91fdb-bbdb-442d-bbac-99fb76263653",
       "display_name": null,
       "value": "+18585556565",
