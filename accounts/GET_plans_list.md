@@ -2,7 +2,7 @@
 
     GET accounts/:account_id/plans
     
-Returns a list of [Plans][] an [Account][] has access to
+Returns a list of [Plans] an [Account] has access to
 
 ## Parameters
 None
