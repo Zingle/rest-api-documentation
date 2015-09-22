@@ -2,7 +2,7 @@
 
     POST services/:service_id/labels/:label_id
     
-Update a [Label][] object. Returns the updated object
+Update a [Label]. Returns the updated object.
 
 ## Parameters
 ### URI Parameters
