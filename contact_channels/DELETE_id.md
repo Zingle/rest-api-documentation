@@ -2,7 +2,7 @@
 
     DELETE services/:service_id/channels/:channel_id/contacts/:contact_id/channels/:channel_id
     
-Deletes a Contact Channel
+Deletes a [Contact Channel]
 
 ## Parameters
 None
@@ -22,3 +22,5 @@ None
     }
 }
 ```
+
+[Contact Channel]: README.md

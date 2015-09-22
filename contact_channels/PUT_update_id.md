@@ -2,7 +2,7 @@
 
     PUT services/:service_id/channels/:channel_id/contacts/:contact_id/channels/:channel_id
     
-Updates a Contact Channel and returns the updated [Contact Channel]
+Updates a [Contact Channel] and returns the updated object
 
 ## Parameters
 ### URI Parameters

@@ -2,7 +2,7 @@
 
     POST services/:service_id/contacts/:contact_id/channels
     
-Creates a new Contact Channel and returns the newly-created [Contact Channel]
+Creates a new [Contact Channel] and returns the newly-created object.
 
 ## Parameters
 ### URI Parameters
@@ -10,7 +10,7 @@ None
 ### JSON Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
-channel_type_id | string | Y | Channel Type to add
+channel_type_id | string | Y | [Channel Type] to add
 value | string | Y | Channel value 
 display_name | string | N | 
 is_default | boolean | N | If set to true, will make this channel the global default for this contact
@@ -58,3 +58,4 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
 ```
 
 [Contact Channel]: README.md
+[Contact Type]: /channel_types/README.md
