@@ -2,7 +2,7 @@
 
     DELETE services/:service_id/labels/:label_id
     
-Delete a [Label][] object
+Delete a [Label].
 
 ## Parameters
 None

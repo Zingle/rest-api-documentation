@@ -2,7 +2,7 @@
 
     GET services/:service_id/templates/:template_id
     
-Returns a single [Template][] object
+Returns a single [Template].
 
 ## Parameters
 None

@@ -2,7 +2,7 @@
 
     GET services/:service_id/templates
     
-Returns a list [Template][] objects scoped to the selected service
+Returns a list [Templates] scoped to the selected [Service].
 
 ## Parameters
 None
@@ -55,4 +55,5 @@ None
 }
 ```
 
-[Template]: README.md
+[Templates]: README.md
+[Service]: /services/README.md

@@ -2,7 +2,7 @@
 
     PUT services/:service_id/templates/:template_id
     
-Update a [Template][] object. Returns the updated object.
+Update a [Template]. Returns the updated object.
 
 ## Parameters
 ### URI Parameters

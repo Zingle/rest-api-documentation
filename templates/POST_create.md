@@ -2,7 +2,7 @@
 
     POST services/:service_id/templates
     
-Create a [Template][] object. Returns the newly-created object.
+Create a [Template]. Returns the newly-created object.
 
 ## Parameters
 ### URI Parameters
