@@ -2,7 +2,7 @@
 
     DELETE services/:service_id/templates/:template_id
     
-Delete a [Template][] object.
+Delete a [Template].
 
 ## Parameters
 None
