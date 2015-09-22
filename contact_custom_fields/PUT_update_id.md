@@ -7,10 +7,11 @@ Updates a [Contact Custom Field]. Returns the updated object
 ## Parameters
 ## Body Parameters
 **NOTE:** If options are specified, all existing options will be deleted and replaced with the newly-specified options.
+
 Field | Data Type | Required | Description
 --- | --- | --- | ---
 display_name | string | Y | 
-options | array | N | Array of [Field Options][] objects
+options | array | N | Array of [Field Options]
 
 ## Example
 ### Request
