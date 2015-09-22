@@ -1,4 +1,4 @@
-# Attach a Label to a  Contact
+# Attach Label to a  Contact
 
     POST services/:service_id/contacts/:contact_id/labels/:label_id
     
