@@ -13,7 +13,7 @@ account_id | Y | Account to provision the service under
 display_name | Y | Service display name
 time_zone | Y | Service display name
 plan_id | Y | Plan to assign to the service
-service_address | Y | [Service Address][] object. All fields required
+service_address | Y | [Service Address] object. All fields required
 
 ## Example
 ### Request
@@ -109,5 +109,5 @@ service_address | Y | [Service Address][] object. All fields required
 }
 ```
 
-[Service Object]: README.md
+[Service]: README.md
 [Service Address]: /service_addresses/README.md

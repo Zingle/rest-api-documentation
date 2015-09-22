@@ -2,10 +2,21 @@
 
     PUT services/:service_id
     
-Updates a Service and returns [Service Object]
+Updates a Service and returns [Service] object
 
 ## Parameters
+
+### URI Parameters
 None
+
+### Body Parameters
+Field | Description
+--- | ---
+account_id | Account to provision the service under
+display_name | Service display name
+time_zone | Service display name
+plan_id | Plan to assign to the service
+service_address | [Service Address] object. 
 
 ## Example
 ### Request

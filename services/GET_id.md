@@ -2,7 +2,7 @@
 
     GET services/:service_id
     
-Returns a single [Service Object]
+Returns a single [Service] object
 
 ## Parameters
 None
@@ -84,4 +84,4 @@ None
 }
 ```
 
-[Service Object]: README.md
+[Service]: README.md
