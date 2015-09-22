@@ -1,4 +1,4 @@
-# Create Service
+# Cancel Service
 
     DELETE services/:service_id
     
