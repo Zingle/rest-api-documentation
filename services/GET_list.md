@@ -5,6 +5,7 @@
 Returns a list of [Service Objects][] the current user (as specified by API credentials) has access to
 
 ## Parameters
+### URI Parameters
 Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
@@ -35,7 +36,7 @@ postal_code | N | Filter by Service postal_code
         "page": 1,
         "page_size": 10,
         "total_pages": 1,
-        "total_records": 3
+        "total_records": 1
     },
     "result": [
       {

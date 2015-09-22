@@ -2,10 +2,18 @@
 
     POST services
     
-Creates a new Service and returns the newly-created [Service Object]
+Creates a new Service and returns the newly-created [Service] object
 
 ## Parameters
-None
+### URI Parameters
+### Body Parameters
+Field | Required | Description
+--- | --- | ---
+account_id | Y | Account to provision the service under
+display_name | Y | Service display name
+time_zone | Y | Service display name
+plan_id | Y | Plan to assign to the service
+service_address | Y | [Service Address][] object. All fields required
 
 ## Example
 ### Request
@@ -102,3 +110,4 @@ None
 ```
 
 [Service Object]: README.md
+[Service Address]: /service_addresses/README.md

@@ -2,7 +2,7 @@
 
     GET accounts
     
-Returns a list of [Account Objects][] the current authorized user has access to
+Returns a list of [Account][] objects the current authorized user has access to
 
 ## Parameters
 Pagination options (see [Overview - Request Modifiers][])
@@ -50,4 +50,4 @@ Pagination options (see [Overview - Request Modifiers][])
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
-[Account Objects]: README.md
+[Account]: README.md

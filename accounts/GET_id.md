@@ -2,7 +2,7 @@
 
     GET accounts/:account_id
     
-Returns a single [Account Object]
+Returns a single [Account] object
 
 ## Parameters
 None
@@ -32,4 +32,4 @@ None
 }
 ```
 
-[Account Object]: README.md
+[Account]: README.md
