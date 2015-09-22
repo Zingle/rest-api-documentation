@@ -1,7 +1,7 @@
 # Account Object
 
 Field | Data Type | Read Only | Description
---- | --- | ---
+--- | --- | --- | -- 
 id | string | Y | Unique identifier
 display_name | string | Y | 
 term_months | integer | Y | Number of months in the billing term. Applies to all child services.
