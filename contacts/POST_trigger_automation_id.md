@@ -2,7 +2,7 @@
 
     POST services/:service_id/contacts/:contact_id/automations/:automation_id
     
-Trigger an [Automation][] on a Contact. 
+Trigger an [Automation] on a Contact. 
 
 ## Parameters
 None
@@ -22,3 +22,5 @@ None
   }
 }
 ```
+
+[Automation]: README.md

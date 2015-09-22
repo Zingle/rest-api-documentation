@@ -2,7 +2,7 @@
 
     DELETE services/:service_id/contacts/:contact_id
     
-Deletes a Contact for the specified Service
+Deletes a [Contact] for the specified Service
 
 ## Parameters
 None
@@ -22,3 +22,5 @@ None
   }
 }
 ```
+
+[Contact]: README.md
