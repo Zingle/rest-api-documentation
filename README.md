@@ -30,7 +30,7 @@ All API requests are made by sending a secure HTTPS request using one of the fol
 For PUT and POST requests the body of your request may include a JSON payload, and the URI being requested may include a query string specifying additional filters or commands, all of which are outlined in the following sections.
 
 ## HTTP Responses
-Each response will include a `status` object and (if successful) a `result` (`result` will be an object for single-record queries and an array for list queries).  The `status` object contains an HTTP `status_code`, `text`, `description`, `error_` (if an error occurred) and pagination info about the result. The `result` contains the result of a successful request.  For example, a request to the `/services/` resource might return this:
+Each response will include a `status` object and (if successful) a `result` (`result` will be an object for single-record queries and an array for list queries).  The `status` object contains an HTTP `status_code`, `text`, `description`, `error_code` (if an error occurred - see [Error Codes]) and pagination info about the result. The `result` contains the result of a successful request.  For example, a request to the `/services/` resource might return this:
 
 ``` JSON
 {
@@ -238,3 +238,4 @@ For a description of the available resources see the [Resource Overview](resourc
 [Labels]: /labels
 [Templates]: /templates
 [Automations]: /automations
+[Error Codes]: /error_codes.md
