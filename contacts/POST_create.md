@@ -8,15 +8,16 @@ Creates a new [Contact] for the specified Service and returns the newly-created 
 ### URI Parameters
 None
 ### Body Parameters
-Field | Required | Description
---- | --- | ---
-custom_field_values | N | Array of [Custom Field Values] to set on the Contact
+Field | Data Type | Required | Description
+--- | --- | --- | ---
+custom_field_values | array | N | Array of [Custom Field Values] to set on the Contact
+is_starred | boolean |  N | Whether the Contact should be marked s 'starred'
+is_confirmed | boolean | N | Whether the Contact's conversation should be marked s 'confirmed'
 
 ## Example
 ### Request
 
     POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/contacts
-
 
 #### Request Body    
 ```json

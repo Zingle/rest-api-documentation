@@ -2,10 +2,17 @@
 
     PUT services/:service_id/contacts/:contact_id
     
-Updates a new Contact for the specified Service and returns the updated [Contact]
+Updates a [Contact] for the specified Service and returns the updated object
 
 ## Parameters
+### URI Parameters
 None
+### Body Parameters
+Field | Data Type | Required | Description
+--- | --- | --- | ---
+custom_field_values | array | N | Array of [Custom Field Values] to set on the Contact
+is_starred | boolean |  N | Whether the Contact should be marked s 'starred'
+is_confirmed | boolean | N | Whether the Contact's conversation should be marked s 'confirmed'
 
 ## Example
 ### Request
