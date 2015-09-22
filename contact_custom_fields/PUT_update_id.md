@@ -1,8 +1,8 @@
-# Create Contact Custom Field 
+# Update Contact Custom Field 
 
     PUT services/:service_id/contact-custom-fields/:contact_custom_field_id
     
-Updates a [Contact Custom Field][] object. Returns the updated object 
+Updates a [Contact Custom Field]. Returns the updated object 
 
 ## Parameters
 ## Body Parameters
