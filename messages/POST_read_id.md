@@ -5,16 +5,23 @@
 Marks a Message as read. Returns the update [Message Object][]
 
 ## Parameters
+### URI Parameters
 None
+### JSON Body Parameters
+Field | Data Type | Required | Description
+--- | --- | --- | ---
+read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the current time will be used
 
 ## Example
 ### Request
 
     POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/messages/739094d3-191e-4c49-b208-a9be816c39b0/read
 ### Request Body 
+```json
 {
   "read_at": 1442881911
 }
+```
 ### Response
 ``` json
 {
