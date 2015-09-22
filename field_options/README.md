@@ -1,4 +1,4 @@
-# Settings Option Object
+# Field Option Object
 
 Field | Data Type | Description
 --- | --- | ---

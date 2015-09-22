@@ -2,7 +2,7 @@
 
     GET services/:service_id/contact-custom-fields/:contact_custom_field_id
     
-Returns a single [Contact Custom Field][] object
+Returns a single [Contact Custom Field].
 
 ## Parameters
 None

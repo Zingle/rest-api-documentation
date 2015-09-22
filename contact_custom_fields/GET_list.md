@@ -2,7 +2,7 @@
 
     GET services/:service_id/contact-custom-fields
     
-Returns a list of [Contact Custom Field][] objects belonging to the specified service
+Returns a list of [Contact Custom Fields]  belonging to the specified service
 
 ## Parameters
 ### URI Parameters
@@ -59,4 +59,4 @@ Pagination options | N | (see [Overview - Request Modifiers][])
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
-[Contact Custom Field]: README.md
+[Contact Custom Fields]: README.md

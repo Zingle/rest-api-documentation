@@ -2,14 +2,14 @@
 
     POST services/:service_id/contact-custom-fields
     
-Creates a [Contact Custom Field][] object
+Creates a [Contact Custom Field]
 
 ## Parameters
 ## Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
 display_name | string | Y | 
-options | array | N | Array of [Field Options][] objects
+options | array | N | Array of [Field Options]
 
 ## Example
 ### Request
@@ -46,7 +46,7 @@ options | array | N | Array of [Field Options][] objects
     "status": {
         "text": "OK",
         "status_code": 200,
-        "description": null,
+        "description": null
     },
     "result": {
         "id": "9fcbf2a4-a450-42c6-b0eb-40149b6a2cfc",
