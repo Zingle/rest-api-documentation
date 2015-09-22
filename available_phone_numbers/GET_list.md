@@ -9,11 +9,11 @@ Returns a list of [Available Phone Number Objects][]
  - **search**: Search string. If specified, phone numbers matching this string will be searched.  You may use wildcards(*) when searching.
 
 ## Example
-**Request**
+### Request
 
     https://api.zingle.me/v1/available-phone-numbers?country=US
 
-**Return**
+### Response
 ``` json
 {
     "status": {

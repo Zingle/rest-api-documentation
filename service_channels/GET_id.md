@@ -8,11 +8,11 @@ Returns a single [Service Channel Object]
 None
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/afe7bc93-6e28-4e70-8770-defa35cdfc1b/channels/d9f91fdb-bbdb-442d-bbac-99fb76263654
 
-**Return**
+### Response
 ``` json
 {
     "status": {

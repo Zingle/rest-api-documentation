@@ -8,11 +8,11 @@ Returns a single [Service Object]
 None
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/2d89b706-47f2-471d-8e1b-4a180b448838
 
-**Return**
+### Response
 ``` json
 {
     "status": {

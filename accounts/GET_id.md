@@ -8,11 +8,11 @@ Returns a single [Account Object]
 None
 
 ## Example
-**Request**
+### Request
 
     https://api.zingle.me/v1/accounts/2d89b706-47f2-471d-8e1b-4a180b448838
 
-**Return**
+### Response
 ``` json
 {
     "status": {

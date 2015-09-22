@@ -8,11 +8,11 @@ Returns an array of Time Zones that can be used when provisioning or configuring
 None
 
 ## Example
-**Request**
+### Request
 
     https://api.zingle.me/v1/time-zones
 
-**Return**
+### Response
 ``` json
 {
     "status": {

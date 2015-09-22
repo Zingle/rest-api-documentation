@@ -8,11 +8,11 @@ Returns a list [Template][] objects scoped to the selected service
 None
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/templates
 
-**Return**
+### Response
 ``` json
 {
     "status": {

@@ -2,17 +2,17 @@
 
     GET accounts/:account_id/plans
     
-Returns a list of [Plans][] an Account has access to
+Returns a list of [Plans][] an [Account][] has access to
 
 ## Parameters
 None
 
 ## Example
-**Request**
+### Request
 
     https://api.zingle.me/v1/accounts/2d89b706-47f2-471d-8e1b-4a180b448838/plans
 
-**Return**
+### Response
 ``` json
 {
     "status": {
@@ -24,7 +24,7 @@ None
         "page": 1,
         "page_size": 10,
         "total_pages": 1,
-        "total_records": 3
+        "total_records": 2
     },
     "result": [
         {
@@ -50,3 +50,4 @@ None
 ```
 
 [Plans]: /plans/README.md
+[Account]: /accounts/README.md

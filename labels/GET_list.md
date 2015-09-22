@@ -13,11 +13,11 @@ display_name | Y | Filter by display name
 is_global | N | Filter by global status
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/labels
 
-**Return**
+### Response
 ``` json
 {
     "status": {

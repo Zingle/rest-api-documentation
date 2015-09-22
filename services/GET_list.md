@@ -19,11 +19,11 @@ postal_code | N | Filter by Service postal_code
 
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services
 
-**Return**
+### Response
 ``` json
 {
     "status": {

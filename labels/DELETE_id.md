@@ -8,11 +8,11 @@ Delete a [Label][] object
 None
 
 ## Example
-**Request**
+### Request
 
     DELETE https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/labels/13dfba6d-66d2-42e9-9290-2ea9dcf7f91d
 
-**Return**
+### Response
 ``` json
 {
     "status": {

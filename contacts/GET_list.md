@@ -15,11 +15,11 @@ is_starred | N | Filter by starred status (1 = starred, 0 = not starred)
 
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/contacts
 
-**Return**
+### Response
 ``` json
 {
     "status": {

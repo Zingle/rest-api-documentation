@@ -8,11 +8,11 @@ Returns a single [Contact Object][] belonging to the specified service
 None
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/contacts/89d9e8b5-b225-476c-a83e-50cdb720e3b1
 
-**Return**
+### Response
 ``` json
 {
     "status": {

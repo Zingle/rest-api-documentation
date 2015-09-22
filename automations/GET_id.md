@@ -8,11 +8,11 @@ Returns a single [Automation][] object
 None
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/automations/3d4f772f-d2c4-4dc1-98d0-6f23ba072758
 
-**Return**
+### Response
 ``` json
 {
     "status": {

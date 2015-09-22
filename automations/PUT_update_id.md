@@ -23,7 +23,7 @@ status | string | Y | "active" or "inactive"
 }
 ```
 
-**Return**
+### Response
 ``` json
 {
     "status": {

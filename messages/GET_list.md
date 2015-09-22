@@ -15,11 +15,11 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
 
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/1d06e84f-8152-4de7-983d-a2d88b73734a/messages
 
-**Return**
+### Response
 ``` json
 {
     "status": {

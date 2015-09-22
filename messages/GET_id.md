@@ -8,11 +8,11 @@ Returns a single [Message Object][]
 None
 
 ## Example
-**Request**
+### Request
 
     GET https://api.zingle.me/v1/services/1d06e84f-8152-4de7-983d-a2d88b73734a/messages/d7d64c8a-8ff1-48ea-a209-a2d240918c93
 
-**Return**
+### Response
 ``` json
 {
     "status": {

@@ -8,11 +8,11 @@ Returns a list of [Account Objects][] the current authorized user has access to
 Pagination options (see [Overview - Request Modifiers][])
 
 ## Example
-**Request**
+### Request
 
     https://api.zingle.me/v1/accounts
 
-**Return**
+### Response
 ``` json
 {
     "status": {
@@ -24,7 +24,7 @@ Pagination options (see [Overview - Request Modifiers][])
         "page": 1,
         "page_size": 10,
         "total_pages": 1,
-        "total_records": 3
+        "total_records": 2
     },
     "result": [
         {
