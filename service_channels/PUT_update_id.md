@@ -2,7 +2,7 @@
 
     PUT services/:service_id/channels/:channel_id
     
-Updates a new Service Channel and returns the updated [Service Channel Object]
+Updates a new Service Channel and returns the updated [Service Channel]
 
 ## Parameters
 ### URI Parameters
@@ -52,4 +52,4 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
 }
 ```
 
-[Service Channel Object]: README.md
+[Service Channel]: README.md

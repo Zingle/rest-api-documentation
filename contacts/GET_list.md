@@ -2,7 +2,7 @@
 
     GET services/:service_id/contacts
     
-Returns a list of [Contact Objects][] belonging to the specified service
+Returns a list of [Contact] belonging to the specified service
 
 ## Parameters
 Field | Wildcards | Description
@@ -185,4 +185,4 @@ is_starred | N | Filter by starred status (1 = starred, 0 = not starred)
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
-[Contact Objects]: README.md
+[Contact]: README.md

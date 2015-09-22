@@ -2,7 +2,7 @@
 
     PUT services/:service_id/contacts/:contact_id
     
-Updates a new Contact for the specified Service and returns the updated [Contact Object]
+Updates a new Contact for the specified Service and returns the updated [Contact]
 
 ## Parameters
 None
@@ -63,4 +63,4 @@ None
 }
 ```
 
-[Contact Object]: README.md
+[Contact]: README.md

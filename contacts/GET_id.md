@@ -2,7 +2,7 @@
 
     GET services/:service_id/contacts/:contact_id
     
-Returns a single [Contact Object][] belonging to the specified service
+Returns a single [Contact] belonging to the specified service
 
 ## Parameters
 None
@@ -169,4 +169,4 @@ None
     
 }
 ```
-[Contact Object]: README.md
+[Contact]: README.md

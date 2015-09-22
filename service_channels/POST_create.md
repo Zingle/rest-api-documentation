@@ -2,7 +2,7 @@
 
     POST services/:service_id/channels
     
-Creates a new Service Channel and returns the newly-created [Service Channel Object]
+Creates a new Service Channel and returns the newly-created [Service Channel]
 
 ## Parameters
 ### URI Parameters
@@ -58,4 +58,4 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
 }
 ```
 
-[Service Channel Object]: README.md
+[Service Channel]: README.md

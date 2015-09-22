@@ -2,7 +2,7 @@
 
     POST services/:service_id/contacts/:contact_id/:contact_field_id
     
-Updates the value of a [Custom Field Value Object][] and returns the updated [Contact Object][]
+Updates the value of a [Custom Field Value][] and returns the updated [Contact][]
 
 ## Parameters
 None
@@ -56,5 +56,5 @@ None
 }
 ```
 
-[Custom Field Value Object]: README.md
-[Contact Object]: /contacts/README.md
+[Custom Field Value]: README.md
+[Contact]: /contacts/README.md

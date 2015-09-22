@@ -2,7 +2,7 @@
 
     PUT services/:service_id/channels/:channel_id/contacts/:contact_id/channels/:channel_id
     
-Updates a Contact Channel and returns the updated [Contact Channel Object]
+Updates a Contact Channel and returns the updated [Contact Channel]
 
 ## Parameters
 ### URI Parameters
@@ -54,4 +54,4 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
 }
 ```
 
-[Contact Channel Object]: README.md
+[Contact Channel]: README.md

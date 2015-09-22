@@ -2,7 +2,7 @@
 
     PUT services/:service_id
     
-Updates a Service and returns [Service] object
+Updates a [Service] and returns the updated object
 
 ## Parameters
 

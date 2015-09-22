@@ -2,7 +2,7 @@
 
     POST services/:service_id/channels/:channel_id/messages/:message_id/read
     
-Marks a Message as read. Returns the update [Message Object][]
+Marks a Message as read. Returns the update [Message]
 
 ## Parameters
 ### URI Parameters
@@ -67,4 +67,4 @@ read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the c
   }
 }
 ```
-[Message Object]: README.md
+[Message]: README.md

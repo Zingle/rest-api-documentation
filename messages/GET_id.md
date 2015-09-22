@@ -2,7 +2,7 @@
 
     GET services/:service_id/messages/:message_id
     
-Returns a single [Message Object][]
+Returns a single [Message]
 
 ## Parameters
 None
@@ -61,4 +61,4 @@ None
       }
 }
 ```
-[Message Object]: README.md
+[Message]: README.md

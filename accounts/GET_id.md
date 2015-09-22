@@ -2,7 +2,7 @@
 
     GET accounts/:account_id
     
-Returns a single [Account] object
+Returns a single [Account]
 
 ## Parameters
 None

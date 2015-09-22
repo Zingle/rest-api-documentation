@@ -2,7 +2,7 @@
 
     POST services/:service_id/contacts
     
-Creates a new Contact for the specified Service and returns the newly-created [Contact Object]
+Creates a new Contact for the specified Service and returns the newly-created [Contact]
 
 ## Parameters
 None
@@ -62,4 +62,4 @@ None
 }
 ```
 
-[Contact Object]: README.md
+[Contact]: README.md

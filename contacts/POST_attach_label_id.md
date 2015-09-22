@@ -2,7 +2,7 @@
 
     POST services/:service_id/contacts/:contact_id/labels/:label_id
     
-Attach a [Label][] to a Contact. Returns the updated [Contact Object][]
+Attach a [Label][] to a Contact. Returns the updated [Contact]
 
 ## Parameters
 None
@@ -57,5 +57,5 @@ None
   }
 }
 ```
-[Contact Object]: README.md
+[Contact]: README.md
 [Label]: /labels/README.md

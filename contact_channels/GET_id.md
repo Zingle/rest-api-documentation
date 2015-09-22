@@ -2,7 +2,7 @@
 
     GET services/:service_id/contact/:contact_id/channels/:contact_channel_id
     
-Returns a single [Contact Channel Object]
+Returns a single [Contact Channel]
 
 ## Parameters
 None
@@ -38,4 +38,4 @@ None
 }
 ```
 
-[Contact Channel Object]: README.md
+[Contact Channel]: README.md

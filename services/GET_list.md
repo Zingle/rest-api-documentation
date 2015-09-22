@@ -2,7 +2,7 @@
 
     GET services
     
-Returns a list of [Service][] objects the current user (as specified by API credentials) has access to
+Returns a list of [Services] the current user (as specified by API credentials) has access to
 
 ## Parameters
 ### URI Parameters
@@ -105,4 +105,4 @@ postal_code | N | Filter by Service postal_code
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
-[Service]: README.md
+[Services]: README.md

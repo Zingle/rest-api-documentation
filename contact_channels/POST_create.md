@@ -2,7 +2,7 @@
 
     POST services/:service_id/contacts/:contact_id/channels
     
-Creates a new Contact Channel and returns the newly-created [Contact Channel Object]
+Creates a new Contact Channel and returns the newly-created [Contact Channel]
 
 ## Parameters
 ### URI Parameters
@@ -57,4 +57,4 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
 }
 ```
 
-[Contact Channel Object]: README.md
+[Contact Channel]: README.md

@@ -2,7 +2,7 @@
 
     GET services/:service_id/messages
     
-Returns a list of [Message Objects][] for the specified Service
+Returns a list of [Message] for the specified Service
 
 ## Parameters
 Field | Wildcards | Description
@@ -105,4 +105,4 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
-[Message Objects]: README.md
+[Message]: README.md

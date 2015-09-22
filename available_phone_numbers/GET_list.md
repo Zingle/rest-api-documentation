@@ -2,7 +2,7 @@
 
     GET available-phone-numbers
     
-Returns a list of [Available Phone Number Objects][]
+Returns a list of [Available Phone Number]
 
 ## Parameters
 ### URI Parameters
@@ -39,4 +39,4 @@ search | string | N | Y | If specified, phone numbers matching this string will 
 }
 ```
 
-[Available Phone Number Objects]: README.md
+[Available Phone Number]: README.md

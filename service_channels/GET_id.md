@@ -2,7 +2,7 @@
 
     GET services/:service_id/channels/:service_channel_id
     
-Returns a single [Service Channel Object]
+Returns a single [Service Channel]
 
 ## Parameters
 None
@@ -39,4 +39,4 @@ None
 }
 ```
 
-[Service Channel Object]: /service_channels/README.md
+[Service Channel]: /service_channels/README.md

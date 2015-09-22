@@ -5,6 +5,6 @@ Field | Data Type | Description
 id | string | Unique identifier
 display_name | string | 
 data_type | string | 
-options | array | Array of [Field Option Objects][]
+options | array | Array of [Field Option]
 
-[Field Option Objects]: /field_options/README.md
+[Field Option]: /field_options/README.md

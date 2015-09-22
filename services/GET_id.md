@@ -2,7 +2,7 @@
 
     GET services/:service_id
     
-Returns a single [Service] object
+Returns a single [Service]
 
 ## Parameters
 None
