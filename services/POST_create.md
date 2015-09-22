@@ -12,7 +12,7 @@ Field | Required | Description
 account_id | Y | Account to provision the service under
 display_name | Y | Service display name
 time_zone | Y | Service display name
-plan_id | Y | Plan to assign to the service
+plan_code | Y | Code of the plan to assign to the service
 service_address | Y | [Service Address] object. All fields required
 
 ## Example
