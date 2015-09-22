@@ -2,7 +2,7 @@
 
     POST services
     
-Creates a new Service and returns the newly-created [Service] object
+Creates a new [Service] and returns the newly-created object
 
 ## Parameters
 ### URI Parameters

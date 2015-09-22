@@ -1,4 +1,4 @@
-# Create Service
+# Update Service
 
     PUT services/:service_id
     
@@ -102,4 +102,4 @@ service_address | [Service Address] object.
 }
 ```
 
-[Service Object]: README.md
+[Service]: README.md
