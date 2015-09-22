@@ -1,12 +1,14 @@
 # Available Phone Number List
 
-    GET avilable-phone-numbers
+    GET available-phone-numbers
     
 Returns a list of [Available Phone Number Objects][]
 
 ## Parameters
- - **country (required)**: Two-character country code to search
- - **search**: Search string. If specified, phone numbers matching this string will be searched.  You may use wildcards(*) when searching.
+### URI Parameters
+Field | Data Type | Required | Wildcards | Description
+country | string | Y | N | ISO 3166-1 alpha-2 country code
+search | string | N | Y | If specified, phone numbers matching this string will be searched. 
 
 ## Example
 ### Request
@@ -19,13 +21,7 @@ Returns a list of [Available Phone Number Objects][]
     "status": {
         "text": "OK",
         "status_code": 200,
-        "description": null,
-        "sort_field": "display_name",
-        "sort_direction": "asc",
-        "page": 1,
-        "page_size": 10,
-        "total_pages": 1,
-        "total_records": 3
+        "description": null
     },
     "result": [
         {
