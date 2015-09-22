@@ -9,7 +9,7 @@ Creates a new [Contact] for the specified Service and returns the newly-created 
 None
 ### Body Parameters
 Field | Required | Description
---- | ---
+--- | --- | ---
 custom_field_values | N | Array of [Custom Field Values] to set on the Contact
 
 ## Example
