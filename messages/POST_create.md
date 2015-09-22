@@ -11,9 +11,9 @@ None
 Field | Data Type | Required | Description
 --- | --- | --- | ---
 sender_type | string | Y | The type of sender - 'contact', 'service', or 'label'
-sender | object | Y | [Correspondent Object][] of the Message sender
+sender | object | Y | id and/or channel_value of the sender
 recipient_type | string | N | The type of recipients - 'contact', 'service', or 'label'
-recipients | array | Y | Array of [Correspondent Objects][]
+recipients | array | Y | Array of recipient objects, each with an id and/or channel_value
 channel_type_ids | array | Y | An array of allowed channel_type_ids.  May specify multiple allowed channel types when sending to Labels
 body | string | N | Message body
 attachments | array | N | Array of attachment objects, each with a content_type and base64 encoded content string
@@ -61,5 +61,3 @@ attachments | array | N | Array of attachment objects, each with a content_type 
     }
 }
 ```
-[Correspondent Object]: /correspondents/README.me
-[Correspondent Objects]: /correspondents/README.me
