@@ -31,7 +31,7 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
         "page": 1,
         "page_size": 10,
         "total_pages": 1,
-        "total_records": 3
+        "total_records": 2
     },
     "result": [ 
       {
