@@ -9,7 +9,7 @@ Create a [Template]. Returns the newly-created object.
 None
 ### Body Parameters
 Field | Required | Description
---- | ---
+--- | --- | ---
 display_name | Y |
 type | Y |
 body | Y | 
