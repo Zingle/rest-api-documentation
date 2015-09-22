@@ -206,11 +206,11 @@ For a description of the available resources see the [Resource Overview](resourc
 - **[<code>POST</code> Set Message 'Read' Status](/messages/POST_read_id.md)**
 
 ## Contact Fields
-- **[<code>GET</code> Contact Field list](/contact_fields/GET_list.md)**
-- **[<code>GET</code> Contact Field](/contact_fields/GET_id.md)**
-- **[<code>POST</code> Create Contact Field](/contact_fields/POST_create.md)**
-- **[<code>PUT</code> Update Contact Field](/contact_fields/PUT_update_id.md)**
-- **[<code>DELETE</code> Delete Contact Field](/contact_fields/DELETE_id.md)** 
+- **[<code>GET</code> Contact Field list](/contact_custom_fields/GET_list.md)**
+- **[<code>GET</code> Contact Field](/contact_custom_fields/GET_id.md)**
+- **[<code>POST</code> Create Contact Field](/contact_custom_fields/POST_create.md)**
+- **[<code>PUT</code> Update Contact Field](/contact_custom_fields/PUT_update_id.md)**
+- **[<code>DELETE</code> Delete Contact Field](/contact_custom_fields/DELETE_id.md)** 
 
 ## Labels
 - **[<code>GET</code> Label list](/labels/GET_list.md)**
