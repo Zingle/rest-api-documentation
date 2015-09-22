@@ -1,8 +1,8 @@
-# Contact Custom Field 
+# Delete Contact Custom Field 
 
     DELETE services/:service_id/contact-custom-fields/:contact_custom_field_id
     
-Deletes a [Contact Custom Field][] object
+Deletes a [Contact Custom Field].
 
 ## Parameters
 None
@@ -18,7 +18,7 @@ None
     "status": {
         "text": "OK",
         "status_code": 200,
-        "description": "Contact Custom Field deleted",
+        "description": "Contact Custom Field deleted"
     } 
 }
 ```
