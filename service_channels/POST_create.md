@@ -2,7 +2,7 @@
 
     POST services/:service_id/channels
     
-Creates a new Service Channel and returns the newly-created [Service Channel]
+Creates a new [Service Channel] and returns the newly-created object
 
 ## Parameters
 ### URI Parameters

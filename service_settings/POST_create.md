@@ -2,7 +2,7 @@
 
     POST services/:service_id/settings/:settings_field_id
     
-Updates the value of a [Service Settings] object and returns the updates [Service] object
+Updates the value of a [Service Setting] and returns the updates [Service] object
 
 ## Parameters
 ### URI Parameters
@@ -107,6 +107,6 @@ settings_field_option_id | Y | Required when setting a value for a [Settings Fie
 }
 ```
 
-[Service Settings]: README.md
+[Service Setting]: README.md
 [Settings Field]: /settings_fields/README.md
 [Service]: /services/README.md

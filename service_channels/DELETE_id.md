@@ -2,7 +2,7 @@
 
     DELETE services/:service_id/channels/:channel_id
     
-Deletes a Service Channel
+Deletes a [Service Channel]
 
 ## Parameters
 None
@@ -22,3 +22,5 @@ None
     }
 }
 ```
+
+[Service Channel]: README.md
