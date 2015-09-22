@@ -56,7 +56,8 @@ None
         "triggered_by_user_id": null,
         "translated_body": null,
         "template_id": null,
-        "translated_body_language_code": null
+        "translated_body_language_code": null,
+        "attachments": ["https://6407d4d3a30bb891aafe-345656863e41d74beb2a8fef19bcbe4a.ssl.cf1.rackcdn.com/attachment_5713.gif"],
       }
 }
 ```
