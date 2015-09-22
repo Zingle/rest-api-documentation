@@ -1,4 +1,4 @@
-# Detach Contact Label
+# Detach Label from a Contact
 
     DELETE services/:service_id/contacts/:contact_id/labels/:label_id
     
