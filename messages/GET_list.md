@@ -40,6 +40,7 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
         "created_at": 1442249019,
         "read_at": 1442531686,
         "sender_type": "contact",
+        "attachments": [],
         "sender": {
           "id": "18d69698-5b9f-4124-9d19-d55bb23eb77a",
           "channel": {
@@ -71,6 +72,7 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
         "id": "e8f6d362-299c-4dda-971c-4bcd1aae90ef",
         "created_at": 1442249051,
         "read_at": null,
+        "attachments": [],
         "sender_type": "contact",
         "sender": {
           "id": "18d69698-5b9f-4124-9d19-d55bb23eb77a",
