@@ -188,7 +188,7 @@ For a description of the available resources see the [Resource Overview](resourc
 - **[<code>POST</code> Create Contact](/contacts/POST_create.md)**
 - **[<code>PUT</code> Update Contact](/contacts/PUT_update_id.md)**
 - **[<code>DELETE</code> Delete Contact](/contacts/DELETE_id.md)**
-- **[<code>POST</code> Set Contact Custom Field Value](/contacts/POST_custom_field_value_id.md)** 
+- **[<code>POST</code> Set Contact Custom Field Value](/custom_field_values/POST_create_id.md)** 
 - **[<code>POST</code> Trigger automation for Contact](/contacts/POST_trigger_automation_id.md)** 
 - **[<code>POST</code> Attach Label to Contact](/contacts/POST_attach_label_id.md)** 
 - **[<code>DELETE</code> Detach Label from Contact](/contacts/DELETE_detach_label_id.md)** 
