@@ -2,7 +2,7 @@
 
     DELETE services/:service_id/contacts/:contact_id/labels/:label_id
     
-Detached a [Label][] from a Contact.
+Detached a [Label] from a [Contact]. Returns the updated Contact.
 
 ## Parameters
 None
@@ -49,4 +49,5 @@ None
 }
 ```
 
+[Contact]: README.md
 [Label]: /labels/README.md

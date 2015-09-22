@@ -2,7 +2,7 @@
 
     POST services/:service_id/contacts/:contact_id/labels/:label_id
     
-Attach a [Label][] to a Contact. Returns the updated [Contact]
+Attach a [Label] to a [Contact]. Returns the updated Contact.
 
 ## Parameters
 None
