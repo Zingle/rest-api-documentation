@@ -11,13 +11,12 @@ translated_body_language_code | string | If the message body was translated, thi
 triggered_by_user_id | string | ID of the User that triggered the message, if any
 template_id | string | ID of the [Template][] that was used to send the message, if any
 sender_type | string | 'contact' or 'service' - who sent the Message
-sender | object | [Correspondent] of the sender
+sender | object | Correspondent object representing the sender
 recipient_type | string | 'contact' or 'service' - who the Message was sent to
-recipient | object | [Correspondent] of the recipient
+recipient | object |  Correspondent object representing the  recipient
 attachments | array | Array of string URIs where file attachments may be downloaded
 created_at | UNIX timestamp | Date the Message was created
 read_at | UNIX timestamp | Date the Message was marked as read
 
 
-[Correspondent]: /correspondents/README.md
 [Template]: /templates/README.md
