@@ -1,7 +1,7 @@
 # Template Object
 
 Field | Data Type | Read-Only | Description
---- | --- | ---
+--- | --- | --- | ---
 id | string | Y | Unique identifier
 display_name | string | N |
 subject | string | N | Message subject (for communication types that support a subject field)
