@@ -5,7 +5,18 @@
 Send a message. Returns an array of Message IDs queued for sending.
 
 ## Parameters
+### URI Parameters
 None
+### JSON Body Parameters
+Field | Data Type | Required | Description
+--- | --- | --- | ---
+sender_type | string | Y | The type of sender - 'contact', 'service', or 'label'
+sender | object | Y | [Correspondent Object][] of the Message sender
+recipient_type | string | N | The type of recipients - 'contact', 'service', or 'label'
+recipients | array | Y | Array of [Correspondent Objects][]
+channel_type_ids | array | Y | An array of allowed channel_type_ids.  May specify multiple allowed channel types when sending to Labels
+body | string | N | Message body
+attachments | array | N | Array of attachment objects, each with a content_type and base64 encoded content string
 
 ## Example
 ### Request
@@ -50,3 +61,5 @@ None
     }
 }
 ```
+[Correspondent Object]: /correspondents/README.me
+[Correspondent Objects]: /correspondents/README.me
