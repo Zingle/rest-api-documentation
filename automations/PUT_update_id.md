@@ -2,7 +2,7 @@
 
     PUT services/:service_id/automations/:automation_id
     
-Update the status of a single [Automation][] object. Returns the updated [Automation][] object.
+Update the status of a single [Automation]. Returns the updated object.
 
 ## Parameters
 ### URI Parameters

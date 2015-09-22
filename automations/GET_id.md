@@ -2,7 +2,7 @@
 
     GET services/:service_id/automations/:automation_id
     
-Returns a single [Automation][] object
+Returns a single [Automation].
 
 ## Parameters
 None

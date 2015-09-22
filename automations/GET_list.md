@@ -2,7 +2,7 @@
 
     GET services/:service_id/automations
     
-Returns a list of [Automation][] objects belonging to the specified service
+Returns a list of [Automations] belonging to the specified [Service]
 
 ## Parameters
 ### URI Parameters
@@ -49,4 +49,5 @@ Pagination options | N | (see [Overview - Request Modifiers][])
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
-[Automation]: README.md
+[Automations]: README.md
+[Service]: /services/README.md
