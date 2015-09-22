@@ -2,7 +2,7 @@
 
     GET services/:service_id/contacts
     
-Returns a list of [Contact] belonging to the specified service
+Returns a list of [Contacts] belonging to the specified service
 
 ## Parameters
 Field | Wildcards | Description
@@ -31,7 +31,7 @@ is_starred | N | Filter by starred status (1 = starred, 0 = not starred)
         "page": 1,
         "page_size": 10,
         "total_pages": 1,
-        "total_records": 3
+        "total_records": 2
     },
     "result": [
     {
@@ -185,4 +185,4 @@ is_starred | N | Filter by starred status (1 = starred, 0 = not starred)
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
-[Contact]: README.md
+[Contacts]: README.md

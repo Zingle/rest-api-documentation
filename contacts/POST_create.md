@@ -2,10 +2,15 @@
 
     POST services/:service_id/contacts
     
-Creates a new Contact for the specified Service and returns the newly-created [Contact]
+Creates a new [Contact] for the specified Service and returns the newly-created object
 
 ## Parameters
+### URI Parameters
 None
+### Body Parameters
+Field | Required | Description
+--- | ---
+custom_field_values | N | Array of [Custom Field Values] to set on the Contact
 
 ## Example
 ### Request
@@ -63,3 +68,4 @@ None
 ```
 
 [Contact]: README.md
+[Custom Field Values]: /custom_field_values/README.md
