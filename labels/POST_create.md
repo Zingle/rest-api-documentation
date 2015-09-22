@@ -2,14 +2,14 @@
 
     POST services/:service_id/labels/
     
-Create a [Label][] object. Returns the newly-created object
+Create a [Label]. Returns the newly-created object.
 
 ## Parameters
 ### URI Parameters
 None
 ### Body Parameters
 Field | Required | Description
---- | ---
+--- | --- | ---
 display_name | Y |
 background_color | Y | 
 text_color | Y |

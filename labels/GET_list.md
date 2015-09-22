@@ -2,7 +2,7 @@
 
     GET services/:service_id/labels
     
-Returns a list of [Label][] objects belonging to the specified service
+Returns a list of [Labels][] belonging to the specified [Service].
 
 ## Parameters
 ### URI Parameters
@@ -59,3 +59,4 @@ is_global | N | Filter by global status
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
 [Label]: README.md
+[Service]: /services/README.md

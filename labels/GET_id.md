@@ -2,7 +2,7 @@
 
     GET services/:service_id/labels/:label_id
     
-Returns a single [Label][] object
+Returns a single [Label].
 
 ## Parameters
 None
