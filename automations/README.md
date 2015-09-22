@@ -1,7 +1,7 @@
 # Automation Object
 
 Field | Data Type | Read-Only | Description
---- | --- | ---
+--- | --- | --- | ---
 id | string | Y | Unique identifier
 display_name | string | Y |
 type | string | Y | "Escalation", "Keyword", "Self-Registration", "Survey", "Phone Call", or "Custom Automation"
