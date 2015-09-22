@@ -153,9 +153,6 @@ https://api.zingle.me/v1/services/f762cdf9-6b0c-4563-a774-3e9d86f908f9/messages?
 
 #### Note that all dates are in the form of Unix timestamps (seconds since January 1, 1970) and returned in GMT - you will have to account for time zone adjustment depending on your client's location.
 
-## Quick Start
-For a quick introduction to the entire Zingle system, including provision and use of a service, see the [REST API Quick Start](/quick_start.md). 
-
 ## Resources
 For a description of the available resources see the [Resource Overview](resource_overview.md).
 
