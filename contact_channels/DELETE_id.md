@@ -1,4 +1,4 @@
-# Update Contact Channel
+# Delete Contact Channel
 
     DELETE services/:service_id/channels/:channel_id/contacts/:contact_id/channels/:channel_id
     
