@@ -23,4 +23,4 @@ None
 }
 ```
 
-[Automation]: README.md
+[Automation]: /automations/README.md
