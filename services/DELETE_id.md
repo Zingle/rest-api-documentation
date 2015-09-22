@@ -2,7 +2,7 @@
 
     DELETE services/:service_id
     
-Cancels a Service and releases all associated Service Channels
+Cancels a [Service] and releases all associated [Service Channels]
 
 ## Parameters
 None
@@ -22,3 +22,6 @@ None
     }  
 }
 ```
+
+[Service]: README.md
+[Service Channels]: /service_channels/README.md
