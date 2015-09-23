@@ -11,7 +11,7 @@ None
 Field | Data Type | Required | Description
 --- | --- | --- | ---
 display_name | string | N | 
-is_default_for_type | boolean | N | If set to true, will make this channel the default for this service for its Channel Type
+is_default_for_type | boolean | N | If set to true, will make this channel the default for this service for its Channel Type. You can not manually set this value to false.
 
 ## Example
 ### Request
