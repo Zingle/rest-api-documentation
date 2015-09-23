@@ -30,7 +30,7 @@ All API requests are made by sending a secure HTTPS request using one of the fol
 For PUT and POST requests the body of your request may include a JSON payload, and the URI being requested may include a query string specifying additional filters or commands, all of which are outlined in the following sections.
 
 ## HTTP Responses
-Each response will include a `status` object and (if successful) a `result` (`result` will be an object for single-record queries and an array for list queries).  The `status` object contains an HTTP `status_code`, `text`, `description`, `error_message` (if an error occurred) and pagination info about the result. The `result` contains the result of a successful request.  For example, a request to the `/services/` resource might return this:
+Each response will include a `status` object and (if successful) a `result` (`result` will be an object for single-record queries and an array for list queries).  The `status` object contains an HTTP `status_code`, `text`, `description`, `error_code` (if an error occurred - see [Error Codes]) and pagination info about the result. The `result` contains the result of a successful request.  For example, a request to the `/services/` resource might return this:
 
 ``` JSON
 {
@@ -156,16 +156,16 @@ https://api.zingle.me/v1/services/f762cdf9-6b0c-4563-a774-3e9d86f908f9/messages?
 ## Resources
 For a description of the available resources see the [Resource Overview](resource_overview.md).
 
-## General
+### General
 - **[<code>GET</code> Time Zones list](/time_zones/GET_list.md)**
 - **[<code>GET</code> Available Phone Numbers list](/available_phone_numbers/GET_list.md)**
 
-## [Accounts][]
+### [Accounts][]
 - **[<code>GET</code> Accounts list](/accounts/GET_list.md)**
 - **[<code>GET</code> Account](/accounts/GET_id.md)**
 - **[<code>GET</code> Account Plans](/accounts/GET_plans_list.md)**
 
-## [Services][]
+### [Services][]
 - **[<code>GET</code> Services list](/services/GET_list.md)**
 - **[<code>GET</code> Service](/services/GET_id.md)**
 - **[<code>POST</code> Create Service](/services/POST_create.md)**
@@ -173,13 +173,13 @@ For a description of the available resources see the [Resource Overview](resourc
 - **[<code>DELETE</code> Cancel Service](/services/DELETE_id.md)**
 - **[<code>POST</code> Set Service Setting](/service_settings/POST_create.md)**
 
-## [Service Channels][]
+### [Service Channels][]
 - **[<code>GET</code> Service Channel](/service_channels/GET_id.md)**
 - **[<code>POST</code> Create Service Channel](/service_channels/POST_create.md)**
 - **[<code>PUT</code> Update Service Channel](/service_channels/PUT_update_id.md)**
 - **[<code>DELETE</code> Delete Service Channel](/service_channels/DELETE_id.md)**
 
-## [Contacts][]
+### [Contacts][]
 - **[<code>GET</code> Contact list](/contacts/GET_list.md)**
 - **[<code>GET</code> Contact](/contacts/GET_id.md)**
 - **[<code>POST</code> Create Contact](/contacts/POST_create.md)**
@@ -190,40 +190,40 @@ For a description of the available resources see the [Resource Overview](resourc
 - **[<code>POST</code> Attach Label to Contact](/contacts/POST_attach_label_id.md)** 
 - **[<code>DELETE</code> Detach Label from Contact](/contacts/DELETE_detach_label_id.md)** 
 
-## [Contact Channels][]
+### [Contact Channels][]
 - **[<code>GET</code> Contact Channel](/contact_channels/GET_id.md)**
 - **[<code>POST</code> Create Contact Channel](/contact_channels/POST_create.md)**
 - **[<code>PUT</code> Update Contact Channel](/contact_channels/PUT_update_id.md)**
 - **[<code>DELETE</code> Delete Contact Channel](/contact_channels/DELETE_id.md)**
 
-## [Messages][]
+### [Messages][]
 - **[<code>GET</code> Message List](/messages/GET_list.md)**
 - **[<code>GET</code> Message](/messages/GET_id.md)**
 - **[<code>POST</code> Send Message](/messages/POST_create.md)**
 - **[<code>POST</code> Set Message 'Read' Status](/messages/POST_read_id.md)**
 
-## [Contact Custom Fields][]
+### [Contact Custom Fields][]
 - **[<code>GET</code> Contact Field list](/contact_custom_fields/GET_list.md)**
 - **[<code>GET</code> Contact Field](/contact_custom_fields/GET_id.md)**
 - **[<code>POST</code> Create Contact Field](/contact_custom_fields/POST_create.md)**
 - **[<code>PUT</code> Update Contact Field](/contact_custom_fields/PUT_update_id.md)**
 - **[<code>DELETE</code> Delete Contact Field](/contact_custom_fields/DELETE_id.md)** 
 
-## [Labels][]
+### [Labels][]
 - **[<code>GET</code> Label list](/labels/GET_list.md)**
 - **[<code>GET</code> Label](/labels/GET_id.md)**
 - **[<code>POST</code> Create Label](/labels/POST_create.md)**
 - **[<code>PUT</code> Update Label](/labels/PUT_update_id.md)**
 - **[<code>DELETE</code> Delete Label](/labels/DELETE_id.md)**
 
-## [Templates][]
+### [Templates][]
 - **[<code>GET</code> Template list](/templates/GET_list.md)**
 - **[<code>GET</code> Template](/templates/GET_id.md)**
 - **[<code>POST</code> Create Template](/templates/POST_create.md)**
 - **[<code>PUT</code> Update Template](/templates/PUT_update_id.md)**
 - **[<code>DELETE</code> Delete Template](/templates/DELETE_id.md)** 
 
-## [Automations][]
+### [Automations][]
 - **[<code>GET</code> Automation list](/automations/GET_list.md)**
 - **[<code>GET</code> Automation](/automations/GET_id.md)**
 - **[<code>PUT</code> Update Automation](/automations/PUT_update_id.md)**
@@ -238,3 +238,4 @@ For a description of the available resources see the [Resource Overview](resourc
 [Labels]: /labels
 [Templates]: /templates
 [Automations]: /automations
+[Error Codes]: /error_codes.md
