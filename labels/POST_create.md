@@ -1,6 +1,6 @@
 # Create Contact Label
 
-    POST services/:service_id/labels/
+    POST services/:service_id/contact-labels/
     
 Create a [Label]. Returns the newly-created object.
 
@@ -17,7 +17,7 @@ text_color | Y |
 ## Example
 ### Request
 
-    POST https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/labels
+    POST https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/contact-labels
 #### Request Body
 ```json 
 {

@@ -1,6 +1,6 @@
 # Contact Label List
 
-    GET services/:service_id/labels
+    GET services/:service_id/contact-labels
     
 Returns a list of [Labels][] belonging to the specified [Service].
 
@@ -15,7 +15,7 @@ is_global | N | Filter by global status
 ## Example
 ### Request
 
-    GET https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/labels
+    GET https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/contact-labels
 
 ### Response
 ``` json
