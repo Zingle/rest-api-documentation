@@ -11,7 +11,7 @@ Field | Required | Description
 --- | --- | ---
 account_id | Y | Account to provision the service under
 display_name | Y | Service display name
-time_zone | Y | Service display name
+time_zone | Y | [Time Zone]Time Zone String
 plan_code | Y | Code of the plan to assign to the service
 service_address | Y | [Service Address] object. All fields required
 
@@ -26,7 +26,7 @@ service_address | Y | [Service Address] object. All fields required
     "account_id": "2c89b706-47f2-471d-8e1b-4a180b448838",
     "display_name": "My new service last",
     "time_zone": "America/Los_Angeles",
-    "plan_id": "a0cfac94-e7ea-48b8-ba3b-a85f099d56d2",
+    "plan_code": "zingle_basic",
     "service_address": {
         "address": "789 Success Blvd.",
         "city": "San Diego",
