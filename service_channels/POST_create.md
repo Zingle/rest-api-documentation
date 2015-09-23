@@ -24,7 +24,7 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
 #### Request Body 
 ```json
 {
-    "type": "PhoneNumber",
+    "channel_type_id": "0e3d71ee-9518-4b9b-b95a-dea251829887",
     "value": "+18585556565",
     "country": "US",
     "is_default_for_type": false
