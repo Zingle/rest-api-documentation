@@ -12,6 +12,8 @@ Error Code | Description | Explanation
 2606 | Invalid phone number format | The phone number given isn't valid (valid formats may change depending on the country)
 2607 | Invalid email address format | The email address format isn't valid
 2608 | Unknown two-character country code | 
+2609 | Invalid sort direction specified. Valid sort directions are 'asc' and 'desc'. | 
+2610 | Invalid phone number search pattern.  Valid search patterns contain only numbers and asterisks | 
 2700 | Account not found | The account you're trying to access doesn't exist
 2800 | Service not found | The service you're trying to access doesn't exist
 2801 | Invalid service plan | The service plan you've speficified isn't valid
