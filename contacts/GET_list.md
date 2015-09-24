@@ -10,8 +10,8 @@ Field | Wildcards | Description
 Pagination options | N | (see [Overview - Request Modifiers][])
 channel_value | Y | Filter by service channel values
 label_id | N | Filter by Label ID
-is_confirmed | N | Filter by confirmed status (1 = confirmed, 0 = not confirmed)
-is_starred | N | Filter by starred status (1 = starred, 0 = not starred)
+is_confirmed | N | Filter by confirmed status (true = confirmed, false = not confirmed)
+is_starred | N | Filter by starred status (true = starred, false = not starred)
 
 
 ## Example
