@@ -33,24 +33,28 @@ Pagination options | N | (see [Overview - Request Modifiers][])
         {
           "id": "56c70519-6c70-40e5-904e-7652e54a07b6",
           "display_name": "First Name",
+          "data_type": "string",
           "is_global": true,
           "options": []
         },
         {
           "id": "29fdae7d-c5d7-4cd6-b2e4-cd52603ff577",
           "display_name": "Last Name",
+          "data_type": "string",
           "is_global": true,
           "options": []
         },    
         {
           "id": "7f6318f4-14ea-4f8c-bde4-c76ed704060a",
           "display_name": "Checkin Date",
+          "data_type": "date",
           "is_global": true,
           "options": []
         },
         {
           "id": "fc12db04-66b1-416a-83d4-8532e344737f",
           "display_name": "Checkout Date",
+          "data_type": "date",
           "is_global": true,
           "options": []
         }     

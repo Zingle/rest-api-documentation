@@ -53,6 +53,7 @@ options | array | N | Array of [Field Options]
     "result": {
         "id": "9fcbf2a4-a450-42c6-b0eb-40149b6a2cfc",
         "display_name": "Mom's Favorite Flower",
+        "data_type": "single_select_options",
         "is_global": false,
         "options": [
             {
