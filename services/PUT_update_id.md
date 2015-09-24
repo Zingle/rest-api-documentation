@@ -15,7 +15,7 @@ Field | Description
 account_id | Account to provision the service under
 display_name | Service display name
 time_zone | Service display name
-plan_id | Plan to assign to the service
+plan_code | Code of the Plan to assign to the service
 service_address | [Service Address] object. 
 
 ## Example
