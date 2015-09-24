@@ -13,6 +13,7 @@ Field | Data Type | Required | Description
 channel_type_id | string | Y | [Channel Type] to add
 value | string | Y | Channel value 
 display_name | string | N | 
+country | string | Y | Required for phone numbers. ISO 3166-1 alpha-2 country code
 is_default | boolean | N | If set to true, will make this channel the global default for this contact
 is_default_for_type | boolean | N | If set to true, will make this channel the default for this contact for its Channel Type
 
@@ -25,7 +26,8 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
 ```json
 {
     "channel_type_id": "0e3d71ee-9518-4b9b-b95a-dea25182988",
-    "value": "+18585556565"
+    "value": "+18585556565",
+    "country": "US"
 }
 ```
 
