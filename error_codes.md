@@ -14,6 +14,7 @@ Error Code | Description | Explanation
 2608 | Unknown two-character country code | 
 2609 | Invalid sort direction specified. Valid sort directions are 'asc' and 'desc'. | 
 2610 | Invalid phone number search pattern.  Valid search patterns contain only numbers and asterisks | 
+2611 | Invalid page_size requested.  Valid page_sizes must be greater than 0 and less than 1000 | 
 2700 | Account not found | The account you're trying to access doesn't exist
 2800 | Service not found | The service you're trying to access doesn't exist
 2801 | Invalid service plan | The service plan you've speficified isn't valid
