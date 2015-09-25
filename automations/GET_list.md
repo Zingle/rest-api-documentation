@@ -9,7 +9,9 @@ Returns a list of [Automations] belonging to the specified [Service]
 Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
-
+### Sortable fields
+* display_name
+* type
 ## Example
 ### Request
 

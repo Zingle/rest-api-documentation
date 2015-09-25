@@ -12,6 +12,9 @@ Pagination options | N | (see [Overview - Request Modifiers][])
 display_name | Y | Filter by display name
 is_global | N | Filter by global status
 
+### Sortable Fields 
+* display_name
+
 ## Example
 ### Request
 

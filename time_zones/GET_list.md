@@ -12,6 +12,9 @@ None
 
     https://api.zingle.me/v1/time-zones
 
+### Sortable Fields
+None
+
 ### Response
 ``` json
 {

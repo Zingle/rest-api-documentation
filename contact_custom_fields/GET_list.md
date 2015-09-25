@@ -9,6 +9,9 @@ Returns a list of [Contact Custom Fields]  belonging to the specified service
 Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
+### Sortable fields
+* display_name
+* data_type
 
 ## Example
 ### Request

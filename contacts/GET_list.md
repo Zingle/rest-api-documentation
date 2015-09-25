@@ -13,6 +13,11 @@ label_id | N | Filter by Label ID
 is_confirmed | N | Filter by confirmed status (true = confirmed, false = not confirmed)
 is_starred | N | Filter by starred status (true = starred, false = not starred)
 
+### Sortable Fields
+* created_at
+* updated_at
+* is_confirmed
+* is_starred
 
 ## Example
 ### Request

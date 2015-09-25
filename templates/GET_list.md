@@ -6,6 +6,11 @@ Returns a list [Templates] scoped to the selected [Service].
 
 ## Parameters
 None
+### Sortable Fields
+* subject
+* display_name
+* type
+* body
 
 ## Example
 ### Request

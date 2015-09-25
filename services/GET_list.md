@@ -18,6 +18,10 @@ state | N | Filter by Service state
 country | N | Filter by Service country
 postal_code | N | Filter by Service postal_code
 
+### Sortable Fields
+* display_name
+* created_at
+* updated_at
 
 ## Example
 ### Request

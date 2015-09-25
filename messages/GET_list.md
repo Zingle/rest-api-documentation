@@ -13,6 +13,12 @@ template_id | N | Filter by Template
 communication_direction | N | Filter by communication direction
 created_at | N | Filter by creation date (may use greater_than() and less_than())
 
+### Sortable Fields
+* body
+* created_at
+* read_at
+* communication_direction
+
 
 ## Example
 ### Request

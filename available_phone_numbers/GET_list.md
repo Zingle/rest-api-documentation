@@ -10,7 +10,8 @@ Field | Data Type | Required | Wildcards | Description
 --- | --- | --- | --- | ---
 country | string | Y | N | ISO 3166-1 alpha-2 country code
 search | string | N | Y | If specified, phone numbers matching this string will be searched. 
-
+### Sortable fields
+None
 ## Example
 ### Request
 

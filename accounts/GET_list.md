@@ -6,7 +6,8 @@ Returns a list of [Accounts][] the current authorized user has access to
 
 ## Parameters
 Pagination options (see [Overview - Request Modifiers])
-
+### Sortable fields
+* All
 ## Example
 ### Request
 
