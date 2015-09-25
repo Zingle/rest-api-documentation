@@ -1,4 +1,4 @@
-# Account
+# Account Plans
 
     GET accounts/:account_id/plans
     
@@ -49,5 +49,5 @@ None
 }
 ```
 
-[Plans]: /plans/README.md
+[Plans]: /README.md
 [Account]: /accounts/README.md
