@@ -85,9 +85,10 @@ Error Code | Description | Explanation
 3616 | Invalid service specified for {correspondent_type} | 
 3617 | No channel {correspondent_channel_value} found for the specified channel types | 
 3618 | Multiple channels found for '{channel_value}'.  Narrow your list of channel_type_ids and retry | 
-3619 | Every recipient must have a channel_value specified | 
-3620 | Every recipient must have a channel_value specified | 
-3621 | Every recipient must have a channel_value specified | 
+3619 | Attachments must be an arry of attachment objects | 
+3620 | Attachment missing content_type | 
+3621 | Attachment base64 isn't valid | 
+3622 | Sender channel_value is required | 
 3700 | Custom field value missing ID | 
 3701 | Custom field not found | 
 3702 | Custom field value missing option ID | 
