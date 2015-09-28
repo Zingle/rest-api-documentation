@@ -10,6 +10,7 @@ Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
 ### Sortable fields
+* id
 * display_name
 * data_type
 

@@ -39,6 +39,7 @@ Error Code | Description | Explanation
 3005 | Only 'survey' and 'custom' automations may be triggered manually | 
 3006 | Unable to trigger inactive automation | 
 3007 | Contact is already in an automation | 
+3008 | Label not attached to contact. Nothing to detach. | 
 3100 | Contact channel not found | 
 3101 | Contact channel missing channel type | 
 3102 | Contact channel missing value | 
