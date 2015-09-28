@@ -80,6 +80,8 @@ service_address | [Service Address] object.
               }
           }
         ],
+        "contact_labels": [],
+        "contact_custom_fields": [],        
         "channel_types": [
           {
               "id": "0e3d71ee-9518-4b9b-b95a-dea251829887",

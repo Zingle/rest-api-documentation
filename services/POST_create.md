@@ -27,6 +27,8 @@ service_address | Y | [Service Address] object. All fields required
     "display_name": "My new service last",
     "time_zone": "America/Los_Angeles",
     "plan_code": "zingle_basic",
+    "contact_labels": [],
+    "contact_custom_fields": [],    
     "service_address": {
         "address": "789 Success Blvd.",
         "city": "San Diego",

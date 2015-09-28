@@ -72,6 +72,8 @@ None
               "allow_communications": true
           }
         ],
+        "contact_labels": [],
+        "contact_custom_fields": [],
         "service_address": {
             "address": "123 Zingle Blvd.",
             "city": "San Diego",

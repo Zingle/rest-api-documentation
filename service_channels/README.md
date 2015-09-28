@@ -10,4 +10,6 @@ country | string | ISO 3166-1 alpha-2 country code
 is_default_for_type | boolean | Whether this channel is the default for its type for this service
 channel_type | object | [Channel Type]
 
+
 [Channel Type]: /channel_types/README.md
+
