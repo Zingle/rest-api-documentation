@@ -3,8 +3,8 @@
 Field | Data Type | Read Only | Description
 --- | --- | --- | ---
 id | string | Y | Unique identifier
-display_name | N | string | 
-data_type | Y | string | 
+display_name | string | N | Field display name - shows up in the mobile app and web interfaces
+data_type | string | Y | Field data type. May be string, number, boolean, date, time, or single_select_options
 is_global | boolean | Y | Whether the contact field is scoped to a single service
 options | array | N | Array of [Field Options]
 
