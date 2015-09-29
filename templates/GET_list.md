@@ -9,7 +9,6 @@ None
 ### Sortable Fields
 * subject
 * display_name
-* type
 * body
 
 ## Example
