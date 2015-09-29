@@ -25,7 +25,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
         "text": "OK",
         "status_code": 200,
         "description": null,
-        "sort_field": "id",
+        "sort_field": "display_name",
         "sort_direction": "asc",
         "page": 1,
         "page_size": 10,
