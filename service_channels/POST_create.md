@@ -14,7 +14,7 @@ channel_type_id | string | Y | Channel Type ID to add. Note that adding certain 
 value | string | Y | Channel value 
 country | string | Y | Required when provisioning phone numbers. ISO 3166-1 alpha-2 country code.
 display_name | string | N | 
-is_default_for_type | boolean | N | If set to true, will make this channel the default for this service for its Channel Type
+is_default_for_type | boolean | N | If set to true, will make this channel the default for this service for its Channel Type. You can not manually set this value to false.
 
 ## Example
 ### Request
