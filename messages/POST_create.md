@@ -10,7 +10,7 @@ None
 ### JSON Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
-sender_type | string | Y | The type of sender - 'contact', 'service', or 'label'
+sender_type | string | Y | The type of sender - 'contact', 'service'
 sender | object | Y | id and/or channel_value of the sender
 recipient_type | string | N | The type of recipients - 'contact', 'service', or 'label'
 recipients | array | Y | Array of recipient objects, each with an id and/or channel_value
