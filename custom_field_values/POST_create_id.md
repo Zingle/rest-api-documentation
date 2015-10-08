@@ -1,6 +1,6 @@
 # Update Contact Custom Field Value
 
-    POST services/:service_id/contacts/:contact_id/:contact_field_id
+    POST services/:service_id/contacts/:contact_id/custom-field-values/:contact_field_id
     
 Updates the value of a [Custom Field Value][] and returns the updated [Contact][]
 
