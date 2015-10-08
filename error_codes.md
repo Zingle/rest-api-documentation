@@ -102,6 +102,7 @@ Error Code | Description | Explanation
 3620 | Attachment missing content_type | 
 3621 | Attachment base64 isn't valid | 
 3622 | Sender channel_value is required | 
+3623 | Attachments are not permitted when sending to labels | 
 3700 | Custom field value missing ID | 
 3701 | Custom field not found | 
 3702 | Custom field value missing option ID | 

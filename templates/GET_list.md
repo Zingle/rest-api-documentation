@@ -23,7 +23,7 @@ None
         "text": "OK",
         "status_code": 200,
         "description": null,
-        "sort_field": null,
+        "sort_field": "display_name",
         "sort_direction": "asc",
         "page": 1,
         "page_size": 10,
