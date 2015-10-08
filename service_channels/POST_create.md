@@ -2,7 +2,7 @@
 
     POST services/:service_id/channels
     
-Creates a new [Service Channel] and returns the newly-created object. Currently only email addresses and phone numbers may be added to a service.
+Creates a new [Service Channel] and returns the newly-created object. Currently only email addresses (with the domain email.zingle.me) and phone numbers may be added to a service.
 
 ## Parameters
 ### URI Parameters
