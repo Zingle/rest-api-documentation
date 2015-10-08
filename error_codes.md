@@ -31,6 +31,16 @@ Error Code | Description | Explanation
 2811 | Missing city | 
 2812 | Invalid account specified for service | 
 2900 | Service channel not found | 
+2901 | channel_type_id required | 
+2902 | Channels of this type can not be assigned to services | 
+2903 | value is required | 
+2904 | A service channel with that display_name already exists | 
+2905 | Error while provisioning the phone number | 
+2906 | Unknown channel type | 
+2907 | The chosen country does not support phone number provisioning | 
+2908 | Country is required when provisioning phone numbers | 
+2909 | The specified email domain is not permitted | 
+2910 | The specified email is already in use | 
 3000 | Contact not found | 
 3001 | Missing value for contact custom field value | 
 3002 | Contact custom field not found | 
