@@ -41,6 +41,7 @@ Error Code | Description | Explanation
 2908 | Country is required when provisioning phone numbers | 
 2909 | The specified email domain is not permitted | 
 2910 | The specified email is already in use | 
+2911 | The specified phone number is already in use | 
 3000 | Contact not found | 
 3001 | Missing value for contact custom field value | 
 3002 | Contact custom field not found | 
