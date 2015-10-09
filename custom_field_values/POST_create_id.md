@@ -2,7 +2,9 @@
 
     POST services/:service_id/contacts/:contact_id/custom-field-values/:contact_field_id
     
-Updates the value of a [Custom Field Value][] and returns the updated [Contact][]
+Updates the value of a [Custom Field Value][] and returns the updated [Contact][].
+
+For custom fields with options, the request body must contain a `custom_field_option_id`.  For all other data types, the field should contain a `value`.
 
 ## Parameters
 None
