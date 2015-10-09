@@ -109,5 +109,6 @@ Error Code | Description | Explanation
 3703 | Custom field value invalid optoin specified | 
 3704 | Custom field value invalid date.  Date values must be in UNIX timestamp format | 
 3705 | Custom field value missing value | 
+3706 | Boolean custom fields must have value 'true' or 'false'e | 
 3800 | Searching phone numbers require that a valid two-digit country code be specified as the 'country' in the URL | 
 3900 | Plan not found | 
