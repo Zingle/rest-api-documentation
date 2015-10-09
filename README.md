@@ -39,7 +39,7 @@ Each response will include a `status` object and (if successful) a `result` (`re
         "text":           "OK",        
         "status_code":    200,         
         "description":    null,        
-        "sort_field":     "last_name", 
+        "sort_field":     "display_name", 
         "sort_direction": "asc",       
         "page":           1,           
         "page_size":      10,          
