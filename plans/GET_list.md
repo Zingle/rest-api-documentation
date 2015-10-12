@@ -6,6 +6,11 @@ Returns a list of [Plans] an [Account] has access to
 
 ## Parameters
 None
+### URI Parameters
+Field | Wildcards | Description
+--- | --- | ---
+Pagination options | N | (see [Overview - Request Modifiers][])
+code | N | only return Plans with the specified code
 
 ## Example
 ### Request
