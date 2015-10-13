@@ -22,6 +22,10 @@ postal_code | N | Filter by Service postal_code
 * display_name
 * created_at
 * updated_at
+* city
+* state
+* country
+* postal_code
 
 ## Example
 ### Request
