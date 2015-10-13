@@ -12,6 +12,14 @@ Field | Wildcards | Description
 Pagination options | N | (see [Overview - Request Modifiers][])
 code | N | only return Plans with the specified code
 
+### Sortable fields
+* code
+* monthly_or_unit_price
+* term_months
+* setup_price
+* display_name
+* is_printer_plan
+
 ## Example
 ### Request
 
