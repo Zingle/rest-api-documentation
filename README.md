@@ -3,10 +3,6 @@
 
 Zingle is a multi-channel communications platform that allows the sending, receiving and automating of conversations between a Business and a Customer. Zingle is typically interacted with by Businesses via a web browser to manage these conversations with their customers. The Zingle API provides functionality to developers to act on behalf of either the Business or the Customer. The Zingle iOS SDK provides mobile application developers an easy-to-use layer on top of the Zingle API.
 
-## REST API
-
-The Zingle REST API allows account holders to perform the most common functions they'd normally perform in their account dashboard using a web browser.  Using the API you can perform activities such as provisioning new service, cancelling existing service, managing contacts, changing service settings, sending and reading messages, and more.
-
 ## Authentication
 Access to the API is granted by providing your username and password.
 
