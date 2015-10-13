@@ -9,8 +9,8 @@ account | object | Y | [Account] object
 plan | object | N | [Plan] object
 channels | array | N | Array of [Service Channel] objects
 channel_types | array | Y | Array of [Channel Type] objects
-contact_labels | array | Array of [Contact Labels]
-contact_custom_fields | array | Array of [Contact Custom Fields]
+contact_labels | array | Y | Array of [Contact Labels]
+contact_custom_fields | array | Y | Array of [Contact Custom Fields]
 settings | array | N | Array of [Service Settings] objects representing settings on the Service
 service_address | object | N | [Service Address] object
 created_at | UNIX timestamp | Y | Date the Account was created
