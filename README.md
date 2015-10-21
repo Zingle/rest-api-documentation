@@ -170,6 +170,14 @@ For a description of the available resources see the [Resource Overview](resourc
 - **[<code>DELETE</code> Cancel Service](/services/DELETE_id.md)**
 - **[<code>POST</code> Set Service Setting](/service_settings/POST_create.md)**
 
+
+### [Channel Types][]
+- **[<code>GET</code> Channel Type List](/channel_types/GET_list.md)**
+- **[<code>GET</code> Channel Type](/channel_types/GET_id.md)**
+- **[<code>POST</code> Create Channel Type](/channel_types/POST_create.md)**
+- **[<code>PUT</code> Update Channel Type](/channel_types/PUT_update_id.md)**
+- **[<code>DELETE</code> Delete Channel Type](/channel_types/DELETE_id.md)**
+
 ### [Service Channels][]
 - **[<code>GET</code> Service Channel](/service_channels/GET_id.md)**
 - **[<code>POST</code> Create Service Channel](/service_channels/POST_create.md)**
@@ -227,6 +235,7 @@ For a description of the available resources see the [Resource Overview](resourc
 
 [Accounts]: /accounts/
 [Services]: /services/
+[Channel Types]: /channel-types
 [Service Channels]: /service_channels
 [Contacts]: /contacts
 [Contact Channels]: /contact_channels
