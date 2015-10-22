@@ -40,6 +40,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
             "inbound_notification_url": null,
             "outbound_notification_url": null,
             "allow_communications": true,
+            "priority": 0,
             "is_global": true
         },
         {
@@ -49,6 +50,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
             "inbound_notification_url": null,
             "outbound_notification_url": null,
             "allow_communications": true,
+            "priority": 1,
             "is_global": true
         },    
         {
@@ -58,6 +60,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
             "inbound_notification_url": null,
             "outbound_notification_url": null,
             "allow_communications": true,
+            "priority": 2,
             "is_global": false
         }
     ]

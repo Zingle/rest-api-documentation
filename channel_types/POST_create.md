@@ -12,6 +12,7 @@ display_name | string | Y |
 inbound_notification_url | string | N | URL to call whenever an inbound message is created using this Channel Type
 outbound_notification_url | string | N | URL to call whenever an outbound message is created using this Channel Type
 allow_communications | boolean | N | Whether this Channel Type allows communications. Defaults to true.
+priority | integer | N | The default priority of this channel type (when sending group messages)
 
 ## Example
 ### Request
@@ -42,6 +43,7 @@ allow_communications | boolean | N | Whether this Channel Type allows communicat
         "inbound_notification_url": "https://www.myexample.com/notifiers/inbound-chat",
         "outbound_notification_url": "https://www.myexample.com/notifiers/outbound-chat",
         "allow_communications": true,
+        "priority": 0,
         "is_global": false
     }   
 }

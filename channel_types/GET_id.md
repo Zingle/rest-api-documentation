@@ -27,6 +27,7 @@ None
         "inbound_notification_url": null,
         "outbound_notification_url": null,
         "allow_communications": true,
+        "priority": 0,
         "is_global": true
     }    
 }
