@@ -1,8 +1,8 @@
 # Channel Type List
 
-    GET accounts/:account_id/channel-types
+    GET services/:service_id/channel-types
     
-Returns a list of [Channel Types]  belonging to the specified account
+Returns a list of [Channel Types]  belonging to the specified service
 
 ## Parameters
 ### URI Parameters
@@ -16,7 +16,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
 ## Example
 ### Request
 
-    GET https://api.zingle.me/v1/accounts/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types
+    GET https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types
 
 ### Response
 ``` json

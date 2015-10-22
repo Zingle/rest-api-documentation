@@ -1,5 +1,5 @@
 # Channel Type Object
-Channel Types are identifiers and communication methods.  'Phone Number' and 'Email Address' are system-wide channel types.  Accounts may create custom channel types that will then be accessible to each of their services.
+Channel Types are identifiers and communication methods.  'Phone Number' and 'Email Address' are system-wide channel types.  Services may create custom channel types.
 
 Field | Data Type | Description
 --- | --- | ---

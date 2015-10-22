@@ -1,6 +1,6 @@
 # Delete Channel Type
 
-    DELETE accounts/:account_id/channel-types/:channel_type_id
+    DELETE services/:service_id/channel-types/:channel_type_id
     
 Deletes a [Channel Type].
 
@@ -10,7 +10,7 @@ None
 ## Example
 ### Request
 
-    DELETE https://api.zingle.me/v1/accounts/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types/56c70519-6c70-40e5-904e-7652e54a07b6
+    DELETE https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types/56c70519-6c70-40e5-904e-7652e54a07b6
 
 ### Response
 ``` json

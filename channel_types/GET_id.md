@@ -1,6 +1,6 @@
 # Channel Type
 
-    GET accounts/:account_id/channel-types/:channel_type_id
+    GET services/:service_id/channel-types/:channel_type_id
     
 Returns a single [Channel Type].
 
@@ -10,7 +10,7 @@ None
 ## Example
 ### Request
 
-    GET https://api.zingle.me/v1/accounts/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types/0e3d71ee-9518-4b9b-b95a-dea251829887
+    GET https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types/0e3d71ee-9518-4b9b-b95a-dea251829887
 
 ### Response
 ``` json

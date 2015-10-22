@@ -1,6 +1,6 @@
 # Update Channel Type
 
-    PUT accounts/:account_id/channel-types/:channel_type_id
+    PUT services/:service_id/channel-types/:channel_type_id
     
 Updates a [Channel Type]. Returns the updated object 
 
@@ -17,7 +17,7 @@ priority | integer | N | The default priority of this channel type (when sending
 ## Example
 ### Request
 
-    PUT https://api.zingle.me/v1/accounts/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types/0e3d71ee-9518-4b9b-b95a-dea251829687
+    PUT https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types/0e3d71ee-9518-4b9b-b95a-dea251829687
 
 #### Request Body
 ```json 

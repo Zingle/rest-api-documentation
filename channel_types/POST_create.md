@@ -1,6 +1,6 @@
 # Create Channel Type
 
-    POST accounts/:account_id/channel-types
+    POST services/:service_id/channel-types
     
 Creates a [Channel Type]
 
@@ -17,7 +17,7 @@ priority | integer | N | The default priority of this channel type (when sending
 ## Example
 ### Request
 
-    POST https://api.zingle.me/v1/accounts/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types
+    POST https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/channel-types
 
 #### Request Body
 ```json 
