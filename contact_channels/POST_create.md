@@ -12,7 +12,7 @@ Field | Data Type | Required | Description
 --- | --- | --- | ---
 channel_type_id | string | Y | [Channel Type] to add
 value | string | Y | Channel value 
-display_name | string | N | 
+display_name | string | N | One of HOME, BUSINESS, or MOBILE
 country | string | Y | Required for phone numbers. ISO 3166-1 alpha-2 country code. Not saved for any other channel type.
 is_default | boolean | N | If set to true, will make this channel the global default for this contact
 is_default_for_type | boolean | N | If set to true, will make this channel the default for this contact for its Channel Type

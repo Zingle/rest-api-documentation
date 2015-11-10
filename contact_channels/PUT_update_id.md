@@ -10,7 +10,7 @@ None
 ### JSON Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
-display_name | string | N | 
+display_name | string | N | One of HOME, BUSINESS, or MOBILE
 is_default | boolean | N | If set to true, will make this channel the global default for this contact
 is_default_for_type | boolean | N | If set to true, will make this channel the default for this contact for its Channel Type
 
@@ -22,7 +22,7 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
 #### Request Body 
 ```json
 {
-    "display_name": "Office Phone"
+    "display_name": "BUSINESS"
 }
 ```
 
@@ -36,7 +36,7 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
     },
     "result": {
       "id": "d9f91fdb-bbdb-442d-bbac-99fb76263653",
-      "display_name": "Office Phone",
+      "display_name": "BUSINESS",
       "value": "+18585556565",
       "formatted_value": "(858) 555-6565",
       "country": "US",

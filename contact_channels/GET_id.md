@@ -25,7 +25,7 @@ None
     "value": "+18582355555",
     "country": "US",
     "formatted_value": "(858) 235-5555",
-    "display_name": "Woohoo!",
+    "display_name": "MOBILE",
     "is_default": false,
     "is_default_for_type": false,
     "channel_type": {
