@@ -8,7 +8,8 @@ Returns a list of [Contacts] belonging to the specified service
 Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
-channel_value | Y | Filter by service channel values
+channel_value | Y | Filter by contact channel values
+channel_type_id | N | Filter by channel type
 label_id | N | Filter by Label ID
 is_confirmed | N | Filter by confirmed status (true = confirmed, false = not confirmed)
 is_starred | N | Filter by starred status (true = starred, false = not starred)
