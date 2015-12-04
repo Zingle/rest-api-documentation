@@ -8,7 +8,7 @@ Updates a [Channel Type]. Returns the updated object
 ## Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
-display_name | string | Y | 
+display_name | string | Y | The display name of the channel type being created
 inbound_notification_url | string | N | URL to call whenever an inbound message is created using this Channel Type
 outbound_notification_url | string | N | URL to call whenever an outbound message is created using this Channel Type
 allow_communications | boolean | N | Whether this Channel Type allows communications. Defaults to true.
