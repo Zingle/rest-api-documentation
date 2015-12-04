@@ -98,6 +98,7 @@ settings_field_option_id | Y | Required when setting a value for a [Settings Fie
               "selected_settings_field_option_id": null,
               "settings_field": {
                   "id": "ec760ab1-2679-4621-b4cf-003fa6d3ca4b",
+                  "data_type": "string",
                   "display_name": "Autoresponder Body",
                   "options": []
               }
