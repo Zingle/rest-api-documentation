@@ -13,6 +13,7 @@ None
 Field | Description
 --- | ---
 display_name | Service display name
+business_name |  Name used in templates to replace the BUSINESS_NAME placeholder
 time_zone | Service time zone
 plan_code | Code of the Plan to assign to the service
 service_address | [Service Address] object. 
@@ -40,6 +41,7 @@ service_address | [Service Address] object.
     "result": {
         "id": "aff7bc93-6e28-4e70-8770-defa35cdfc1f",
         "display_name": "Zingle Cafe",
+        "business_name": "Zingle Cafe",
         "time_zone": "America/Los_Angeles",
         "created_at": 1429034365,
         "updated_at": 1439228868,

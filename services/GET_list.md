@@ -50,6 +50,7 @@ postal_code | N | Filter by Service postal_code
       {
         "id": "aff7bc93-6e28-4e70-8770-defa35cdfc1f",
         "display_name": "My test API service",
+        "business_name": "My test API service",
         "time_zone": "America/Los_Angeles",
         "created_at": 1429034365,
         "updated_at": 1439228868,

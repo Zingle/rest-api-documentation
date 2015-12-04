@@ -23,6 +23,7 @@ None
     "result": {
         "id": "aff7bc93-6e28-4e70-8770-defa35cdfc1f",
         "display_name": "My test API service",
+        "business_name": "Bob's Bagels",
         "time_zone": "America/Los_Angeles",
         "created_at": 1429034365,
         "updated_at": 1439228868,
