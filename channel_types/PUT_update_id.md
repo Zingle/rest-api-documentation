@@ -11,7 +11,7 @@ Field | Data Type | Required | Description
 display_name | string | N | The display name of the channel type being created
 inbound_notification_url | string | N | URL to call whenever an inbound message is created using this Channel Type
 outbound_notification_url | string | N | URL to call whenever an outbound message is created using this Channel Type
-allow_communications | boolean | N | Whether this Channel Type allows communications. Defaults to true.
+allow_messages | boolean | N | Whether this Channel Type allows messages. Defaults to true.
 priority | integer | N | The default priority of this channel type (when sending group messages)
 
 ## Example
@@ -41,7 +41,7 @@ priority | integer | N | The default priority of this channel type (when sending
         "display_name": "Customer Chat ID",
         "inbound_notification_url": "https://www.myexample.com/notifiers/inbound-chat-notice",
         "outbound_notification_url": "https://www.myexample.com/notifiers/outbound-chat-notice",
-        "allow_communications": true,
+        "allow_messages": true,
         "priority": 0,
         "is_global": false
     }   

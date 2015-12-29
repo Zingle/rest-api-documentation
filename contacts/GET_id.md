@@ -46,7 +46,7 @@ None
               "display_name": "Phone Number",
               "inbound_notification_url": null,
               "outbound_notification_url": null,
-              "allow_communications": true
+              "allow_messages": true
             }
           },
           {
@@ -63,7 +63,7 @@ None
               "display_name": "Phone Number",
               "inbound_notification_url": null,
               "outbound_notification_url": null,
-              "allow_communications": true
+              "allow_messages": true
             }
           }
         ],

@@ -66,7 +66,7 @@ is_starred | N | Filter by starred status (true = starred, false = not starred)
               "display_name": "Phone Number",
               "inbound_notification_url": null,
               "outbound_notification_url": null,
-              "allow_communications": true
+              "allow_messages": true
             }
           },
           {
@@ -83,7 +83,7 @@ is_starred | N | Filter by starred status (true = starred, false = not starred)
               "display_name": "Phone Number",
               "inbound_notification_url": null,
               "outbound_notification_url": null,
-              "allow_communications": true
+              "allow_messages": true
             }
           }
         ],

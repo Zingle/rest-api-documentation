@@ -71,7 +71,7 @@ settings_field_option_id | Y | Required when setting a value for a [Settings Fie
                   "display_name": "Phone Number",
                   "inbound_notification_url": null,
                   "outbound_notification_url": null,
-                  "allow_communications": true
+                  "allow_messages": true
               }
           }
         ],
@@ -82,7 +82,7 @@ settings_field_option_id | Y | Required when setting a value for a [Settings Fie
               "display_name": "Phone Number",
               "inbound_notification_url": null,
               "outbound_notification_url": null,
-              "allow_communications": true
+              "allow_messages": true
           }
         ],
         "service_address": {
