@@ -14,7 +14,7 @@ sender_type | string | Y | The type of sender - 'contact', 'service'
 sender | object | Y | id and/or channel_value of the sender
 recipient_type | string | Y | The type of recipients - 'contact', 'service', or 'label'
 recipients | array | Y | Array of recipient objects, each with an id and/or channel_value (channel_value is required when sending to contacts)
-channel_type_ids | array | Y | An array of allowed channel_type_ids.  May specify multiple allowed channel types when sending to Labels
+channel_type_ids | array | Y | An array of allowed channel_type_ids.  Currently only the 'Phone Number' channel type is permitted when the recipient_type is Label
 body | string | N | Message body
 attachments | array | N | Array of attachment objects, each with a content_type and base64 encoded content string
 
