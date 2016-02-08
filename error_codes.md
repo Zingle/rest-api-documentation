@@ -30,6 +30,7 @@ Error Code | Description | Explanation
 2810 | Missing postal code | 
 2811 | Missing city | 
 2812 | Invalid account specified for service | 
+2813 | Missing country in service_address | 
 2900 | Service channel not found | 
 2901 | channel_type_id required | 
 2902 | Channels of this type can not be assigned to services | 
@@ -42,6 +43,8 @@ Error Code | Description | Explanation
 2909 | The specified email domain is not permitted | 
 2910 | The specified email is already in use | 
 2911 | The specified phone number is already in use | 
+2912 | That channel is already assigned to a service | 
+2913 | Service channel format is not valid for the specified type | 
 3000 | Contact not found | 
 3001 | Missing value for contact custom field value | 
 3002 | Contact custom field not found | 
@@ -57,6 +60,8 @@ Error Code | Description | Explanation
 3103 | Contact channel missing country | 
 3104 | Contact channel already assigned to another contact | 
 3105 | Contact channel display name already in use for this contact | 
+3106 | Contact channel display name must be 'HOME','BUSINESS', or 'MOBILE' | 
+3107 | Service channel format is not valid for the specified type | 
 3200 | Custom field not found | 
 3201 | Unable to modify global custom field | 
 3202 | Custom field display name already in use | 
@@ -103,6 +108,9 @@ Error Code | Description | Explanation
 3621 | Attachment base64 isn't valid | 
 3622 | Sender channel_value is required | 
 3623 | Attachments are not permitted when sending to labels | 
+3624 | Invalid content_type | 
+3625 | Messages can't be sent from the specified sender type to the specified recipient type using the specified channel type | 
+3626 | Sending to Labels only supports SMS messages at this time | 
 3700 | Custom field value missing ID | 
 3701 | Custom field not found | 
 3702 | Custom field value missing option ID | 
@@ -112,3 +120,9 @@ Error Code | Description | Explanation
 3706 | Boolean custom fields must have value 'true' or 'false'e | 
 3800 | Searching phone numbers require that a valid two-digit country code be specified as the 'country' in the URL | 
 3900 | Plan not found | 
+4000 | Channel type not found | 
+4001 | Channel type display_name is required | 
+4002 | allow_messages must have value 'true' or 'false' | 
+4003 | priority must be an integer | 
+4004 | The supplied notification URL is not valid | 
+4005 | You can not modify a global channel type | 
