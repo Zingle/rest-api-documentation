@@ -1,6 +1,6 @@
 # Mark Message Read
 
-    POST services/:service_id/channels/:channel_id/messages/:message_id/read
+    POST services/:service_id/messages/:message_id/read
     
 Marks a [Message] as read. Returns the update Message.
 
