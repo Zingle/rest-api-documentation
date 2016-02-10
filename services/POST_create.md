@@ -108,7 +108,7 @@ service_address | Y | [Service Address] object. All fields required
             "country": "US",
             "postal_code": "92129"
         },
-        "customFieldValues": []
+        "settings": []
       }    
 }
 ```
