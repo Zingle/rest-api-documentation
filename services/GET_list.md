@@ -109,7 +109,7 @@ postal_code | N | Filter by Service postal_code
             "country": "US",
             "postal_code": "92129"
         },
-        "customFieldValues": []
+        "settings": []
       }
     ]
 }
