@@ -1,8 +1,10 @@
 # Contact List
 
     GET services/:service_id/contacts
+    GET contacts
     
-Returns a list of [Contacts] belonging to the specified service
+Returns a list of [Contacts].  If the service is included in the URL, only contacts for the specified service will be searched. If no service is specified in the URL, all 
+contacts accessible by the current developer credentials will be searched.
 
 ## Parameters
 Field | Wildcards | Description
