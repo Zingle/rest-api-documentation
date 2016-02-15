@@ -3,6 +3,7 @@
 Field | Data Type | Description
 --- | --- | ---
 id | string | Unique identifier
+service_id | string | Unique identifier of the Contact's Service 
 is_confirmed | boolean | Whether the conversation associated with this Contact is currently marked as 'Confirmed'
 is_starred | boolean | Whether the conversation associated with this Contact is currently marked as 'Starred'
 last_message | object | Object containing id, body, and created_at for last message sent to or received from the contact
