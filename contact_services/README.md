@@ -1,4 +1,4 @@
-# Contact Object
+# Contact Service Object
 
 Field | Data Type | Description
 --- | --- | ---

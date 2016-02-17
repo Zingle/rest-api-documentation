@@ -11,7 +11,6 @@ Pagination options | N | N | (see [Overview - Request Modifiers][])
 channel_value | Y | N | Filter by contact channel values
 channel_type_id | Y | N | Filter by channel type
 last_message_created_at | N | N | Filter by last message creation date
-account_id | N | N | Filter by Account ID
 
 ### Sortable Fields
 * last_message_created_at
