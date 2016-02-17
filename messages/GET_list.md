@@ -10,6 +10,7 @@ Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
 contact_channel_value | N | Filter by Contact channel value
+contact_channel_id | N | Filter by Contact channel ID
 contact_id | N | Filter by Contact
 template_id | N | Filter by Template
 communication_direction | N | Filter by communication direction
