@@ -1,13 +1,15 @@
 # Message List
 
     GET services/:service_id/messages
+    GET accounts/:account_id/messages
     
-Returns a list of [Messages] for the specified [Service]
+Returns a list of [Messages] for the specified [Service] or [Account]. When searching messages by [Account], a contact_channel_value filter is required.
 
 ## Parameters
 Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
+contact_channel_value | N | Filter by Contact channel value
 contact_id | N | Filter by Contact
 template_id | N | Filter by Template
 communication_direction | N | Filter by communication direction
@@ -112,3 +114,4 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
 [Overview - Request Modifiers]: /README.md#request-modifiers
 [Messages]: README.md
 [Service]: /services/README.md
+[Account]: /accounts/README.md
