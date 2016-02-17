@@ -1,9 +1,8 @@
 # Message List
 
     GET services/:service_id/messages
-    GET accounts/:account_id/messages
     
-Returns a list of [Messages] for the specified [Service] or [Account]. When searching messages by [Account], a contact_channel_value filter is required.
+Returns a list of [Messages] for the specified [Service]. 
 
 ## Parameters
 Field | Wildcards | Description
