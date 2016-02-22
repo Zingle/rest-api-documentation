@@ -39,7 +39,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
             "display_name": "Phone Number",
             "inbound_notification_url": null,
             "outbound_notification_url": null,
-            "allow_communications": true,
+            "allow_messages": true,
             "priority": 0,
             "is_global": true
         },
@@ -49,7 +49,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
             "display_name": "Email Address",
             "inbound_notification_url": null,
             "outbound_notification_url": null,
-            "allow_communications": true,
+            "allow_messages": true,
             "priority": 1,
             "is_global": true
         },    
@@ -59,7 +59,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
             "display_name": "Chat ID",
             "inbound_notification_url": null,
             "outbound_notification_url": null,
-            "allow_communications": true,
+            "allow_messages": true,
             "priority": 2,
             "is_global": false
         }

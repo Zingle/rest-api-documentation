@@ -82,7 +82,7 @@ Each response will include a `status` object and (if successful) a `result` (`re
                   "display_name": "Phone Number",
                   "inbound_notification_url": null,
                   "outbound_notification_url": null,
-                  "allow_communications": true
+                  "allow_messages": true
               }
           }
         ],
@@ -93,7 +93,7 @@ Each response will include a `status` object and (if successful) a `result` (`re
               "display_name": "Phone Number",
               "inbound_notification_url": null,
               "outbound_notification_url": null,
-              "allow_communications": true
+              "allow_messages": true
           }
         ],
         "service_address": {

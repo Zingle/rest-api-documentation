@@ -87,7 +87,7 @@ service_address | Y | [Service Address] object. All fields required
                   "display_name": "Phone Number",
                   "inbound_notification_url": null,
                   "outbound_notification_url": null,
-                  "allow_communications": true
+                  "allow_messages": true
               }
           }
         ],
@@ -98,7 +98,7 @@ service_address | Y | [Service Address] object. All fields required
               "display_name": "Phone Number",
               "inbound_notification_url": null,
               "outbound_notification_url": null,
-              "allow_communications": true
+              "allow_messages": true
           }
         ],
         "service_address": {

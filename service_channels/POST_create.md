@@ -52,7 +52,7 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
         "display_name": "Phone Number",
         "inbound_notification_url": null,
         "outbound_notification_url": null,
-        "allow_communications": true
+        "allow_messages": true
       }
     }
 }
