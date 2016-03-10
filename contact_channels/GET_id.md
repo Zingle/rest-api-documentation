@@ -1,6 +1,6 @@
 # Contact Channel
 
-    GET services/:service_id/contact/:contact_id/channels/:contact_channel_id
+    GET services/:service_id/contacts/:contact_id/channels/:contact_channel_id
     
 Returns a single [Contact Channel]
 
