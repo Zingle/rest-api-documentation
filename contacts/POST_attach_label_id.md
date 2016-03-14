@@ -27,7 +27,7 @@ None
     "is_starred": true,
     "created_at": 1442877113,
     "updated_at": 1442877113,
-    "last_communication": {
+    "last_message": {
       "id": null,
       "body": null,
       "created_at": null
