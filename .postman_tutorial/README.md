@@ -24,7 +24,7 @@ In the Manage Environments dialog, replace YOUR_ZINGLE_USERNAME and YOUR_ZINGLE_
 
 The Postman collection is broken into four subfolders. They are organized in a way that introduces the simplest and most common API concepts first and gets more complex from there.  We recommend going through them in order.
 
-### Populating Environment as you work through the tutorial.
+### Populating Environment as you work through the tutorial
 
 Each folder and request in the collection has a description. Some of these descriptions contain important information, such as prerequisites for running the request or environment variables that should be replaced with data returned by the request.  After selecting the request in Postman, click the arrow next to the collection name above the collection details to make sure the request description is visible:
 
