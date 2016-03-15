@@ -4,6 +4,9 @@
 
 Zingle is a multi-channel communications platform that allows the sending, receiving and automating of conversations between a Business and a Customer. Zingle is typically interacted with by Businesses via a web browser to manage these conversations with their customers. The Zingle API provides functionality to developers to act on behalf of either the Business or the Customer. The Zingle iOS SDK provides mobile application developers an easy-to-use layer on top of the Zingle API.
 
+## Tutorial
+We provide a [Postman](https://www.getpostman.com/) collection with a set of requests that introduce the basic concepts of the API.  You will need an existing Zingle account with API access to run this tutorial. The Postman collection and more information are available [here](https://github.com/Zingle/rest-api/tree/master/.postman_tutorial).
+
 ## Beta
 The Zingle REST API is currently in Beta.  We are working closely with Customers through this phase, as move towards GA.  It is not recommended you use the Rest API in a production environment during this time.  Please see the **[change log](CHANGELOG.md)** for any possible breaking changes that may affect you.
 
