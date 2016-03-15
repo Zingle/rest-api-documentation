@@ -16,9 +16,27 @@ In the Environments list, click on the Zingle API Tutorial Environment:
 
 ![Postman Environments List](https://github.com/Zingle/rest-api/blob/master/.postman_tutorial/images/postman_environments_list.png "Postman Environments List")
 
-In the Manage Environments dialog, replace YOUR_ZINGLE_USERNAME and YOUR_ZINGLE_PASSWORD with the username and password you are using to access the API:
+In the Manage Environments dialog, replace YOUR_ZINGLE_USERNAME and YOUR_ZINGLE_PASSWORD with the username and password you are using to access the API. You should also enter your own mobile phone number as the test_phone_number:
 
 ![Postman Manage Environment Dialog](https://github.com/Zingle/rest-api/blob/master/.postman_tutorial/images/postman_manage_environment.png "Postman Manage Environment Dialog")
+
+## Tutorial Structure
+
+The Postman collection is broken into four subfolders. They are organized in a way that introduces the simplest and most common API concepts first and gets more complex from there.  We recommend going through them in order.
+
+### Populating Environment as you work through the tutorial.
+
+Each folder and request in the collection has a description. Some of these descriptions contain important information, such as prerequisites for running the request or environment variables that should be replaced with data returned by the request.  After selecting the request in Postman, click the arrow next to the collection name above the collection details to make sure the request description is visible:
+
+![Postman Request Description](https://github.com/Zingle/rest-api/blob/master/.postman_tutorial/images/postman_request_description.png "Postman Request Description")
+
+# Help
+To report an issue with the API, please [Create a GitHub Issue](https://github.com/Zingle/rest-api/issues/new).
+
+
+
+
+
 
 
 
