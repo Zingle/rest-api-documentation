@@ -10,15 +10,15 @@ To get started, click the button below, or you may import the collection and env
 
 Once you've imported the collection and environment, you will need to input your Zingle username and password into the environment before you can run any of the requests in the collection.  In postman, click the Environments dropdown in the top-right corner and choose Manage Environments:
 
-![Postman Environments Dropdown](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Postman Environments Dropdown")
+![Postman Environments Dropdown](https://github.com/Zingle/rest-api/blob/master/.postman_tutorial/images/postman_environments_dropdown.png "Postman Environments Dropdown")
 
 In the Environments list, click on the Zingle API Tutorial Environment:
 
-![Postman Environments List](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Postman Environments List")
+![Postman Environments List](https://github.com/Zingle/rest-api/blob/master/.postman_tutorial/images/postman_environments_list.png "Postman Environments List")
 
 In the Manage Environments dialog, replace YOUR_ZINGLE_USERNAME and YOUR_ZINGLE_PASSWORD with the username and password you are using to access the API:
 
-![Postman Manage Environment Dialog](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Postman Manage Environment Dialog")
+![Postman Manage Environment Dialog](https://github.com/Zingle/rest-api/blob/master/.postman_tutorial/images/postman_manage_environment.png "Postman Manage Environment Dialog")
 
 
 
