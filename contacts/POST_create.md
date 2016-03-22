@@ -55,7 +55,7 @@ is_confirmed | boolean | N | Whether the Contact's conversation should be marked
     "custom_field_values": [
       {
         "value": "Rebecca",
-        "selected_custom_field_option_id": null,
+        "custom_field_option_id": null,
         "custom_field": {
           "id": "56c70519-6c70-40e5-904e-7652e54a07b6",
           "display_name": "First Name",
