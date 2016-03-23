@@ -11,7 +11,7 @@ None
 Field | Data Type | Required | Description
 --- | --- | --- | ---
 sender_type | string | Y | The type of sender - 'contact', 'service'
-sender | object | Y | id and/or channel_value of the sender. If sending using a 'Chat' channel type, do not include a channel_value, only include the service ID
+sender | object | Y | id and/or channel_value of the sender. If sending using a 'User Defined' channel type, do not include a channel_value, only include the service ID
 recipient_type | string | Y | The type of recipients - 'contact', 'service', or 'label'
 recipients | array | Y | Array of recipient objects, each with an id and/or channel_value (channel_value is required when sending to contacts)
 channel_type_ids | array | Y | An array of allowed channel_type_ids.  Currently only the 'Phone Number' channel type is permitted when the recipient_type is Label
