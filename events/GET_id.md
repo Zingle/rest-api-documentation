@@ -24,6 +24,7 @@ None
         "id": "d7d64c8a-8ff1-48ea-a209-a2d240918c93",
         "contact_id": "89j64c8a-8ff1-48ea-a209-a2d240918d77",
         "event_type": "workflow_started",
+        "body": null,
         "created_at": 1442249019,
         "triggered_by_user": {},
         "automation": {
