@@ -54,6 +54,7 @@ is_closed | boolean | N | Whether the Contact's conversation should be closed
     "is_confirmed": true,
     "is_starred": false,
     "is_closed": false,
+    "locked_by_source": null,
     "created_at": 1442877113,
     "updated_at": 1442877113,
     "last_message": {
