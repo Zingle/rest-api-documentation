@@ -1,4 +1,4 @@
-# Message
+# Event
 
     GET services/:service_id/events/:event_id
     
