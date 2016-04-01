@@ -10,10 +10,11 @@ None
 ### Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
-channels | array | N | Array of [Channels] to create when creating the contact
+channels | array | N | Array of [Contact Channels] to create when creating the contact
 custom_field_values | array | N | Array of [Custom Field Values] to set on the Contact
-is_starred | boolean |  N | Whether the Contact should be marked s 'starred'
-is_confirmed | boolean | N | Whether the Contact's conversation should be marked s 'confirmed'
+is_starred | boolean |  N | Whether the Contact should be marked as 'starred'
+is_confirmed | boolean | N | Whether the Contact's conversation should be marked as 'confirmed'
+is_closed | boolean | N | Whether the Contact's conversation should be closed
 
 ## Example
 ### Request
@@ -52,6 +53,7 @@ is_confirmed | boolean | N | Whether the Contact's conversation should be marked
     "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
     "is_confirmed": true,
     "is_starred": false,
+    "is_closed": false,
     "created_at": 1442877113,
     "updated_at": 1442877113,
     "last_message": {
@@ -93,3 +95,4 @@ is_confirmed | boolean | N | Whether the Contact's conversation should be marked
 
 [Contact]: README.md
 [Custom Field Values]: /custom_field_values/README.md
+[Contact Channels]: /contact_channels/README.md
