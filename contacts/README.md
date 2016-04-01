@@ -6,6 +6,8 @@ id | string | Unique identifier
 service_id | string | Unique identifier of the Contact's Service 
 is_confirmed | boolean | Whether the conversation associated with this Contact is currently marked as 'Confirmed'
 is_starred | boolean | Whether the conversation associated with this Contact is currently marked as 'Starred'
+is_closed | boolean | Whether the conversation associated with this Contact is currently closed
+locked_by_source | string | If the contact was created or updated by an external system, which system will be indicated in this field. Locked contacts can not have their first name, last name, title, phone numbers, nor email addresses edited.
 last_message | object | Object containing id, body, and created_at for last message sent to or received from the contact
 channels | array | Array of [Contact Channels]
 custom_field_values | array | Array of [Custom Field Values]
