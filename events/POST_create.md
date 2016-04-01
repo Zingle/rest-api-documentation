@@ -55,4 +55,4 @@ body | string | Y | The note body
 }
 ```
 
-[Create Message] /messages/POST_create.md
+[Create Message]: /messages/POST_create.md
