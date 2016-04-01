@@ -15,12 +15,16 @@ channel_type_id | N | Filter by channel type
 label_id | N | Filter by Label ID
 is_confirmed | N | Filter by confirmed status (true = confirmed, false = not confirmed)
 is_starred | N | Filter by starred status (true = starred, false = not starred)
+is_closed | N | Filter by closed status (true = closed, false = not closed)
+locked_by_source | N | Filter by lock source
 
 ### Sortable Fields
 * created_at
 * updated_at
 * is_confirmed
 * is_starred
+* is_closed
+* locked_by_source
 
 ## Example
 ### Request
@@ -47,6 +51,8 @@ is_starred | N | Filter by starred status (true = starred, false = not starred)
         "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
         "is_confirmed": true,
         "is_starred": false,
+        "is_closed": false,
+        "locked_by_source": null,
         "created_at": 1442352326,
         "updated_at": 1442621196,
         "last_message": {
