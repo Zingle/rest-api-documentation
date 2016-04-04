@@ -15,6 +15,7 @@ channel_type_id | N | Filter by channel type
 label_id | N | Filter by Label ID
 is_confirmed | N | Filter by confirmed status (true = confirmed, false = not confirmed)
 is_starred | N | Filter by starred status (true = starred, false = not starred)
+query | N | Search contacts by first name, last name, or channel value
 
 ### Sortable Fields
 * created_at
