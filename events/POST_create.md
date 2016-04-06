@@ -24,7 +24,7 @@ body | string | Y | The note body
 ## Example
 ### Request
 
-    POST https://api.zingle.me/v1/services/1d06e84f-8152-4de7-983d-a2d88b73734a/messages
+    POST https://api.zingle.me/v1/services/1d06e84f-8152-4de7-983d-a2d88b73734a/events
 #### Request Body
 ```json
 {
