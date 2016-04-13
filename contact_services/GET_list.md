@@ -47,6 +47,7 @@ last_message_created_at | N | N | Filter by last message creation date
               "body": "What time does the spa open?",
               "direction": "inbound",
               "created_at": 1455560636
+            }
         },
         {
             "contact_id": "e3d9e8b5-b225-476c-a83e-50cdb720f741",
@@ -59,6 +60,7 @@ last_message_created_at | N | N | Filter by last message creation date
               "body": "Your room is ready, Mr. Smith. Please proceed to the front desk to pick up your key.",
               "direction": "outbound",
               "created_at": 1455560436
+            }
         }        
     ]
 }
