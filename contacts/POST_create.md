@@ -10,9 +10,11 @@ None
 ### Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
+channels | array | N | Array of [Contact Channels] to create when creating the contact
 custom_field_values | array | N | Array of [Custom Field Values] to set on the Contact
-is_starred | boolean |  N | Whether the Contact should be marked s 'starred'
-is_confirmed | boolean | N | Whether the Contact's conversation should be marked s 'confirmed'
+is_starred | boolean |  N | Whether the Contact should be marked as 'starred'
+is_confirmed | boolean | N | Whether the Contact's conversation should be marked as 'confirmed'
+is_closed | boolean | N | Whether the Contact's conversation should be closed
 
 ## Example
 ### Request
@@ -22,9 +24,16 @@ is_confirmed | boolean | N | Whether the Contact's conversation should be marked
 #### Request Body    
 ```json
 {
+  "channels": [
+    {
+        "channel_type_id": "23c70519-6c70-40e5-904e-7652e54a85fg",
+        "value": "+18585551212"
+    }
+  ],
   "custom_field_values": [
     {
       "custom_field_id": "56c70519-6c70-40e5-904e-7652e54a07b6",
+      
       "value": "Rebecca"
     }
   ]
@@ -44,6 +53,8 @@ is_confirmed | boolean | N | Whether the Contact's conversation should be marked
     "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
     "is_confirmed": true,
     "is_starred": false,
+    "is_closed": false,
+    "locked_by_source": null,
     "created_at": 1442877113,
     "updated_at": 1442877113,
     "last_message": {
@@ -51,7 +62,21 @@ is_confirmed | boolean | N | Whether the Contact's conversation should be marked
       "body": null,
       "created_at": null
     },
-    "channels": [],
+    "channels": [
+        {
+            "id": "a8g70519-6c70-40e5-904e-7652e54a12t3",
+            "display_name": null,
+            "value": "+18585551212",
+            "formatted_value": "(858) 555-1212",
+            "is_default": true,
+            "is_default_for_type": true,
+            "channel_type": {
+                "id": "23c70519-6c70-40e5-904e-7652e54a85fg",            
+                "type_class": "PhoneNumber",
+                "display_name": "Phone Number"
+            }
+        }
+    ],
     "custom_field_values": [
       {
         "value": "Rebecca",
@@ -71,3 +96,4 @@ is_confirmed | boolean | N | Whether the Contact's conversation should be marked
 
 [Contact]: README.md
 [Custom Field Values]: /custom_field_values/README.md
+[Contact Channels]: /contact_channels/README.md

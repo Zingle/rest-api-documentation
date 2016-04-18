@@ -25,6 +25,8 @@ None
     "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
     "is_confirmed": true,
     "is_starred": true,
+    "is_closed": false,
+    "locked_by_source": null,    
     "created_at": 1442877113,
     "updated_at": 1442877113,
     "last_message": {
