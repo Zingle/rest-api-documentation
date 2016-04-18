@@ -19,7 +19,7 @@ last_message_created_at | N | N | Filter by last message creation date
 ## Example
 ### Request
 
-    GET https://api.zingle.me/v1/contacts?channel_type_id=89d9e8b5-b225-474c-a83e-50cdb720e3b2&channel_value=18585551212
+    GET https://api.zingle.me/v1/contact_services?channel_type_id=89d9e8b5-b225-474c-a83e-50cdb720e3b2&channel_value=%2B18585551212
 
 ### Response
 ``` json
