@@ -16,7 +16,8 @@ recipient_type | string | 'contact' or 'service' - who the Message was sent to
 recipient | object |  Correspondent object representing the  recipient
 attachments | array | Array of string URIs where file attachments may be downloaded
 created_at | UNIX timestamp | Date the Message was created
-read_at | UNIX timestamp | Date the Message was marked as read
+read_at | UNIX timestamp | Date the Message was marked as read by the service
+read_by_contact_at | UNIX timestamp | Date the Message was marked as read by the contact
 
 
 [Template]: /templates/README.md
