@@ -19,7 +19,7 @@ read_by_contact_at | UNIX timestamp| N | Specify the read_by_contact_at timestam
 ### Request Body 
 ```json
 {
-  "read_at": 1442881911
+  "read_by_contact_at": 1442881911
 }
 ```
 ### Response
