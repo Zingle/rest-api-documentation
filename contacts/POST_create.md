@@ -6,7 +6,9 @@ Creates a new [Contact] for the specified Service and returns the newly-created 
 
 ## Parameters
 ### URI Parameters
-None
+Field | Description
+--- | --- | ---
+return_existing | If set to 1 and a contact already exists with one of the specified channel types and values, the existing contact will be returned.  No data will be updated. 
 ### Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
