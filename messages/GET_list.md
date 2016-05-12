@@ -46,6 +46,7 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
         "id": "d7d64c8a-8ff1-48ea-a209-a2d240918c93",
         "created_at": 1442249019,
         "read_at": 1442531686,
+        "read_by_contact_at": 1442531686,
         "sender_type": "contact",
         "attachments": [],
         "sender": {
