@@ -40,7 +40,7 @@ last_message_created_at | N | N | Filter by last message creation date
             "contact_id": "89d9e8b5-b225-476c-a83e-50cdb720e3b1",
             "service_id": "72d9e8b5-b225-476c-a83e-50cdb720e4g6",
             "account_id": "19d9e8b5-b225-476c-a83e-50cdb720f989",
-            contact_unread_message_count: 2,
+            "contact_unread_message_count": 2,
             "service_display_name": "Spa",
             "account_display_name": "Los Angeles Pure Luxury Hotel",
             "last_message": {
@@ -54,7 +54,7 @@ last_message_created_at | N | N | Filter by last message creation date
             "contact_id": "e3d9e8b5-b225-476c-a83e-50cdb720f741",
             "service_id": "980fe8b5-b225-476c-a83e-50cdb720fa54",
             "account_id": "19d9e8b5-b225-476c-a83e-50cdb720f989",
-            contact_unread_message_count: 0,
+            "contact_unread_message_count": 0,
             "service_display_name": "Front Desk",
             "account_display_name": "Los Angeles Pure Luxury Hotel",
             "last_message": {
