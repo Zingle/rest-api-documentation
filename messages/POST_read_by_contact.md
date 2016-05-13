@@ -20,7 +20,7 @@ read_by_contact_at | UNIX timestamp| N | Specify the read_by_contact_at timestam
 ### Request Body 
 ```json
 {
-  "message_ids": ["819094d3-191e-4c49-b208-a9be816c9e87","739094d3-191e-4c49-b208-a9be816c39b0"]
+  "message_ids": ["819094d3-191e-4c49-b208-a9be816c9e87","739094d3-191e-4c49-b208-a9be816c39b0"],
   "read_by_contact_at": 1442881911
 }
 ```
