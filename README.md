@@ -7,11 +7,31 @@ Zingle is a multi-channel communications platform that allows the sending, recei
 ## Tutorial
 We provide a [Postman](https://www.getpostman.com/) collection with a set of requests that introduce the basic concepts of the API.  You will need an existing Zingle account with API access to run this tutorial. The Postman collection and more information are available [here](https://github.com/Zingle/rest-api/tree/master/.postman_tutorial).
 
-### Beta Support
+### Support
 For API support, please email api.support@zingle.me.
 
 ## Authentication
 Access to the API is granted by providing your username and password using HTTP basic authentication.  The username and password used, is the same username and password you use to access the Zingle web interface.
+
+There are two classes of users that have access to the API - "account" class users and "contact" class users.  A contact class user must include a x-zingle-contact-id header in EVERY request to the API.  
+
+You may check the current user's class by issuing a GET request to the API's root URL:
+
+```no-highlight
+GET https://api.zingle.me/v1/
+
+{
+    "status": {
+        "text": "OK",
+        "status_code": 200,
+        "description": null
+    },
+    "auth": {
+        "authorized": true,
+        "authorization_class": "contact"
+    }
+}
+```
 
 ## API Versioning
 The first part of the URI path specifies the API version you wish to access in the format `v{version_number}`. 
