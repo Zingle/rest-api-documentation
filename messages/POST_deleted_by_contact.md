@@ -8,9 +8,11 @@ Marks one or more [Messages] as deleted by a contact. This will delete the messa
 ### URI Parameters
 None
 ### JSON Body Parameters
+One of message_ids or contact_id is required
 Field | Data Type | Required | Description
 --- | --- | --- | ---
-message_ids | array of strings | Y | Specify the message_ids to mark as 'read by contact'
+message_ids | array of strings | N | Specify the message_ids to delete
+contact_id | array of strings | N | Delete all messages associated with the contact
 
 ## Example
 ### Request
