@@ -16,7 +16,7 @@ read_by_contact_at | UNIX timestamp| N | Specify the read_by_contact_at timestam
 ## Example
 ### Request
 
-    POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/messages/739094d3-191e-4c49-b208-a9be816c39b0/read
+    POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/messages/read_by_contact
 ### Request Body 
 ```json
 {
