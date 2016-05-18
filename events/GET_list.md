@@ -4,6 +4,10 @@
     
 Returns a list of [Events] for the specified [Service]. 
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 Field | Wildcards | Description
 --- | --- | ---

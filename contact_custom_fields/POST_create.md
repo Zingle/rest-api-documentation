@@ -4,6 +4,9 @@
     
 Creates a [Contact Custom Field]
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ## Body Parameters
 Field | Data Type | Required | Description

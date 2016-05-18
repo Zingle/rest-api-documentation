@@ -4,6 +4,10 @@
     
 Trigger an [Automation] on a Contact. 
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 None
 

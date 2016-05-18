@@ -4,6 +4,10 @@
     
 Returns a single [Message]
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 None
 

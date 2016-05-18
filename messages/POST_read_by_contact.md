@@ -4,6 +4,10 @@
     
 Marks one or more [Messages] as read by a contact. Returns the updated Messages.
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 ### URI Parameters
 None

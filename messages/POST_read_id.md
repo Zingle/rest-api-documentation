@@ -4,6 +4,10 @@
     
 Marks a [Message] as read by the service. Returns the update Message.
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 ### URI Parameters
 None

@@ -4,6 +4,10 @@
     
 Returns a list of [Messages] for the specified [Service]. 
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 Field | Wildcards | Description
 --- | --- | ---

@@ -4,6 +4,9 @@
     
 Delete a [Template].
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 None
 

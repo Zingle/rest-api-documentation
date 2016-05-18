@@ -4,6 +4,10 @@
     
 Returns a single [Event]
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 None
 

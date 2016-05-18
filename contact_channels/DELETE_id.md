@@ -4,6 +4,10 @@
     
 Deletes a [Contact Channel]
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 None
 

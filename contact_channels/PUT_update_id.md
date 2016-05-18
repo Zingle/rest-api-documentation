@@ -4,6 +4,10 @@
     
 Updates a [Contact Channel] and returns the updated object
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 ### URI Parameters
 None

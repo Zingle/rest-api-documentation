@@ -4,6 +4,10 @@
     
 Send a message. Returns an array of Message IDs queued for sending.
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 ### URI Parameters
 None

@@ -4,6 +4,9 @@
     
 Updates a [Contact Custom Field]. Returns the updated object 
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ## Body Parameters
 **NOTE:** If options are specified, all existing options will be deleted and replaced with the newly-specified options.

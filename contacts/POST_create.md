@@ -4,6 +4,10 @@
     
 Creates a new [Contact] for the specified Service and returns the newly-created object
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 ### URI Parameters
 Field | Description

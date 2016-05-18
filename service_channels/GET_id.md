@@ -4,6 +4,9 @@
     
 Returns a single [Service Channel]
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 None
 

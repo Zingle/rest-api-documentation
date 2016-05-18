@@ -4,6 +4,9 @@
     
 Creates a new [Service] and returns the newly-created object
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ### URI Parameters
 ### Body Parameters

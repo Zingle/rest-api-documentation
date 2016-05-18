@@ -4,6 +4,9 @@
     
 Creates a [Channel Type]
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ## Body Parameters
 Field | Data Type | Required | Description

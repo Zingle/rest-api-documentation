@@ -4,6 +4,9 @@
     
 Update a [Template]. Returns the updated object.
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ### URI Parameters
 None

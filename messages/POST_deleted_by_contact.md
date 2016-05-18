@@ -4,6 +4,10 @@
     
 Marks one or more [Messages] as deleted by a contact. This will delete the messages from the contact's perspective.  From the service's perspective there is no change. 
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 ### URI Parameters
 None

@@ -2,7 +2,11 @@
 
     DELETE services/:service_id/contacts/:contact_id/labels/:label_id
     
-Detached a [Label] from a [Contact]. Returns the updated Contact.
+Detaches a [Label] from a [Contact]. Returns the updated Contact.
+
+### User Authorization Classes 
+* account
+* contact
 
 ## Parameters
 None

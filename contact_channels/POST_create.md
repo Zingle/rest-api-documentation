@@ -4,6 +4,10 @@
     
 Creates a new [Contact Channel] and returns the newly-created object.
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 ### URI Parameters
 None

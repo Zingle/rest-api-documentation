@@ -4,6 +4,10 @@
     
 Deletes a [Contact] for the specified Service
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 None
 

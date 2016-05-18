@@ -4,6 +4,10 @@
     
 Returns a single [Service]
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 None
 

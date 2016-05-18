@@ -4,6 +4,10 @@
     
 Returns a single [Contact Channel]
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 None
 

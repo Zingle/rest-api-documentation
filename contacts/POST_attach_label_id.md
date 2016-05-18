@@ -4,6 +4,10 @@
     
 Attach a [Label] to a [Contact]. Returns the updated Contact.
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 None
 

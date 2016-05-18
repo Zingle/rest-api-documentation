@@ -4,6 +4,9 @@
     
 Returns a list of [Users] associated with any service the current user is authorized for
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ### URI Parameters
 Field | Wildcards | Description

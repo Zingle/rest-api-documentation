@@ -4,6 +4,9 @@
     
 Cancels a [Service] and releases all associated [Service Channels]
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 None
 
