@@ -27,7 +27,6 @@ GET https://api.zingle.me/v1/
         "description": null
     },
     "auth": {
-        "authorized": true,
         "authorization_class": "contact"
     }
 }
