@@ -13,7 +13,7 @@ For API support, please email api.support@zingle.me.
 ## Authentication
 Access to the API is granted by providing your username and password using HTTP basic authentication.  The username and password used, is the same username and password you use to access the Zingle web interface.
 
-There are two classes of users that have access to the API - "account" class users and "contact" class users.  A contact class user must include a x-zingle-contact-id header in EVERY request to the API.  
+There are two classes of users that have access to the API - "account" class users and "contact" class users.  A contact class user must include a x-zingle-contact-id header in every request to the API with the exception of the contact_services resource.  
 
 You may check the current user's class by issuing a GET request to the API's root URL:
 
@@ -115,7 +115,7 @@ Each response will include a `status` object and (if successful) a `result` (`re
         ],
         "channel_types": [
           {
-              "id": "0e3d71ee-9518-4b9b-b95a-dea251829887",
+              "id": "0e3d71ee-9518-4b9b-b9a5a-dea251829887",
               "type_class": "PhoneNumber",
               "display_name": "Phone Number",
               "inbound_notification_url": null,
