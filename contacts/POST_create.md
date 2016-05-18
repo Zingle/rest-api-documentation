@@ -8,7 +8,7 @@ Creates a new [Contact] for the specified Service and returns the newly-created 
 ### URI Parameters
 Field | Description
 --- | --- | ---
-return_existing | If set to 1 and a contact already exists with one of the specified channel types and values, the existing contact will be returned.  No data will be updated. 
+return_existing | If set to 1 and a contact already exists with the specified channel type and values, the existing contact will be updated with the new custom field values and the existing contact will be returned.  You can only use this option if the channels array has exactly one element.
 ### Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
