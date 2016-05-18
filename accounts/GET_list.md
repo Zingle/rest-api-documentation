@@ -6,7 +6,7 @@ Returns a list of [Accounts][] the current authorized user has access to
 
 ### User Authorization Classes 
 * account
-* 
+
 ## Parameters
 Pagination options (see [Overview - Request Modifiers])
 ### Sortable fields
