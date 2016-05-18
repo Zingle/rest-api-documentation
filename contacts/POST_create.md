@@ -6,7 +6,7 @@ Creates a new [Contact] for the specified Service and returns the newly-created 
 
 ### User Authorization Classes 
 * account
-* contact (requires x-zingle-contact-id header)
+* contact
 
 ## Parameters
 ### URI Parameters
