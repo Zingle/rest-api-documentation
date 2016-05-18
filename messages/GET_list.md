@@ -71,6 +71,7 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
         "communication_direction": "inbound",
         "body_language_code": "en",
         "triggered_by_user_id": null,
+        "triggered_by_user": {},
         "translated_body": null,
         "template_id": null,
         "translated_body_language_code": null
@@ -104,6 +105,7 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
         "communication_direction": "inbound",
         "body_language_code": "en",
         "triggered_by_user_id": null,
+        "triggered_by_user": {},
         "translated_body": null,
         "template_id": null,
         "translated_body_language_code": null
