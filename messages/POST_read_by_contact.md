@@ -65,6 +65,7 @@ read_by_contact_at | UNIX timestamp| N | Specify the read_by_contact_at timestam
             "communication_direction": "outbound",
             "body_language_code": null,
             "triggered_by_user_id": null,
+            "triggered_by_user": {},
             "translated_body": null,
             "template_id": null,
             "translated_body_language_code": null
@@ -101,6 +102,7 @@ read_by_contact_at | UNIX timestamp| N | Specify the read_by_contact_at timestam
             "communication_direction": "outbound",
             "body_language_code": null,
             "triggered_by_user_id": null,
+            "triggered_by_user": {},
             "translated_body": null,
             "template_id": null,
             "translated_body_language_code": null
