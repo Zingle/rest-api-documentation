@@ -8,7 +8,7 @@ For custom fields with options, the request body must contain a `custom_field_op
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 None

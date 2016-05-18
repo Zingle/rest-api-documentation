@@ -6,7 +6,7 @@ Deletes a [Contact] for the specified Service
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 None

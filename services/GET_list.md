@@ -6,7 +6,7 @@ Returns a list of [Services] the current user (as specified by API credentials) 
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 ### URI Parameters

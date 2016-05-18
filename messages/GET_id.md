@@ -6,7 +6,7 @@ Returns a single [Message]
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 None

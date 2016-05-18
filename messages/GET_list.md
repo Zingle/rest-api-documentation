@@ -6,7 +6,7 @@ Returns a list of [Messages] for the specified [Service].
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 Field | Wildcards | Description

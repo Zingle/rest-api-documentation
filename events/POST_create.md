@@ -8,7 +8,7 @@ Create an event. The response depends on the type of event being created:
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 ### URI Parameters

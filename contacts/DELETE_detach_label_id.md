@@ -6,7 +6,7 @@ Detaches a [Label] from a [Contact]. Returns the updated Contact.
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 None

@@ -6,7 +6,7 @@ Send a message. Returns an array of Message IDs queued for sending.
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 ### URI Parameters
