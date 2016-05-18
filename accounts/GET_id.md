@@ -4,6 +4,8 @@
     
 Returns a single [Account]
 
+### Required Authorization Class: account
+
 ## Parameters
 None
 
