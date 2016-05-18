@@ -4,6 +4,9 @@
     
 Returns a list of [Available Phone Number]
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ### URI Parameters
 Field | Data Type | Required | Wildcards | Description
