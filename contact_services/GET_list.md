@@ -2,14 +2,14 @@
 
     GET contact_services
     
-Returns a list of Services and Contacts for the given search criteria
+Returns a list of Services and Contacts for the given search criteria.  If no channel filters are sent, this will return a list of all services the current API credentials have access to without any corresponding contact IDs.  
 
 ## Parameters
 Field | Required | Wildcards | Description
 --- | --- | --- | ---
 Pagination options | N | N | (see [Overview - Request Modifiers][])
-channel_value | Y | N | Filter by contact channel values
-channel_type_id | Y | N | Filter by channel type
+channel_value | N | N | Filter by contact channel values (must passed send channel_type_id when this is passed)
+channel_type_id | N | N | Filter by channel type (must passed send channel_value when this is passed)
 last_message_created_at | N | N | Filter by last message creation date
 
 ### Sortable Fields
