@@ -9,6 +9,7 @@ body_language_code | string | ISO 639-1 detected as the language of the body of 
 translated_body | string | If the detected language of the body differs from the default language of the Service and the Service has the translation feature enabled, this field will contain the translated body
 translated_body_language_code | string | If the message body was translated, this will be the ISO 639-1 language code of the language it was translated to
 triggered_by_user_id | string | ID of the User that triggered the message, if any
+triggered_by_user | object | User object of the user who triggered the message, if any
 template_id | string | ID of the [Template][] that was used to send the message, if any
 sender_type | string | 'contact' or 'service' - who sent the Message
 sender | object | Correspondent object representing the sender
