@@ -6,7 +6,7 @@ Creates a new [Contact Channel] and returns the newly-created object.
 
 ### User Authorization Classes 
 * account
-* contact
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 ### URI Parameters
