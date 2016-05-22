@@ -1,4 +1,4 @@
-# Create Contact Label
+# Subscribe to push notifications
 
     POST notifications
     
