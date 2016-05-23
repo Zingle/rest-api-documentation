@@ -2,7 +2,7 @@
 
     POST services/:service_id/messages/:message_id/read
     
-Marks a [Message] as read by the service. Returns the update Message.
+Marks a [Message] as read. Returns the updated Message.
 
 ### User Authorization Classes 
 * account
@@ -39,7 +39,6 @@ read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the c
     "id": "739094d3-191e-4c49-b208-a9be816c39b0",
     "created_at": 1442881911,
     "read_at": 1442881911,
-    "read_by_contact_at": 1442881911,
     "sender_type": "service",
     "sender": {
       "id": "1d06e84f-8152-4de7-983d-a2d88b73734a",

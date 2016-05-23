@@ -29,7 +29,6 @@ None
         "id": "d7d64c8a-8ff1-48ea-a209-a2d240918c93",
         "created_at": 1442249019,
         "read_at": 1442531686,
-        "read_by_contact_at": 1442531686,
         "sender_type": "contact",
         "sender": {
           "id": "18d69698-5b9f-4124-9d19-d55bb23eb77a",
