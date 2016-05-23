@@ -1,6 +1,7 @@
 # Mark Message Read
 
     POST services/:service_id/messages/:message_id/read
+    POST services/:service_id/messages/read
     
 Marks a [Message] as read. Returns the updated Message.
 
@@ -14,6 +15,7 @@ None
 ### JSON Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
+message_ids | array| N | Array of message IDs to mark as read
 read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the current time will be used
 
 ## Example
