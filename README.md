@@ -1,4 +1,4 @@
-# Zingle REST API (Beta)
+# Zingle REST API
 
 ## Overview
 
