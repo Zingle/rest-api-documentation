@@ -3,7 +3,7 @@
     POST services/:service_id/messages/:message_id/read
     POST services/:service_id/messages/read
     
-Marks a [Message] as read. Returns the updated Message.
+Marks one or more [Messages] as read. If a single message is updated, that message it returned.  If more than one message is updated, a 200 response is returned but no message data is returned.
 
 ### User Authorization Classes 
 * account
