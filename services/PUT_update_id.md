@@ -4,6 +4,9 @@
     
 Updates a [Service] and returns the updated object
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 
 ### URI Parameters

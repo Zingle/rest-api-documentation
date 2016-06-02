@@ -4,6 +4,10 @@
     
 Returns a list of [Messages] for the specified [Service]. 
 
+### User Authorization Classes 
+* account
+* contact (requires x-zingle-contact-id header)
+
 ## Parameters
 Field | Wildcards | Description
 --- | --- | ---
@@ -70,6 +74,7 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
         "communication_direction": "inbound",
         "body_language_code": "en",
         "triggered_by_user_id": null,
+        "triggered_by_user": {},
         "translated_body": null,
         "template_id": null,
         "translated_body_language_code": null
@@ -103,6 +108,7 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
         "communication_direction": "inbound",
         "body_language_code": "en",
         "triggered_by_user_id": null,
+        "triggered_by_user": {},
         "translated_body": null,
         "template_id": null,
         "translated_body_language_code": null

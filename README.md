@@ -7,11 +7,30 @@ Zingle is a multi-channel communications platform that allows the sending, recei
 ## Tutorial
 We provide a [Postman](https://www.getpostman.com/) collection with a set of requests that introduce the basic concepts of the API.  You will need an existing Zingle account with API access to run this tutorial. The Postman collection and more information are available [here](https://github.com/Zingle/rest-api/tree/master/.postman_tutorial).
 
-### Beta Support
+### Support
 For API support, please email api.support@zingle.me.
 
 ## Authentication
 Access to the API is granted by providing your username and password using HTTP basic authentication.  The username and password used, is the same username and password you use to access the Zingle web interface.
+
+There are two classes of users that have access to the API - "account" class users and "contact" class users.  A contact class user is unable to access many API resources and must include a x-zingle-contact-id header in most requests.  See the "User Authorization Classes" section of each API call's documentation for details. 
+
+You may check the current user's class by issuing a GET request to the API's root URL:
+
+```no-highlight
+GET https://api.zingle.me/v1/
+
+{
+    "status": {
+        "text": "OK",
+        "status_code": 200,
+        "description": null
+    },
+    "auth": {
+        "authorization_class": "contact"
+    }
+}
+```
 
 ## API Versioning
 The first part of the URI path specifies the API version you wish to access in the format `v{version_number}`. 
@@ -95,7 +114,7 @@ Each response will include a `status` object and (if successful) a `result` (`re
         ],
         "channel_types": [
           {
-              "id": "0e3d71ee-9518-4b9b-b95a-dea251829887",
+              "id": "0e3d71ee-9518-4b9b-b9a5a-dea251829887",
               "type_class": "PhoneNumber",
               "display_name": "Phone Number",
               "inbound_notification_url": null,

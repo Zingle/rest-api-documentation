@@ -4,6 +4,10 @@
     
 Returns a list of [Services] the current user (as specified by API credentials) has access to
 
+### User Authorization Classes 
+* account
+* contact
+
 ## Parameters
 ### URI Parameters
 Field | Wildcards | Description

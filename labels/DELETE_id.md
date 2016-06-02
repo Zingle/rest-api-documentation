@@ -4,6 +4,9 @@
     
 Delete a [Label].
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 None
 

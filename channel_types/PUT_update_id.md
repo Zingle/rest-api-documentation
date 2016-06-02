@@ -4,6 +4,9 @@
     
 Updates a [Channel Type]. Returns the updated object 
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ## Body Parameters
 Field | Data Type | Required | Description

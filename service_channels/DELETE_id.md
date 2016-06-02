@@ -4,6 +4,9 @@
     
 Deletes a [Service Channel]
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 None
 

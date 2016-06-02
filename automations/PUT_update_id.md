@@ -4,6 +4,9 @@
     
 Update the status of a single [Automation]. Returns the updated object.
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ### URI Parameters
 None

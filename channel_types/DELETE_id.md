@@ -4,6 +4,9 @@
     
 Deletes a [Channel Type].
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 None
 

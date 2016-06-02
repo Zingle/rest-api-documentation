@@ -4,6 +4,10 @@
     
 Returns a list of [Events] for the specified [Service]. 
 
+### User Authorization Classes 
+* account
+* contact (requires x-zingle-contact-id header)
+
 ## Parameters
 Field | Wildcards | Description
 --- | --- | ---

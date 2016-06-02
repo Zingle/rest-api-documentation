@@ -4,6 +4,9 @@
     
 Returns a single [Automation].
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 None
 

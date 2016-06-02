@@ -4,6 +4,9 @@
     
 Returns a list of [Channel Types]  belonging to the specified service
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 ### URI Parameters
 Field | Wildcards | Description

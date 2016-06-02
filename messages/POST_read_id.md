@@ -1,8 +1,13 @@
 # Mark Message Read
 
     POST services/:service_id/messages/:message_id/read
+    POST services/:service_id/messages/read
     
-Marks a [Message] as read. Returns the update Message.
+Marks one or more [Messages] as read. If a single message is updated, that message it returned.  If more than one message is updated, a 200 response is returned but no message data is returned.
+
+### User Authorization Classes 
+* account
+* contact (requires x-zingle-contact-id header)
 
 ## Parameters
 ### URI Parameters
@@ -10,6 +15,7 @@ None
 ### JSON Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
+message_ids | array| N | Array of message IDs to mark as read
 read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the current time will be used
 
 ## Example
@@ -61,6 +67,7 @@ read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the c
     "communication_direction": "outbound",
     "body_language_code": null,
     "triggered_by_user_id": null,
+    "triggered_by_user": {},
     "translated_body": null,
     "template_id": null,
     "translated_body_language_code": null

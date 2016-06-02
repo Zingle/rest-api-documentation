@@ -4,6 +4,9 @@
     
 Returns a single [Contact Custom Field].
 
+### User Authorization Classes 
+* account
+
 ## Parameters
 None
 
