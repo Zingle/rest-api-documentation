@@ -17,7 +17,7 @@ One of message_ids or contact_id is required
 Field | Data Type | Required | Description
 --- | --- | --- | ---
 message_ids | array of strings | N | Specify the message_ids to delete
-contact_id | array of strings | N | Delete all messages associated with the contact
+contact_id | string | N | Delete all messages associated with the contact
 
 ## Example
 ### Request
