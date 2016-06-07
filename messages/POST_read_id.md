@@ -5,6 +5,10 @@
     
 Marks one or more [Messages] as read. If a single message is updated, that message it returned.  If more than one message is updated, a 200 response is returned but no message data is returned.
 
+If the call is made under the account user authorization class and the URL services/:service_id/messages/read is used, the body of the message must contain message_ids.
+
+If the call is made under the contact user authorization class and the URL services/:service_id/messages/read is used, the body of the message may optionally contain message_ids. If message_ids is not included in the body, all of the contacts unread messages will be marked as read.
+
 ### User Authorization Classes 
 * account
 * contact (requires x-zingle-contact-id header)
