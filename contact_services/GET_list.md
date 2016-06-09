@@ -2,7 +2,7 @@
 
     GET contact_services
     
-Returns a list of Services and Contacts for the given search criteria.  If no channel filters are sent, this will return a list of all services the current API credentials have access to without any corresponding contact IDs.  
+Returns a list of Services and Contacts for the given search criteria.  If the returned service has no corresponding contact the contact_id will be null.
 
 ### User Authorization Classes 
 * account
