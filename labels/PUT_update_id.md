@@ -40,7 +40,8 @@ text_color |
       "display_name": "VIP Guests",
       "background_color": "#93623a",
       "text_color": "#ffffff",
-      "is_global": false
+      "is_global": false,
+      "is_automatic": false
     }
 }
 ```
