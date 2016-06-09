@@ -43,21 +43,24 @@ is_global | N | Filter by global status
           "display_name": "VIP",
           "background_color": "#93623a",
           "text_color": "#ffffff",
-          "is_global": false
+          "is_global": false,
+          "is_automatic": false
         },
         {
           "id": "0b431e20-ead7-4fb1-8ede-59e4554d031c",
           "display_name": "Hosts",
           "background_color": "#000000",
           "text_color": "#ffffff",
-          "is_global": false
+          "is_global": false,
+          "is_automatic": false
         },
         {
           "id": "d3701285-a000-4aea-ad59-2be6c48ad855",
           "display_name": "Checked In",
           "background_color": "#73423a",
           "text_color": "#ffffff",
-          "is_global": true
+          "is_global": true,
+          "is_automatic": true
         } 
     ]
 }
