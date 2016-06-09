@@ -28,7 +28,8 @@ None
       "display_name": "VIP",
       "background_color": "#93623a",
       "text_color": "#ffffff",
-      "is_global": false
+      "is_global": false,
+      "is_automatic": false
     }
 }
 ```
