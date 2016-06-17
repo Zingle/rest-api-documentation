@@ -3,7 +3,6 @@
 Field | Data Type | Description
 --- | --- | ---
 id | string | Unique identifier
-display_name | string | 
 communication_direction | string | 'inbound' or 'outbound'
 body_language_code | string | ISO 639-1 detected as the language of the body of the message
 translated_body | string | If the detected language of the body differs from the default language of the Service and the Service has the translation feature enabled, this field will contain the translated body
