@@ -27,6 +27,11 @@ GET https://api.zingle.me/v1/
         "description": null
     },
     "auth": {
+        "id": "4c11f5e3-50b6-4995-b471-b8ef0015488d",
+        "email": "joe@example.com",
+        "first_name": "Joe",
+        "last_name": "Smith",
+        "title": null,
         "authorization_class": "contact"
     }
 }
