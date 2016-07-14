@@ -13,7 +13,7 @@ Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
 contact_id | N | Filter by Contact
-event_type | N | Filter by event type
+event_type | N | Filter by event type. May be a string (for a single event type) or an array of event types
 contact_id | N | Filter by Contact
 triggered_by_user_id | N | Filter by triggering user
 automation_id | N | Filter by associated automation
