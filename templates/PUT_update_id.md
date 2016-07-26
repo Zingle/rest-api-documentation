@@ -14,7 +14,7 @@ None
 Field | Description
 --- | ---
 display_name | 
-type | 
+templateTypeCode | 
 body |  
 subject | 
 
@@ -39,7 +39,7 @@ subject |
     },
     "result": {
         "id": "13dfba6d-66d2-42e9-9290-3ea9dcf7f912",
-        "type": "general",
+        "templateTypeCode": "general",
         "display_name": "Welcome first-time guest",
         "subject": null,
         "body": "Welcome to the Zingle Hotel, {TITLE} {FIRST_NAME}.  We are sure you will enjoy your first stay with us.",

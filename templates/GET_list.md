@@ -36,7 +36,7 @@ None
     "result": [
         {
             "id": "13dfba6d-66d2-42e9-9290-2ea9dcf7f91d",
-            "type": "welcome",
+            "templateTypeCode": "welcome",
             "display_name": "VIP Welcome",
             "subject": null,
             "body": "Welcome back to the Zingle Hotel, {TITLE} {LAST_NAME}. We are very excited to have you back. Let us know if you need anything during your stay.",
@@ -44,7 +44,7 @@ None
         },
         {
             "id": "13dfba6d-66d2-42e9-9290-2ea9dcf7e91d",
-            "type": "general",
+            "templateTypeCode": "general",
             "display_name": "You're welcome",
             "subject": null,
             "body": "It's our pleasure, {TITLE} {LAST_NAME}.",
@@ -52,7 +52,7 @@ None
         },
         {
             "id": "13dfba6d-66d2-42e9-9290-2ed3dcf7f91d",
-            "type": "general",
+            "templateTypeCode": "general",
             "display_name": "Apology Escalation",
             "subject": null,
             "body": "We are very sorry, {TITLE} {LAST_NAME}. A manager will be in touch with you very shortly.",
