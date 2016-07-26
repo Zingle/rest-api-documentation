@@ -103,7 +103,9 @@ service_address | [Service Address] object.
             "country": "US",
             "postal_code": "92129"
         },
-        "settings": []
+        "settings": [],
+        "templates": [],
+        "automations": []        
       }    
 }
 ```
