@@ -27,7 +27,6 @@ None
       "id": "56c70519-6c70-40e5-904e-7652e54a07b6",
       "display_name": "First Name",
       "data_type": "string",
-      "replacement_variable": "first_name",
       "is_global": true,
       "options": []
     }    
