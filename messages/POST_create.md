@@ -21,6 +21,7 @@ recipients | array | Y | Array of recipient objects, each with an id and/or chan
 channel_type_ids | array | Y | An array of allowed channel_type_ids.  Currently only the 'Phone Number' channel type is permitted when the recipient_type is Label
 body | string | N | Message body
 attachments | array | N | Array of attachment objects, each with a content_type and base64 encoded content string
+template_id | string | N | The ID of the template of which the message should include
 
 ## Example
 ### Request
@@ -41,6 +42,7 @@ attachments | array | N | Array of attachment objects, each with a content_type 
     }],
     "channel_type_ids": ["0e3d71ee-9518-4b9b-b95a-dea251829887"],
     "body": "Thank you! Hello to you, too!",
+    "template_id": "9673c6cf-d5a7-4df6-bf9f-9c7f569f9de1",
     "attachments": [
         {
             "content_type": "image/gif",
