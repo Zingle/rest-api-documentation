@@ -12,6 +12,8 @@ channels | array | N | Array of [Service Channel] objects
 channel_types | array | Y | Array of [Channel Type] objects
 contact_labels | array | Y | Array of [Contact Labels]
 contact_custom_fields | array | Y | Array of [Contact Custom Fields]
+templates | array | Y | Array of [Templates]
+automations | array | Y | Array of [Automations]
 settings | array | N | Array of [Service Settings] objects representing settings on the Service
 service_address | object | N | [Service Address] object
 created_at | UNIX timestamp | Y | Date the Account was created
@@ -25,3 +27,5 @@ updated_at | UNIX timestamp | Y | Date the Account was last updated
 [Service Address]: /service_addresses/README.md
 [Contact Label]: /labels/README.md
 [Contact Custom Fields]: /contact_custom_fields/README.md
+[Templates]: /templates/README.md
+[Automations]: /automations/README.md
