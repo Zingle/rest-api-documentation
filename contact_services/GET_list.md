@@ -15,9 +15,9 @@ Pagination options | N | N | (see [Overview - Request Modifiers][])
 channel_value | N | N | Filter by contact channel values (must passed send channel_type_id when this is passed)
 channel_type_id | N | N | Filter by channel type (must passed send channel_value when this is passed)
 last_message_created_at | N | N | Filter by last message creation date
-filter_account_display_name | N | Y | Filter by the account display name
-filter_service_display_name | N | Y | Filter by the service display name
-filter_account_id           | N | Y | Filter by the account id
+account_display_name | N | Y | Filter by the account display name
+service_display_name | N | Y | Filter by the service display name
+account_id           | N | Y | Filter by the account id
  
 ### Sortable Fields
 * last_message_created_at
@@ -26,7 +26,7 @@ filter_account_id           | N | Y | Filter by the account id
 ## Example
 ### Request
 
-    GET https://api.zingle.me/v1/contact_services?channel_type_id=89d9e8b5-b225-474c-a83e-50cdb720e3b2&channel_value=%2B18585551212&filter_account_display_name=Luxury&filter_account_id=9e8b5
+    GET https://api.zingle.me/v1/contact_services?channel_type_id=89d9e8b5-b225-474c-a83e-50cdb720e3b2&channel_value=%2B18585551212&account_display_name=Luxury&account_id=19d9e8b5-b225-476c-a83e-50cdb720f989
 
 ### Response
 ``` json
