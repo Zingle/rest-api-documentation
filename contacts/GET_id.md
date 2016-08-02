@@ -81,6 +81,7 @@ None
             "custom_field": {
               "id": "56c70519-6c70-40e5-904e-7652e54a07b6",
               "display_name": "First Name",
+              "replacement_variable": "FIRST NAME",
               "is_global": true,
               "options": []
             }
@@ -91,6 +92,7 @@ None
             "custom_field": {
               "id": "29fdae7d-c5d7-4cd6-b2e4-cd52603ff577",
               "display_name": "Last Name",
+              "replacement_variable": "LAST NAME",
               "is_global": true,
               "options": []
             }
@@ -101,6 +103,7 @@ None
             "custom_field": {
               "id": "808cd25e-ca27-4fdb-a10c-d87032108f38",
               "display_name": "Title",
+              "replacement_variable": "TITLE",
               "is_global": true,
               "options": [
                 {
@@ -166,6 +169,7 @@ None
             "custom_field": {
               "id": "533a2ea5-ccae-4662-9a09-215aa0156a04",
               "display_name": "Verified",
+              "replacement_variable": "VERIFIED",
               "is_global": true,
               "options": []
             }
