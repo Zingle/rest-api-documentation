@@ -35,7 +35,7 @@ template_id | string | N | The ID of the template of which the event should incl
 {
     "event_type": "note",
     "contact_id": "1d06e84f-8152-4de7-983d-a2d88b73734a",
-    "body": "This guest is very thoughtful"
+    "body": "This guest is very thoughtful",
     "template_id": "9673c6cf-d5a7-4df6-bf9f-9c7f569f9de1"
 }
 ```
