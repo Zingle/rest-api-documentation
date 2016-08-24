@@ -32,6 +32,8 @@ None
     "display_name": "MOBILE",
     "is_default": false,
     "is_default_for_type": false,
+    "block_inbound": false,
+    "block_outbound": false,
     "channel_type": {
       "id": "0e3d71ee-9518-4b9b-b95a-dea251829887",
       "type_class": "PhoneNumber",

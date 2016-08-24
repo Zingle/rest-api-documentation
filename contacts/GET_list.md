@@ -75,6 +75,8 @@ search_message_bodies | N | When using the 'query' parameter, setting this to tr
             "country": "US",
             "is_default": false,
             "is_default_for_type": false,
+            "block_inbound": false,
+            "block_outbound": true,
             "channel_type": {
               "id": "0e3d71ee-9518-4b9b-b95a-dea251829887",
               "type_class": "PhoneNumber",
@@ -92,6 +94,8 @@ search_message_bodies | N | When using the 'query' parameter, setting this to tr
             "country": "US",
             "is_default": false,
             "is_default_for_type": false,
+            "block_inbound": false,
+            "block_outbound": true,
             "channel_type": {
               "id": "0e3d71ee-9518-4b9b-b95a-dea251829887",
               "type_class": "PhoneNumber",

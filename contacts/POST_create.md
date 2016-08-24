@@ -76,6 +76,8 @@ is_closed | boolean | N | Whether the Contact's conversation should be closed
             "formatted_value": "(858) 555-1212",
             "is_default": true,
             "is_default_for_type": true,
+            "block_inbound": false,
+            "block_outbound": true,
             "channel_type": {
                 "id": "23c70519-6c70-40e5-904e-7652e54a85fg",            
                 "type_class": "PhoneNumber",
