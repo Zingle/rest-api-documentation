@@ -1,6 +1,6 @@
 # Update Service Setting
 
-    POST services/:service_id/settings/:settings_field_id
+    POST services/:service_id/settings/:settings_field_code
     
 Updates the value of a [Service Setting] and returns the updates [Service] object
 
@@ -14,12 +14,11 @@ None
 Field | Required | Description
 --- | --- | ---
 value | Y | Required when setting a value for a [Settings Field] without options
-settings_field_option_id | Y | Required when setting a value for a [Settings Field] with options
 
 ## Example
 ### Request
 
-    POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1f/settings/ec760ab1-2679-4621-b4cf-003fa6d3ca4b
+    POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1f/settings/autoresponder_body
 
 #### Request Body    
 ```json
