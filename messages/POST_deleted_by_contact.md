@@ -1,6 +1,6 @@
 # Delete Message 
 
-    POST services/:service_id/messages/deleted_by_contact
+    POST services/:service_id/messages/deleted-by0contact
     
 Marks one or more [Messages] as deleted by a contact. This will delete the messages from the contact's perspective.  From the service's perspective there is no change. 
 
@@ -22,7 +22,7 @@ contact_id | string | N | Delete all messages associated with the contact
 ## Example
 ### Request
 
-    POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/messages/deleted_by_contact
+    POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/messages/deleted-by-contact
 ### Request Body 
 ```json
 {
