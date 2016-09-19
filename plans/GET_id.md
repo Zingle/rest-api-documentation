@@ -1,6 +1,6 @@
 # Plan
 
-    GET accounts/:account_id/plans/:plan_id
+    GET accounts/:account_id/plans/:plan_code
     
 Returns a single [Plan]
 
@@ -24,7 +24,6 @@ None
         "description": null
     },
     "result": {
-          "id": "a0ec6d49-caa8-4bd2-ae15-acb529a2ca98",
           "code": "zingle_basic",
           "monthly_or_unit_price": 55,
           "term_months": 1,
