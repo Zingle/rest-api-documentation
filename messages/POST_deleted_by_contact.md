@@ -1,6 +1,6 @@
 # Delete Message 
 
-    POST services/:service_id/messages/deleted-by0contact
+    POST services/:service_id/messages/deleted-by-contact
     
 Marks one or more [Messages] as deleted by a contact. This will delete the messages from the contact's perspective.  From the service's perspective there is no change. 
 
