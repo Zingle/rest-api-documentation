@@ -2,7 +2,7 @@
 
 Field | Data Type | Description
 --- | --- | ---
-id | string | Unique identifier
-display_name | string | 
-value | string | 
+id | string | Deprecated - same as value
+display_name | string | Display name of option
+value | string | Option value
 sort_order | integer | Sort order for this option
