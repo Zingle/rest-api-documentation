@@ -11,11 +11,11 @@ Updates a [Channel Type]. Returns the updated object
 ## Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
-display_name | string | N | The display name of the channel type being created
+display_name | string | N | deprecated
 inbound_notification_url | string | N | URL to call whenever an inbound message is created using this Channel Type
 outbound_notification_url | string | N | URL to call whenever an outbound message is created using this Channel Type
-allow_communications | boolean | N | Whether this Channel Type allows communications. Defaults to true.
-priority | integer | N | The default priority of this channel type (when sending group messages)
+allow_communications | boolean | N | deprecated
+priority | integer | N | deprecated
 
 ## Example
 ### Request
@@ -41,7 +41,7 @@ priority | integer | N | The default priority of this channel type (when sending
     "result": {
         "id": "0e3d71ee-9518-4b9b-b95a-dea251829687",
         "type_class": "UserDefinedChannel",
-        "display_name": "Customer Chat ID",
+        "display_name": "Chat",
         "inbound_notification_url": "https://www.myexample.com/notifiers/inbound-chat-notice",
         "outbound_notification_url": "https://www.myexample.com/notifiers/outbound-chat-notice",
         "allow_communications": true,
