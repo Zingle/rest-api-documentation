@@ -13,7 +13,7 @@ Field | Wildcards | Description
 --- | --- | ---
 Pagination options | N | (see [Overview - Request Modifiers][])
 display_name | Y | Filter by display name
-is_global | N | Filter by global status
+is_global | N | deprecated
 
 ### Sortable Fields 
 * display_name
