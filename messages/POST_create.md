@@ -22,6 +22,7 @@ channel_type_ids | array | Y | An array of allowed channel_type_ids.  Currently 
 body | string | N | Message body
 attachments | array | N | Array of attachment objects, each with a content_type and base64 encoded content string
 template_id | string | N | The ID of the template of which the message should include
+delay_minutes | integer | N | The number of minutes the message should be delayed for
 
 ## Example
 ### Request
@@ -43,6 +44,7 @@ template_id | string | N | The ID of the template of which the message should in
     "channel_type_ids": ["0e3d71ee-9518-4b9b-b95a-dea251829887"],
     "body": "Thank you! Hello to you, too!",
     "template_id": "9673c6cf-d5a7-4df6-bf9f-9c7f569f9de1",
+    "delay_minutes": 30
     "attachments": [
         {
             "content_type": "image/gif",
