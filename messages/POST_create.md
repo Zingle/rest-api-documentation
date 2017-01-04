@@ -44,7 +44,7 @@ delay_minutes | integer | N | The number of minutes the message should be delaye
     "channel_type_ids": ["0e3d71ee-9518-4b9b-b95a-dea251829887"],
     "body": "Thank you! Hello to you, too!",
     "template_id": "9673c6cf-d5a7-4df6-bf9f-9c7f569f9de1",
-    "delay_minutes": 30
+    "delay_minutes": 30,
     "attachments": [
         {
             "content_type": "image/gif",
