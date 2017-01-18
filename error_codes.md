@@ -15,7 +15,10 @@ Error Code | Description | Explanation
 2609 | Invalid sort direction specified. Valid sort directions are 'asc' and 'desc'. | 
 2610 | Invalid phone number search pattern.  Valid search patterns contain only numbers and asterisks | 
 2611 | Invalid page_size requested.  Valid page_sizes must be greater than 0 and less than 1000 | 
-2612 | Invalid value specified for is_global.  Value must be 'true' or 'false' | 
+2612 | Invalid value specified for is_global.  Value must be 'true' or 'false' |
+2613 | You must include the HTTP header x-zingle-contact-id for this request
+2614 | You need account-class access to use this resource
+2615 | The contact specified in the x-zingle-contact-id header does not have access to the requested resource 
 2700 | Account not found | The account you're trying to access doesn't exist
 2800 | Service not found | The service you're trying to access doesn't exist
 2801 | Invalid service plan | The service plan you've speficified isn't valid
@@ -53,7 +56,12 @@ Error Code | Description | Explanation
 3005 | Only 'survey' and 'custom' automations may be triggered manually | 
 3006 | Unable to trigger inactive automation | 
 3007 | Contact is already in an automation | 
-3008 | Label not attached to contact. Nothing to detach. | 
+3008 | Label not attached to contact. Nothing to detach. |
+3009 | Invalid value specified for 'Is Closed'. Value must be 'true' or 'false'
+3010 | Channels must be an array of channel objects
+3011 | First name, last name, title, email addresses, and phone numbers are not editable on locked contacts
+3012 | You can not use the return_existing option when specifying zero or multiple channels
+3013 | Workflows cannot be triggered for email channels 
 3100 | Contact channel not found | 
 3101 | Contact channel missing channel type | 
 3102 | Contact channel missing value | 
@@ -126,3 +134,14 @@ Error Code | Description | Explanation
 4003 | priority must be an integer | 
 4004 | The supplied notification URL is not valid | 
 4005 | You can not modify a global channel type | 
+4006 | Channel type creation has been removed from the API.  Use the 'chat' channel type for all IP communication
+4007 | Channel type deletion has been removed from the API.  Use the 'chat' channel type for all IP communication
+5000 | Channel filter must include both channel_type_id and channel_value
+6000 | service_ids is required and must be an array of service IDs
+6001 | operating_system must be ios, android, or windows
+6002 | device_identifier is required
+7000 | Only message and note event type creation is allowed
+7001 | contact_id is required
+7002 | Contact not found
+7003 | Event not found
+7004 | The note body can not be blank
