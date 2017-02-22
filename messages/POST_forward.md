@@ -22,7 +22,7 @@ room | string | N | Required when recipient_type is hotsos. Room number to creat
 ## Example
 ### Request
 
-    POST https://api.zingle.me/v1/services/1d06e84f-8152-4de7-983d-a2d88b73734a/messages
+    POST https://api.zingle.me/v1/services/1d06e84f-8152-4de7-983d-a2d88b73734a/messages/6eccd001-eac4-44a8-841f-fa60896deeca/forward
 #### Request Body
 ```json
 {
