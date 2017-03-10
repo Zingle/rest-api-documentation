@@ -13,6 +13,7 @@ last_message | object | Object containing id, body, and created_at for last mess
 channels | array | Array of [Contact Channels]
 custom_field_values | array | Array of [Custom Field Values]
 labels | array | Array of [Labels]
+avatar_uri | string | URI of the contact's avatar
 created_at | UNIX timestamp | Date the Account was created
 updated_at | UNIX timestamp | Date the Account was last updated
 
