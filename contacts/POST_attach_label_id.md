@@ -31,6 +31,7 @@ None
     "is_starred": true,
     "is_closed": false,
     "locked_by_source": null,    
+    "avatar_uri": null,        
     "created_at": 1442877113,
     "updated_at": 1442877113,
     "last_message": {
