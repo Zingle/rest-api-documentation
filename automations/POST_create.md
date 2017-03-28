@@ -1,6 +1,6 @@
 # Create Automation
 
-    POST services/:service_id/automations/:automation_id
+    POST services/:service_id/automations
     
 Creates a new [Automation] for the specified Service and returns the newly-created object
 
@@ -23,7 +23,7 @@ actions | array | Y | Actions that occur when automation runs
 ## Example
 ### Request
 
-    POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/automations/3d4f772f-d2c4-4dc1-98d0-6f23ba072758
+    POST https://api.zingle.me/v1/services/aff7bc93-6e28-4e70-8770-defa35cdfc1b/automations
 
 #### Request Body
 ```json
