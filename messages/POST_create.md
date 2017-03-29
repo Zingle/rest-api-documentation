@@ -23,6 +23,7 @@ body | string | N | Message body
 attachments | array | N | Array of attachment objects, each with a content_type and base64 encoded content string
 template_id | string | N | The ID of the template of which the message should include
 delay_minutes | integer | N | The number of minutes the message should be delayed for
+uuid | string | N | A created unique identifier to prevent the processing of multiple of the same message
 
 ## Example
 ### Request
@@ -45,6 +46,7 @@ delay_minutes | integer | N | The number of minutes the message should be delaye
     "body": "Thank you! Hello to you, too!",
     "template_id": "9673c6cf-d5a7-4df6-bf9f-9c7f569f9de1",
     "delay_minutes": 30,
+    "uuid": "1g4c65eva-1938-1l3c-k21q-osj294750173"
     "attachments": [
         {
             "content_type": "image/gif",
