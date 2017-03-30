@@ -46,7 +46,7 @@ uuid | string | N | A created unique identifier to prevent the processing of mul
     "body": "Thank you! Hello to you, too!",
     "template_id": "9673c6cf-d5a7-4df6-bf9f-9c7f569f9de1",
     "delay_minutes": 30,
-    "uuid": "1g4c65eva-1938-1l3c-k21q-osj294750173"
+    "uuid": "1g4c65eva-1938-1l3c-k21q-osj294750173",
     "attachments": [
         {
             "content_type": "image/gif",
