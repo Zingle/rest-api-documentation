@@ -33,7 +33,8 @@ Error Code | Description | Explanation
 2810 | Missing postal code | 
 2811 | Missing city | 
 2812 | Invalid account specified for service | 
-2813 | Missing country in service_address | 
+2813 | Missing country in service_address |
+2814 | You lack the privileges to manage services and features |
 2900 | Service channel not found | 
 2901 | channel_type_id required | 
 2902 | Channels of this type can not be assigned to services | 
@@ -57,11 +58,20 @@ Error Code | Description | Explanation
 3006 | Unable to trigger inactive automation | 
 3007 | Contact is already in an automation | 
 3008 | Label not attached to contact. Nothing to detach. |
-3009 | Invalid value specified for 'Is Closed'. Value must be 'true' or 'false'
-3010 | Channels must be an array of channel objects
-3011 | First name, last name, title, email addresses, and phone numbers are not editable on locked contacts
-3012 | You can not use the return_existing option when specifying zero or multiple channels
-3013 | Workflows cannot be triggered for email channels 
+3009 | Invalid value specified for 'Is Closed'. Value must be 'true' or 'false' |
+3010 | Channels must be an array of channel objects |
+3011 | First name, last name, title, email addresses, and phone numbers are not editable on locked contacts |
+3012 | You can not use the return_existing option when specifying zero or multiple channels |
+3013 | Workflows cannot be triggered for email channels |
+3014 | You lack the privileges to close a conversation |
+3015 | You lack the privileges to confirm a conversation |
+3016 | You lack the privileges to create a contact |
+3017 | You lack the privileges to edit a contact |
+3018 | You lack the privileges to execute a workflow |
+3019 | Missing value for content_type |
+3020 | Invalid value specified for content type |
+3021 | Base64 encoding is invalid |
+3022 | Base64 encoding is missing |
 3100 | Contact channel not found | 
 3101 | Contact channel missing channel type | 
 3102 | Contact channel missing value | 
@@ -70,12 +80,14 @@ Error Code | Description | Explanation
 3105 | Contact channel display name already in use for this contact | 
 3106 | Contact channel display name must be 'HOME','BUSINESS', or 'MOBILE' | 
 3107 | Service channel format is not valid for the specified type | 
+3108 | You lack the privileges to block messages
 3200 | Custom field not found | 
 3201 | Unable to modify global custom field | 
 3202 | Custom field display name already in use | 
 3203 | Custom field missing display name | 
 3204 | Custom field option missing value | 
 3205 | Custom field option missing display name | 
+3206 | You lack the privileges to manage Contact Fields
 3300 | Template not found | 
 3301 | Unable to modify global template | 
 3302 | Invalid template type specified | 
@@ -83,6 +95,7 @@ Error Code | Description | Explanation
 3304 | Template missing display name | 
 3305 | Template missing body | 
 3306 | Template missing type | 
+3307 | You lack the privileges to manage templates |
 3400 | Label not found | 
 3401 | Unable to modify global label | 
 3402 | Label display name is already in use | 
@@ -90,6 +103,7 @@ Error Code | Description | Explanation
 3404 | Label missing background color | 
 3405 | Label missing text color | 
 3406 | Invalid color specified.  Valid colors must be in hexadecimal format | 
+3407 | You lack the privileges to manage Labels |
 3500 | Automation not found | 
 3501 | Invalid automation status specified | 
 3600 | Message not found | 
@@ -118,7 +132,21 @@ Error Code | Description | Explanation
 3623 | Attachments are not permitted when sending to labels | 
 3624 | Invalid content_type | 
 3625 | Messages can't be sent from the specified sender type to the specified recipient type using the specified channel type | 
-3626 | Sending to Labels only supports SMS messages at this time | 
+3626 | Sending to Labels only supports SMS messages at this time |
+3627 | Message_ids must be a non-empty array of strings |
+3628 | Either message_ids or contact_id must be specified |
+3629 | When using a custom channel type, no service channel value should be specified |
+3630 | Unable to store attachments.  If specifying a URL, make sure it is valid and that the files are publicly accessible |
+3631 | Bulk messages cannot be marked as read in the context of a single message request |
+3632 | Delay minutes must be a positive integer |
+3633 | Recipient_type is required and must be one of: 'sms', 'email', 'service','printer', or 'hotsos' |
+3634 | You lack the privileges to forward a message to an email address |
+3635 | You lack the privileges to forward a message to HotSOS |
+3636 | You lack the privileges to forward a message to sms |
+3637 | You lack the privileges to send an MMS |
+3638 | You lack the privileges to send multiple messages |
+3639 | The same HotSOS issue has already been opened for the provided room |
+3640 | The HotSOS issue is invalid |
 3700 | Custom field value missing ID | 
 3701 | Custom field not found | 
 3702 | Custom field value missing option ID | 
@@ -134,14 +162,28 @@ Error Code | Description | Explanation
 4003 | priority must be an integer | 
 4004 | The supplied notification URL is not valid | 
 4005 | You can not modify a global channel type | 
-4006 | Channel type creation has been removed from the API.  Use the 'chat' channel type for all IP communication
-4007 | Channel type deletion has been removed from the API.  Use the 'chat' channel type for all IP communication
-5000 | Channel filter must include both channel_type_id and channel_value
-6000 | service_ids is required and must be an array of service IDs
-6001 | operating_system must be ios, android, or windows
-6002 | device_identifier is required
-7000 | Only message and note event type creation is allowed
-7001 | contact_id is required
-7002 | Contact not found
-7003 | Event not found
-7004 | The note body can not be blank
+4006 | Channel type creation has been removed from the API.  Use the 'chat' channel type for all IP communication |
+4007 | Channel type deletion has been removed from the API.  Use the 'chat' channel type for all IP communication |
+4008 | You lack the privileges to manage channel types |
+4100 | Missing value for content_type | 
+4101 | Invalid value for content_type |
+4102 | Base64 encoding is missing |
+4103 | Base64 encoding is invalid |
+5000 | Channel filter must include both channel_type_id and channel_value |
+6000 | service_ids is required and must be an array of service IDs |
+6001 | operating_system must be ios, android, or windows |
+6002 | device_identifier is required |
+7000 | Only message and note event type creation is allowed |
+7001 | contact_id is required |
+7002 | Contact not found |
+7003 | Event not found |
+7004 | The note body can not be blank |
+7005 | You lack the privileges to create a note |
+8000 | Contact group not found |
+8001 | Contact group missing display name |
+8002 | Invalid boolean operator specified |
+8003 | Contact group missing conditions |
+8004 | Invalid comparison method specified |
+8005 | Invalid comparison source specified | 
+8006 | Contact group display name is already being used |
+
