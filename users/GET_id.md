@@ -13,7 +13,7 @@ None
 ## Example
 ### Request
 
-    GET https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/users/7c9j2933s-d8n3-8xn3-30m4-9d33bv613579
+    GET https://api.zingle.me/v1/accounts/aff8bc93-6e28-4e70-8770-defa35cdfc1b/users/7c9j2933s-d8n3-8xn3-30m4-9d33bv613579
 
 ### Response
 ``` json
