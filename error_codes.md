@@ -179,6 +179,8 @@ Error Code | Description | Explanation
 7003 | Event not found |
 7004 | The note body can not be blank |
 7005 | You lack the privileges to create a note |
+7006 | intent_action_type is required |
+7007 | Invalid intent_action_type specified |
 8000 | Contact group not found |
 8001 | Contact group missing display name |
 8002 | Invalid boolean operator specified |
