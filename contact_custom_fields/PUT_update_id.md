@@ -25,6 +25,7 @@ options | array | N | Array of [Field Options]
 ```json 
 {
   "display_name": "Mom's Favorite Flower",
+  "code": "moms_favorite_flower",
   "options": [
     {
         "display_name": "Tulips",
