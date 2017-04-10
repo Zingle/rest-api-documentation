@@ -22,10 +22,11 @@ options | array | N | Array of [Field Options]
 #### Request Body
 ```json 
 {
-  "display_name": "Favorite Flower",
+  "display_name": "Favorite Flower"
+  "code": "display_name",  
   "options": [
     {
-        "display_name": "Tulips",
+        "display_name": "Tulips",       
         "value": "tulip",
         "sort_order": 0
     },
