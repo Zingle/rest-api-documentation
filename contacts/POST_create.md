@@ -93,6 +93,7 @@ is_closed | boolean | N | Whether the Contact's conversation should be closed
         "custom_field": {
           "id": "56c70519-6c70-40e5-904e-7652e54a07b6",
           "display_name": "First Name",
+          "code": "first_name",
           "replacement_variable": "FIRST NAME",
           "is_global": true,
           "options": []
