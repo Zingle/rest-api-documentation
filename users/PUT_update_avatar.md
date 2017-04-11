@@ -1,6 +1,6 @@
-# Update Contact Avatar
+# Update User Avatar
 
-    PUT account/:account_id/users/:user_id/avatar
+    PUT accounts/:account_id/users/:user_id/avatar
     
 Updates a [User]'s avatar
 
