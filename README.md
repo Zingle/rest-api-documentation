@@ -157,6 +157,7 @@ Request modifiers may be included in the request URI query string. The following
 * `page_size` The number of records to return per page (default 10, max 1000)
 * `sort_field` field to sort the results by
 * `sort_direction` asc (default) or desc
+* `sort_fields` Specify multiple fields to sort by seperated by commas.  Optionally append with a space and a direction e.g. "event_id asc"
 
 
 ## Record Filtering
