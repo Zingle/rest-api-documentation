@@ -18,6 +18,9 @@ recipient | object |  Correspondent object representing the  recipient
 attachments | array | Array of string URIs where file attachments may be downloaded
 created_at | UNIX timestamp | Date the Message was created
 read_at | UNIX timestamp | Date the Message was marked as read by the recipient
+is_delayed | boolean | True if a message is delayed and has not been sent yet
+execute_at | UNIX timestamp | Date when a delayed message is scheduled to be sent
+executed_at | UNIX timestamp | Date when a delayed message was sent
 
 
 [Template]: /templates/README.md
