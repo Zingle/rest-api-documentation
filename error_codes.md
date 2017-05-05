@@ -88,6 +88,7 @@ Error Code | Description | Explanation
 3204 | Custom field option missing value | 
 3205 | Custom field option missing display name | 
 3206 | You lack the privileges to manage Contact Fields
+3207 | Custom Field cannot be deleted. It is currently being used by an automation |
 3300 | Template not found | 
 3301 | Unable to modify global template | 
 3302 | Invalid template type specified | 
@@ -104,6 +105,7 @@ Error Code | Description | Explanation
 3405 | Label missing text color | 
 3406 | Invalid color specified.  Valid colors must be in hexadecimal format | 
 3407 | You lack the privileges to manage Labels |
+3408 | Label cannot be deleted. It is currently being used by an automation |
 3500 | Automation not found | 
 3501 | Invalid automation status specified | 
 3600 | Message not found | 
@@ -188,4 +190,3 @@ Error Code | Description | Explanation
 8004 | Invalid comparison method specified |
 8005 | Invalid comparison source specified | 
 8006 | Contact group display name is already being used |
-
