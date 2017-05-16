@@ -53,7 +53,7 @@ actions | array | Y | Actions that occur when automation runs
       "id": "86f8708f-df07-429b-bf4e-0875c9a67f5f",
       "type": "label_event",
       "properties": {
-        "field": "contact.label.1",
+        "field": "3801e007-3479-464e-9d89-e124bffa35ea",
         "event_type": null,
         "delay": 0
       }
@@ -62,7 +62,7 @@ actions | array | Y | Actions that occur when automation runs
       "id": "587f8ff7-2e6a-425c-a1c7-20ad77524a8f",
       "type": "contact_field_event",
       "properties": {
-        "contact_field_id": 1,
+        "field": "857305be-c77b-4c96-bfd3-47f0b8731e3e",
         "event_type": "value_set",
         "delay": 0
       }
@@ -161,7 +161,7 @@ actions | array | Y | Actions that occur when automation runs
       "type": "contact_field_value_set",
       "order": "7",
       "properties": {
-        "contact_field_id": "1"
+        "field": "857305be-c77b-4c96-bfd3-47f0b8731e3e"
       },
       "conditions": []
     },
@@ -170,7 +170,7 @@ actions | array | Y | Actions that occur when automation runs
       "type": "contact_field_value_remove",
       "order": "8",
       "properties": {
-        "contact_field_id": "1"
+        "field": "857305be-c77b-4c96-bfd3-47f0b8731e3e"
       },
       "conditions": []
     },
@@ -206,7 +206,7 @@ actions | array | Y | Actions that occur when automation runs
       "order": "12",
       "properties": {
         "body": "What is your room number??",
-        "contact_field_id": "1"
+        "field": "857305be-c77b-4c96-bfd3-47f0b8731e3e"
       },
       "conditions": []
     },
@@ -291,7 +291,7 @@ actions | array | Y | Actions that occur when automation runs
       "id": "86f8708f-df07-429b-bf4e-0875c9a67f5f",
       "type": "label_event",
       "properties": {
-        "field": "contact.label.1",
+        "field": "3801e007-3479-464e-9d89-e124bffa35ea",
         "event_type": null,
         "delay": 0
       }
@@ -300,7 +300,7 @@ actions | array | Y | Actions that occur when automation runs
       "id": "587f8ff7-2e6a-425c-a1c7-20ad77524a8f",
       "type": "contact_field_event",
       "properties": {
-        "contact_field_id": 1,
+        "field": "857305be-c77b-4c96-bfd3-47f0b8731e3e",
         "event_type": "value_set",
         "delay": 0
       }
@@ -399,7 +399,7 @@ actions | array | Y | Actions that occur when automation runs
       "type": "contact_field_value_set",
       "order": "7",
       "properties": {
-        "contact_field_id": "1"
+        "field": "857305be-c77b-4c96-bfd3-47f0b8731e3e"
       },
       "conditions": []
     },
@@ -408,7 +408,7 @@ actions | array | Y | Actions that occur when automation runs
       "type": "contact_field_value_remove",
       "order": "8",
       "properties": {
-        "contact_field_id": "1"
+        "field": "857305be-c77b-4c96-bfd3-47f0b8731e3e"
       },
       "conditions": []
     },
@@ -444,7 +444,7 @@ actions | array | Y | Actions that occur when automation runs
       "order": "12",
       "properties": {
         "body": "What is your room number??",
-        "contact_field_id": "1"
+        "field": "857305be-c77b-4c96-bfd3-47f0b8731e3e"
       },
       "conditions": []
     },
