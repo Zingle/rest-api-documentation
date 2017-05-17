@@ -30,6 +30,7 @@ None
         "event_type": "workflow_started",
         "body": null,
         "created_at": 1442249019,
+        "updated_at": 1442249019,
         "triggered_by_user": {},
         "automation": {
           "id": "33d64c8a-8ff1-48ea-a209-a2d240918e44",
