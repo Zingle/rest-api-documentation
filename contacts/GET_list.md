@@ -31,6 +31,8 @@ search_message_bodies | N | When using the 'query' parameter, setting this to tr
 * is_starred
 * is_closed
 * locked_by_source
+* last_name
+* first_name
 
 ## Example
 ### Request
