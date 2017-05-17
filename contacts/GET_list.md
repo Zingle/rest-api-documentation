@@ -30,6 +30,7 @@ search_message_bodies | N | When using the 'query' parameter, setting this to tr
 * is_confirmed
 * is_starred
 * is_closed
+* last_message_created_at
 * locked_by_source
 * last_name
 * first_name

@@ -15,6 +15,7 @@ Pagination options | N | (see [Overview - Request Modifiers][])
 ### Sortable fields
 * display_name
 * type
+* created_at
 
 ## Example
 ### Request

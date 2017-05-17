@@ -26,10 +26,16 @@ contact_channel_id | N | Filter by contact channel (only applies to message even
 * created_at
 * contact_id
 * event_type
+* created_at
 * read_at
 * communication_direction
 * triggered_by_user_id,
 * automation_id
+* body
+* is_delayed
+* execute_at
+* executed_at
+* updated_at
 
 
 ## Example

@@ -23,6 +23,10 @@ created_at | N | Filter by creation date (may use greater_than() and less_than()
 * created_at
 * read_at
 * communication_direction
+* is_delayed
+* execute_at
+* executed_at
+* updated_at
 
 
 ## Example
