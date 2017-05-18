@@ -40,16 +40,18 @@ Pagination options | N | (see [Overview - Request Modifiers][])
         {
           "id": "3d4f772f-d2c4-4dc1-98d0-6f23ba072758",
           "display_name": "5-Minute Escalation",
-          "is_global": true,
           "type": "Escalation",
-          "status": "active"
+          "status": "active",
+          "is_global": true,
+          "created_at": 1442249019,
         },
         {
           "id": "46ab325e-6360-4d7b-aedc-67b90aa64e5e",
           "display_name": "10-Minute Escalation",
-          "is_global": false,
           "type": "Escalation",
           "status": "inactive"
+          "is_global": false,
+          "created_at": 1442249105
         } 
     ]
 }
