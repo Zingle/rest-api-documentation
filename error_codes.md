@@ -108,6 +108,19 @@ Error Code | Description | Explanation
 3408 | Label cannot be deleted. It is currently being used by an automation |
 3500 | Automation not found | 
 3501 | Invalid automation status specified | 
+3502 | You lack the privileges to manage automations
+3503 | Workflow display name is required and can not be empty
+3504 | Workflow triggers must be specified and must be an array
+3505 | Workflow actions must be specified and must be an array
+3506 | Workflow conditions must be specified and must be an array
+3507 | Workflow timeout minutes is required
+3508 | Workflow timeout actions must be specified and must be an array
+3509 | Workflow trigger properties must be specified
+3510 | Workflow action properties must be specified
+3511 | A label specified in a trigger was not found for this service
+3512 | A custom field specified in a trigger was not found for this service
+3513 | A label specified in an action was not found for this service
+3514 | A custom field specified in an action was not found for this service
 3600 | Message not found | 
 3601 | Message 'read at' date invalid. Valid dates must be in UNIX timestamp format | 
 3602 | Sending a message requires a body or attachments to be specified | 
