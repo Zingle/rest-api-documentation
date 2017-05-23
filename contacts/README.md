@@ -8,14 +8,14 @@ is_messageable | boolean | Whether the contact has a valid channel that is not b
 is_confirmed | boolean | Whether the conversation associated with this Contact is currently marked as 'Confirmed'
 is_starred | boolean | Whether the conversation associated with this Contact is currently marked as 'Starred'
 is_closed | boolean | Whether the conversation associated with this Contact is currently closed
+avatar_uri | string | URI of the contact's avatar
+created_at | UNIX timestamp | Date the Account was created
+updated_at | UNIX timestamp | Date the Account was last updated
 locked_by_source | string | If the contact was created or updated by an external system, which system will be indicated in this field. Locked contacts can not have their first name, last name, title, phone numbers, nor email addresses edited.
 last_message | object | Object containing id, body, and created_at for last message sent to or received from the contact
 channels | array | Array of [Contact Channels]
 custom_field_values | array | Array of [Custom Field Values]
 labels | array | Array of [Labels]
-avatar_uri | string | URI of the contact's avatar
-created_at | UNIX timestamp | Date the Account was created
-updated_at | UNIX timestamp | Date the Account was last updated
 
 
 
