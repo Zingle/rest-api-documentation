@@ -52,19 +52,20 @@ search_message_bodies | N | When using the 'query' parameter, setting this to tr
         "page": 1,
         "page_size": 10,
         "total_pages": 1,
-        "total_records": 2
+        "total_records": 1
     },
     "result": [
     {
         "id": "89d9e8b5-b225-476c-a83e-50cdb720e3b1",
         "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
+        "is_messageable": true,
         "is_confirmed": true,
         "is_starred": false,
         "is_closed": false,
-        "locked_by_source": null,
         "avatar_uri": null,            
         "created_at": 1442352326,
         "updated_at": 1442621196,
+        "locked_by_source": null,
         "last_message": {
           "id": null,
           "body": null,
