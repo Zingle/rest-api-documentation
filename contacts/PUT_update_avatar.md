@@ -42,14 +42,14 @@ base64 | string | Y | A base64 encoding of the image to be uploaded
   "result": {
     "id": "f119fe3b-67e2-4b59-b605-5586616978d0",
     "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
+    "is_messageable": true,
     "is_confirmed": true,
     "is_starred": true,
     "is_closed": false,
     "avatar_uri": "https://6407d4d3a30bb891aafe-345656863e41d74beb2a8fef19bcbe4a.ssl.cf1.rackcdn.com/edd00e80-0d6d-43b3-96df-b03f451a049g.png",
-    "locked_by_source": null,    
-    "avatar_uri": null,        
     "created_at": 1442877113,
     "updated_at": 1442877113,
+    "locked_by_source": null,    
     "last_message": {
       "id": null,
       "body": null,
