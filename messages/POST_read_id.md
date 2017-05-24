@@ -43,13 +43,19 @@ read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the c
     "result": {
     "body": "3\nThank you! Your order has been confirmed",
     "id": "739094d3-191e-4c49-b208-a9be816c39b0",
+    "template_id": null,
     "created_at": 1442881911,
+    "updated_at": 1442881911,
     "read_at": 1442881911,
+    "deleted_by_contact_at": null,
+    "triggered_by_user_id": null,
+    "triggered_by_user": {},
     "sender_type": "service",
     "sender": {
       "id": "1d06e84f-8152-4de7-983d-a2d88b73734a",
       "channel": {
-        "type_class": null,
+        "id": "9cb3f0a0-7e88-431f-8941-a34787939434"
+        "type_class": "PhoneNumber",
         "display_name": null,
         "value": "+17602784396",
         "formatted_value": "(760) 278-4396"
@@ -69,12 +75,13 @@ read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the c
       "https://6407d4d3a30bb891aafe-345656863e41d74beb2a8fef19bcbe4a.ssl.cf1.rackcdn.com/attachment_5713.gif"
     ],
     "communication_direction": "outbound",
-    "body_language_code": null,
-    "triggered_by_user_id": null,
-    "triggered_by_user": {},
+    "attachments": [],
+    "is_delayed": false,
+    "execute_at": 0,
+    "executed_at": null,
+    "translated_body_language_code": null,
     "translated_body": null,
-    "template_id": null,
-    "translated_body_language_code": null
+    "body_language_code": null
   }
 }
 ```
