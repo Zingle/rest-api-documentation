@@ -38,7 +38,8 @@ Pagination options | N | (see [Overview - Request Modifiers][])
     },
     "result": [
         {
-          "id": "3d4f772f-d2c4-4dc1-98d0-6f23ba072758",
+          "id": 29,
+          "uuid": "3d4f772f-d2c4-4dc1-98d0-6f23ba072758",
           "display_name": "5-Minute Escalation",
           "type": "Escalation",
           "status": "active",
