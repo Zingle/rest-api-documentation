@@ -54,7 +54,7 @@ read_at | UNIX timestamp| N | Specify the read_at timestamp.  If ommitted, the c
     "sender": {
       "id": "1d06e84f-8152-4de7-983d-a2d88b73734a",
       "channel": {
-        "id": "9cb3f0a0-7e88-431f-8941-a34787939434"
+        "id": "9cb3f0a0-7e88-431f-8941-a34787939434",
         "type_class": "PhoneNumber",
         "display_name": null,
         "value": "+17602784396",
