@@ -31,7 +31,7 @@ None
         "created_at": 1442249019,
         "updated_at": 1442249019,
         "read_at": 1442531686,
-        "deleted_by_contact_at: null,
+        "deleted_by_contact_at": null,
         "triggered_by_user_id": null,
         "triggered_by_user": {},
         "sender_type": "contact",
