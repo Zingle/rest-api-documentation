@@ -27,6 +27,8 @@ None
       "id": 971,
       "uuid": "0f0a9170-4e49-47ee-9e18-71d2a093df43",
       "display_name": "My Zing",
+      "type": "Custom Automation",
+      "is_global": false,
       "status": "active",
       "triggers": [
         {
