@@ -15,7 +15,6 @@ Field | Data Type | Required | Description
 --- | --- | --- | ---
 display_name | string | Y | The desired name of the automation
 timeout_minutes | int | Y | The number of minutes the automation should be delayed
-conditions | array | Y | Conditions required for the automation to run
 triggers | array | Y | Triggers the automation
 timeout_response | object | Y | Amount of minutes until the automation times out and related message body
 actions | array | Y | Actions that occur when automation runs
