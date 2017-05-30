@@ -38,16 +38,13 @@ Pagination options | N | (see [Overview - Request Modifiers][])
   },
   "result": [
     {
-      "id": "9153b558-c6f1-4254-a35f-af47b4bae7dc",
+      "id": 951,
+      "uuid": "9153b558-c6f1-4254-a35f-af47b4bae7dc",
       "display_name": "My Zing",
       "type": "Custom Automation",
       "status": "inactive",
       "is_global": false,
-      "created_at": {
-        "date": "2017-05-17 23:56:56.000000",
-        "timezone_type": 3,
-        "timezone": "UTC"
-      },
+      "created_at": 1495846543,
       "triggers": [
         {
           "id": "d89c6e3d-5525-4528-88ff-885cbfacbef2",
