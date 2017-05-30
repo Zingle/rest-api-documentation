@@ -23,13 +23,12 @@ actions | array | Y | Actions that occur when automation runs
 ## Example
 ### Request
 
-    PUT https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/automations/3d4f772f-d2c4-4dc1-98d0-6f23ba072758
+    PUT https://api.zingle.me/v1/services/aff8bc93-6e28-4e70-8770-defa35cdfc1b/automations/dd6e3805-f503-41f6-805b-b87d4dcd397a
 #### Request Body
 ```json
 {
   "uuid": "dd6e3805-f503-41f6-805b-b87d4dcd397a",
   "display_name": "My Zing",
-  "conditions": [],
   "status": "inactive",
   "triggers": [
     {
@@ -267,7 +266,6 @@ actions | array | Y | Actions that occur when automation runs
 {
   "uuid": "dd6e3805-f503-41f6-805b-b87d4dcd397a",
   "display_name": "My Zing",
-  "conditions": [],
   "status": "inactive",
   "triggers": [
     {
