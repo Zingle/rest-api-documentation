@@ -38,7 +38,10 @@ status | string | Y | "active" or "inactive"
     "id": 971,
     "uuid": "0f0a9170-4e49-47ee-9e18-71d2a093df43",
     "display_name": "My Zing",
+    "type": "Custom Automation",
     "status": "inactive",
+    "is_global": false,
+    "created_at": 1495846543,
     "triggers": [
       {
         "id": "d99a12f1-1b6f-4f91-bb5a-81a0b9299010",
