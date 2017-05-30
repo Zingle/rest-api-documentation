@@ -238,9 +238,13 @@ actions | array | Y | Actions that occur when automation runs
 ### Response
 ``` json
 {
+  "id": 951,
   "uuid": "dd6e3805-f503-41f6-805b-b87d4dcd397a",
   "display_name": "My Zing",
+  "type": "Custom Automation",
   "status": "inactive",
+  "is_global": false,
+  "created_at": 1495846543,
   "triggers": [
     {
       "id": "8284239e-b0ba-4254-b1c6-f7d319ab6fba",
