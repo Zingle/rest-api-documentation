@@ -29,7 +29,6 @@ actions | array | Y | Actions that occur when automation runs
 ```json
 {
   "display_name": "My Zing",
-  "conditions": [],
   "status": "inactive",
   "triggers": [
     {
@@ -242,7 +241,6 @@ actions | array | Y | Actions that occur when automation runs
 {
   "uuid": "dd6e3805-f503-41f6-805b-b87d4dcd397a",
   "display_name": "My Zing",
-  "conditions": [],
   "status": "inactive",
   "triggers": [
     {
