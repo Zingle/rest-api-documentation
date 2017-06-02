@@ -4,7 +4,7 @@ Field | Data Type | Read-Only | Description
 --- | --- | --- | ---
 id | string | Y | Unique identifier
 uuid | string | Y | Unique identifier
-display_name | string | Y |
+display_name | string | Y | Name of the Automation
 type | string | Y | "Escalation", "Keyword", "Self-Registration", "Survey", "Phone Call", or "Custom Automation"
 status | string | Y | "active" or "inactive"
 is_global | boolean | Y | Whether the Automation is scoped to the Service specifically. If this is true, the Automation can not be edited using the API
