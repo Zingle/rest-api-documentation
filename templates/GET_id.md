@@ -25,7 +25,7 @@ None
     },
     "result": {
         "id": "13dfba6d-66d2-42e9-9290-2ea9dcf7f91d",
-        "type": "welcome",
+        "templateTypeCode": "welcome",
         "display_name": "VIP Welcome",
         "subject": null,
         "body": "Welcome back to the Zingle Hotel, {TITLE} {LAST_NAME}. We are very excited to have you back. Let us know if you need anything during your stay.",
