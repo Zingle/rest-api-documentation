@@ -32,6 +32,7 @@ None
     "is_starred": true,
     "is_closed": false,
     "avatar_uri": null,
+    "optin_status": "opted-in",
     "created_at": 1442877113,
     "updated_at": 1442877113,
     "locked_by_source": null,
