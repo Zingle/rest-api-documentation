@@ -47,6 +47,7 @@ base64 | string | Y | A base64 encoding of the image to be uploaded
     "is_starred": true,
     "is_closed": false,
     "avatar_uri": "https://6407d4d3a30bb891aafe-345656863e41d74beb2a8fef19bcbe4a.ssl.cf1.rackcdn.com/edd00e80-0d6d-43b3-96df-b03f451a049g.png",
+    "optin_status": "opted-in",
     "created_at": 1442877113,
     "updated_at": 1442877113,
     "locked_by_source": null,    
