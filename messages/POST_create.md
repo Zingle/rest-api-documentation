@@ -16,11 +16,11 @@ Field | Data Type | Required | Description
 --- | --- | --- | ---
 sender_type | string | Y | The type of sender - 'contact', 'service'
 sender | object | Y | id and/or channel_value of the sender. If sending using a 'User Defined' channel type, do not include a channel_value, only include the service ID
-recipient_type | string | Y | The type of recipients - 'contact', 'service', or 'label'
+recipient_type | string | Y | The type of recipients - 'contact', 'service', 'contact_group', or 'label'
 recipients | array | Y | Array of recipient objects, each with an id and/or channel_value (channel_value is required when sending to contacts)
 channel_type_ids | array | Y | An array of allowed channel_type_ids.  Currently only the 'Phone Number' channel type is permitted when the recipient_type is Label
 body | string | N | Message body
-attachments | array | N | Array of attachment objects, each with a content_type and base64 encoded content string
+attachments | array | N | Array of attachment objects, each with a content_type, base64 encoded content string, and optional file display name
 template_id | string | N | The ID of the template of which the message should include
 delay_minutes | integer | N | The number of minutes the message should be delayed for
 uuid | string | N | A created unique identifier to prevent the processing of multiple of the same message
