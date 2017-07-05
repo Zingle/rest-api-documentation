@@ -62,6 +62,7 @@ is_closed | boolean | N | Whether the Contact's conversation should be closed
     "is_starred": false,
     "is_closed": false,
     "avatar_uri": null,
+    "optin_status": "opted-in",
     "created_at": 1442877113,
     "updated_at": 1442877113,
     "locked_by_source": null,
