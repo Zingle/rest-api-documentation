@@ -22,6 +22,7 @@ is_confirmed | N | Filter by confirmed status (true = confirmed, false = not con
 is_starred | N | Filter by starred status (true = starred, false = not starred)
 is_closed | N | Filter by closed status (true = closed, false = not closed)
 locked_by_source | N | Filter by lock source
+optin_status | N | Filter by opt-in status
 query | N | Search contacts by first name, last name, or channel value
 search_message_bodies | N | When using the 'query' parameter, setting this to true will return any contacts who have sent or received a message containing the query string
 
@@ -35,6 +36,7 @@ search_message_bodies | N | When using the 'query' parameter, setting this to tr
 * locked_by_source
 * last_name
 * first_name
+* optin_status
 
 ## Example
 ### Request
