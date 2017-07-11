@@ -49,6 +49,7 @@ is_closed | boolean | N | Whether the Contact's conversation should be closed
   },
   "result": {
     "id": "f119fe3b-67e2-4b59-b605-5586616978d0",
+    "notes": null,
     "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
     "is_messageable": true,
     "is_confirmed": true,
