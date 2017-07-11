@@ -26,10 +26,17 @@ None
     },
   "result": {
     "id": "f119fe3b-67e2-4b59-b605-5586616978d0",
+    "notes": null,
+    "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
+    "is_messageable": true,
     "is_confirmed": true,
     "is_starred": true,
+    "is_closed": false,
+    "avatar_uri": null,
+    "optin_status": "opted-in",
     "created_at": 1442877113,
     "updated_at": 1442877113,
+    "locked_by_source": null,
     "last_message": {
       "id": null,
       "body": null,
