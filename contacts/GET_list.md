@@ -60,6 +60,7 @@ search_message_bodies | N | When using the 'query' parameter, setting this to tr
     "result": [
     {
         "id": "89d9e8b5-b225-476c-a83e-50cdb720e3b1",
+        "notes": null,
         "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
         "is_messageable": true,
         "is_confirmed": true,
