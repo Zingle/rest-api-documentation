@@ -3,6 +3,7 @@
 Field | Data Type | Description
 --- | --- | ---
 id | string | Unique identifier
+notes | string | Internal note about the contact
 service_id | string | Unique identifier of the Contact's Service 
 is_messageable | boolean | Whether the contact has a valid channel that is not blocked for outbound sending
 is_confirmed | boolean | Whether the conversation associated with this Contact is currently marked as 'Confirmed'
