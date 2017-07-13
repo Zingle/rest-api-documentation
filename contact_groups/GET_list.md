@@ -2,7 +2,7 @@
 
     GET services/:service_id/contact-groups
     
-Returns a list of Contact Groups for the given service
+Returns a list of [Contact Groups] for the given service
 
 ### User Authorization Classes 
 * account
@@ -67,3 +67,4 @@ Pagination options | N | N | (see [Overview - Request Modifiers][])
 ```
 
 [Overview - Request Modifiers]: /README.md#request-modifiers
+[Contact Groups]: README.md
