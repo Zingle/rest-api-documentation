@@ -8,8 +8,7 @@ Deletes a [Contact Group]
 * account
 
 ## Parameters
-Field | Required | Wildcards | Description
---- | --- | --- | ---
+None
  
 
 ## Example
