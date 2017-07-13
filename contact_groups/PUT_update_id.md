@@ -27,9 +27,11 @@ conditions | Y | N | The conditions from which the contact group is created
   "display_name": "Smiths",
   "condition_boolean_operator": "AND",
   "conditions": [
-    "comparison_method_code": "string_contains",
-    "comparison_source": "{CONTACT.LAST_NAME}",
-    "comparison_value": "smith"
+    {
+      "comparison_method_code": "string_contains",
+      "comparison_source": "{CONTACT.LAST_NAME}",
+      "comparison_value": "smith"
+    }
   ]
 }
 ```
