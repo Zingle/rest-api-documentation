@@ -17,6 +17,7 @@ Field | Required | Description
 device_identifier | Y | Unique identifier of the device that is subscribing
 operating_system | Y | One of 'ios', 'android',  or 'windows'
 service_ids | N | Array of service IDs to subscribe to notifications for. Not required when subscribing a Contact to notifications
+sns_applicaton_arn | N | AWS SNS application ARN to use when sending push notifications
 
 ## Example
 ### Request
