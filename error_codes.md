@@ -121,6 +121,7 @@ Error Code | Description | Explanation
 3512 | A custom field specified in a trigger was not found for this service
 3513 | A label specified in an action was not found for this service
 3514 | A custom field specified in an action was not found for this service
+3515 | An existing workflow action type must be specified
 3600 | Message not found | 
 3601 | Message 'read at' date invalid. Valid dates must be in UNIX timestamp format | 
 3602 | Sending a message requires a body or attachments to be specified | 
