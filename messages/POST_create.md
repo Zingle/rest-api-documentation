@@ -24,6 +24,7 @@ attachments | array | N | Array of attachment objects, each with a content_type,
 template_id | string | N | The ID of the template of which the message should include
 delay_minutes | integer | N | The number of minutes the message should be delayed for
 uuid | string | N | A created unique identifier to prevent the processing of multiple of the same message
+send_translated_body | boolean | N | Whether or not to translate the outbound message into the last received message's language
 
 ## Example
 ### Request
