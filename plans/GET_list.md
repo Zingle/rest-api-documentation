@@ -4,8 +4,8 @@
     
 Returns a list of [Plans] an [Account] has access to
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

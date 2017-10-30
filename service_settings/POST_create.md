@@ -4,8 +4,8 @@
     
 Updates the value of a [Service Setting] and returns the updates [Service] object
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 ### URI Parameters

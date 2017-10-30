@@ -4,8 +4,8 @@
     
 Returns a single [User].
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

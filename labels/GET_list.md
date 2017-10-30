@@ -4,8 +4,8 @@
     
 Returns a list of [Labels][] belonging to the specified [Service].
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 ### URI Parameters

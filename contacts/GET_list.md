@@ -7,8 +7,8 @@
 Returns a list of [Contacts].  If the service is included in the URL, only contacts for the specified service or account will be searched. If no service or account is specified in the URL, all 
 contacts accessible by the current developer credentials will be searched.
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 Field | Wildcards | Description

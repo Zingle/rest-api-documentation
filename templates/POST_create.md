@@ -4,8 +4,8 @@
     
 Create a [Template]. Returns the newly-created object.
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 ### URI Parameters

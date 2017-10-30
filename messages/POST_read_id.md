@@ -9,9 +9,9 @@ If the call is made under the account user authorization class and the URL servi
 
 If the call is made under the contact user authorization class and the URL services/:service_id/messages/read is used, the body of the message may optionally contain message_ids. If message_ids is not included in the body, all of the contacts unread messages will be marked as read.
 
-### User Authorization Classes 
-* account
-* contact (requires x-zingle-contact-id header)
+
+
+
 
 ## Parameters
 ### URI Parameters

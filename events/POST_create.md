@@ -6,9 +6,9 @@ Create an event. The response depends on the type of event being created:
 *When creating (sending) a message* returns an array of Message IDs queued for sending.
 *When creating a note* returns the created note event
 
-### User Authorization Classes 
-* account
-* contact (requires x-zingle-contact-id header)
+
+
+
 
 ## Parameters
 ### URI Parameters

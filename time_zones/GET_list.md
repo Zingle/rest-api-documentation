@@ -4,8 +4,8 @@
     
 Returns an array of Time Zones that can be used when provisioning or configuring a service
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

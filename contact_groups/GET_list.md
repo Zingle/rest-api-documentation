@@ -4,8 +4,8 @@
     
 Returns a list of [Contact Groups] for the given service
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 Field | Required | Wildcards | Description

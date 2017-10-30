@@ -4,8 +4,8 @@
     
 Returns a single [Plan]
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

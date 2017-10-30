@@ -4,8 +4,8 @@
     
 Forward a message to SMS, email, a Zingle printer, a Zingle service, or a connected HotSOS instance. 
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 ### URI Parameters

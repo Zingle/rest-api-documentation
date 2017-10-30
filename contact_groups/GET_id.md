@@ -4,8 +4,8 @@
     
 Returns a single [Contact Group].
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

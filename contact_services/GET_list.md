@@ -4,8 +4,8 @@
     
 Returns a list of Services and Contacts for the given search criteria.  If the returned service has no corresponding contact the contact_id will be null.
 
-### User Authorization Classes 
-* account
+
+
 * contact
 
 ## Parameters

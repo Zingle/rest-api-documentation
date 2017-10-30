@@ -4,8 +4,8 @@
     
 Creates a new [Contact Group]
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 Field | Required | Wildcards | Description

@@ -4,8 +4,8 @@
     
 Deletes a [Contact Group]
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

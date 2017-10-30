@@ -4,9 +4,9 @@
     
 Stop a running [Automation] on a Contact. 
 
-### User Authorization Classes 
-* account
-* contact (requires x-zingle-contact-id header)
+
+
+
 
 ## Parameters
 None

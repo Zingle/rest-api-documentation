@@ -4,8 +4,8 @@
     
 Update a [Label]. Returns the updated object.
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 ### URI Parameters

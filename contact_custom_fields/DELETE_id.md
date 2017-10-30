@@ -4,8 +4,8 @@
     
 Deletes a [Contact Custom Field].
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

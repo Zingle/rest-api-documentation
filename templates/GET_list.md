@@ -4,8 +4,8 @@
     
 Returns a list [Templates] scoped to the selected [Service].
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

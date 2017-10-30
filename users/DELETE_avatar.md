@@ -4,8 +4,8 @@
     
 Deletes a [User]'s avatar
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

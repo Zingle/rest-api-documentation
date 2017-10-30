@@ -4,11 +4,11 @@
     
 Updates a [Service Channel] and returns the updated object
 
-### User Authorization Classes 
-* account
 
-### User Authorization Classes 
-* account
+
+
+
+
 
 ## Parameters
 ### URI Parameters

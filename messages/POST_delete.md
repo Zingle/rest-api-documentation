@@ -4,9 +4,9 @@
     
 Deletes a message that is 'delayed' but not yet sent.
 
-### User Authorization Classes 
-* account
-* contact (requires x-zingle-contact-id header)
+
+
+
 
 ## Parameters
 ### URI Parameters

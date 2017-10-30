@@ -4,8 +4,8 @@
     
 Returns a single [Template].
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None

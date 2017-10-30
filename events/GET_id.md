@@ -4,9 +4,9 @@
     
 Returns a single [Event]
 
-### User Authorization Classes 
-* account
-* contact (requires x-zingle-contact-id header)
+
+
+
 
 ## Parameters
 None

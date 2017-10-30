@@ -4,8 +4,8 @@
     
 Returns a list of [Contact Custom Fields]  belonging to the specified service
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 ### URI Parameters

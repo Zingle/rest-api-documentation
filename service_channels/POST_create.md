@@ -4,8 +4,8 @@
     
 Creates a new [Service Channel] and returns the newly-created object. Currently only email addresses (with the domain email.zingle.me) and phone numbers may be added to a service.
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 ### URI Parameters

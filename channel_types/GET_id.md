@@ -4,9 +4,6 @@
     
 Returns a single [Channel Type].
 
-### User Authorization Classes 
-* account
-
 ## Parameters
 None
 

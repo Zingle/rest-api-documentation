@@ -4,9 +4,9 @@
     
 Updates a [Contact Channel] and returns the updated object
 
-### User Authorization Classes 
-* account
-* contact (requires x-zingle-contact-id header)
+
+
+
 
 ## Parameters
 ### URI Parameters

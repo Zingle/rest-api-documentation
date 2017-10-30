@@ -4,8 +4,8 @@
     
 Updates a [User]'s avatar
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 ### URI Parameters

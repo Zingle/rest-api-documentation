@@ -4,8 +4,8 @@
     
 Returns a single [Label].
 
-### User Authorization Classes 
-* account
+
+
 
 ## Parameters
 None
