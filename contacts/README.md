@@ -4,7 +4,9 @@ Field | Data Type | Description
 --- | --- | ---
 id | string | Unique identifier
 notes | string | Internal note about the contact
-service_id | string | Unique identifier of the Contact's Service 
+service_id | string | Unique identifier of the Contact's Service
+assigned_to_team_id | string | Unique identifier of the Contact's assigned User
+assigned_to_user_id | string | Unique identifier of the Contact's assigned Team 
 is_messageable | boolean | Whether the contact has a valid channel that is not blocked for outbound sending
 is_confirmed | boolean | Whether the conversation associated with this Contact is currently marked as 'Confirmed'
 is_starred | boolean | Whether the conversation associated with this Contact is currently marked as 'Starred'

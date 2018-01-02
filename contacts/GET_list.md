@@ -18,9 +18,12 @@ channel_value | Y | Filter by contact channel values
 channel_type_id | N | Filter by channel type
 label_id | N | Filter by Label ID
 contact_group_id | N | Filter by Contact Group ID
+assigned_to_user_id | N | Filter by assigned user
+assigned_to_team_id | N | Filter by assigned team
 is_confirmed | N | Filter by confirmed status (true = confirmed, false = not confirmed)
 is_starred | N | Filter by starred status (true = starred, false = not starred)
 is_closed | N | Filter by closed status (true = closed, false = not closed)
+is_unassigned | N | Filter by unassigned contacts (true = unassigned, false not supported)
 locked_by_source | N | Filter by lock source
 optin_status | N | Filter by opt-in status
 query | N | Search contacts by first name, last name, or channel value
