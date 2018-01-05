@@ -12,6 +12,7 @@ channels | array | N | Array of [Service Channel] objects
 channel_types | array | Y | Array of [Channel Type] objects
 contact_labels | array | Y | Array of [Contact Labels]
 contact_custom_fields | array | Y | Array of [Contact Custom Fields]
+features | array | N | Array of features enabled on the Service
 templates | array | Y | Array of [Templates]
 automations | array | Y | Array of [Automations]
 settings | array | N | Array of [Service Settings] objects representing settings on the Service
