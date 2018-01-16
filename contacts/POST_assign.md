@@ -10,8 +10,8 @@ None
 ### Body Parameters
 Field | Data Type | Required | Description
 --- | --- | --- | ---
-userId | string | N | The ID of the user to assign the contact to
-teamId | string | N | The ID of the team to assign the contact to
+user_id | string | N | The ID of the user to assign the contact to
+team_id | string | N | The ID of the team to assign the contact to
 
 ## Example
 ### Request
@@ -21,7 +21,7 @@ teamId | string | N | The ID of the team to assign the contact to
 #### Request Body    
 ```json
 {
-  "userId": "5912ac4d-280a-4d4e-a632-961b40718293"
+  "user_id": "5912ac4d-280a-4d4e-a632-961b40718293"
 }
 ``` 
 
