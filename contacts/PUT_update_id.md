@@ -51,6 +51,8 @@ is_closed | boolean | N | Whether the Contact's conversation should be closed
     "id": "f119fe3b-67e2-4b59-b605-5586616978d0",
     "notes": null,
     "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
+    "assigned_to_team_id": "bf5c8s4e-b4f5-4382-9f3a-9ees5eedaef1",
+    "assigned_to_user_id": null,
     "is_messageable": true,
     "is_confirmed": true,
     "is_starred": true,
