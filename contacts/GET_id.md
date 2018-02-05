@@ -28,6 +28,8 @@ None
         "id": "89d9e8b5-b225-476c-a83e-50cdb720e3b1",
         "notes": null,
         "service_id": "aff7bc93-6e28-4e70-8770-defa35cdfc1b",
+        "assigned_to_team_id": "bf5c8s4e-b4f5-4382-9f3a-9ees5eedaef1",
+        "assigned_to_user_id": null,
         "is_messageable": true,
         "is_confirmed": true,
         "is_starred": false,
