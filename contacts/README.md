@@ -13,8 +13,9 @@ is_starred | boolean | Whether the conversation associated with this Contact is 
 is_closed | boolean | Whether the conversation associated with this Contact is currently closed
 avatar_uri | string | URI of the contact's avatar
 optin_status | string | The current opt-in status of the contact.  Will be null if the service does not have set opt-in behavior
-created_at | UNIX timestamp | Date the Account was created
-updated_at | UNIX timestamp | Date the Account was last updated
+unconfirmed_at | UNIX timestamp | Date the Contact's conversation was last marked unconfirmed/unread
+created_at | UNIX timestamp | Date the Contact was created
+updated_at | UNIX timestamp | Date the Contact was last updated
 locked_by_source | string | If the contact was created or updated by an external system, which system will be indicated in this field. Locked contacts can not have their first name, last name, title, phone numbers, nor email addresses edited.
 last_message | object | Object containing id, body, and created_at for last message sent to or received from the contact
 channels | array | Array of [Contact Channels]
