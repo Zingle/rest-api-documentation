@@ -3,6 +3,9 @@
 Field | Data Type | Description
 --- | --- | ---
 id | string | Unique identifier
+first_name | string | First name
+last_name | string | Last name
+title | string | Salutation/title
 notes | string | Internal note about the contact
 service_id | string | Unique identifier of the Contact's Service
 assigned_to_team_id | string | Unique identifier of the Contact's assigned User
