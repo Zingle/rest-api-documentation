@@ -9,7 +9,7 @@ Returns a list of [Available Phone Number]
 Field | Data Type | Required | Wildcards | Description
 --- | --- | --- | --- | ---
 country | string | Y | N | ISO 3166-1 alpha-2 country code
-search | string | N | Y | If specified, phone numbers matching this string will be searched. 
+search | string | Y | N | If specified, phone numbers matching this string will be searched. 
 ### Sortable fields
 None
 
