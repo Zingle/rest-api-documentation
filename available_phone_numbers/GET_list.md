@@ -9,14 +9,14 @@ Returns a list of [Available Phone Number]
 Field | Data Type | Required | Wildcards | Description
 --- | --- | --- | --- | ---
 country | string | Y | N | ISO 3166-1 alpha-2 country code
-search | string | Y | N | If specified, phone numbers matching this string will be searched. 
+search | string | Y | N | A valid area code in the country
 ### Sortable fields
 None
 
 ## Example
 ### Request
 
-    https://api.zingle.me/v1/available-phone-numbers?country=US
+    https://api.zingle.me/v1/available-phone-numbers?country=US&search=619
 
 ### Response
 ``` json
@@ -28,13 +28,13 @@ None
     },
     "result": [
         {
-          "phone_number": "+18025556010",
-          "formatted_phone_number": "(802) 555-6010",
+          "phone_number": "+16195556010",
+          "formatted_phone_number": "(619) 555-6010",
           "country": "US"
         },
         {
-          "phone_number": "+16315556099",
-          "formatted_phone_number": "(631) 555-6099",
+          "phone_number": "+16195556099",
+          "formatted_phone_number": "(619) 555-6099",
           "country": "US"
         }
     ]
