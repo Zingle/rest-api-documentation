@@ -27,20 +27,18 @@ None
     "result": {
     "id": "1bc63907-b3df-47c4-9a7c-11ad9ab35085",
     "value": "+18582355555",
-    "country": "US",
     "formatted_value": "(858) 235-5555",
     "display_name": "MOBILE",
+    "country": "US",    
     "is_default": false,
     "is_default_for_type": false,
     "block_inbound": false,
     "block_outbound": false,
+    "is_messageable": true,
     "channel_type": {
-      "id": "0e3d71ee-9518-4b9b-b95a-dea251829887",
-      "type_class": "PhoneNumber",
-      "display_name": "Phone Number",
-      "inbound_notification_url": null,
-      "outbound_notification_url": null,
-      "allow_communications": true
+        "type_class": "PhoneNumber",
+        "display_name": "Phone Number",
+        "allow_messages": true
     }
 }
 ```
