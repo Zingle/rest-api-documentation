@@ -44,22 +44,20 @@ is_default_for_type | boolean | N | If set to true, will make this channel the d
         "description": null
     },
     "result": {
-      "id": "d9f91fdb-bbdb-442d-bbac-99fb76263653",
-      "display_name": null,
+      "id": "d9f91fdb-bbdb-442d-bbac-99fb76263653",      
       "value": "+18585556565",
       "formatted_value": "(858) 555-6565",
+      "display_name": null,
       "country": "US",
       "is_default": false,
       "is_default_for_type": false,
       "block_inbound": false,
       "block_outbound": true,
+      "is_messageable": true,
       "channel_type": {
-        "id": "0e3d71ee-9518-4b9b-b95a-dea251829887",
         "type_class": "PhoneNumber",
         "display_name": "Phone Number",
-        "inbound_notification_url": null,
-        "outbound_notification_url": null,
-        "allow_communications": true
+        "allow_messages": true
       }
     }
 }
