@@ -20,7 +20,6 @@ service_display_name | N | Y | Filter by the service display name
 account_id           | N | Y | Filter by the account id
  
 ### Sortable Fields
-* last_message_created_at
 * created_at
 
 ## Example
