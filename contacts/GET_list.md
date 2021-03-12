@@ -16,6 +16,7 @@ Field | Wildcards | Description
 Pagination options | N | (see [Overview - Request Modifiers][])
 channel_value | Y | Filter by contact channel values
 channel_type_id | N | Filter by channel type
+external_id | N | Filter by customer-specified external ID
 label_id | N | Filter by Label ID
 contact_group_id | N | Filter by Contact Group ID
 assigned_to_user_id | N | Filter by assigned user
