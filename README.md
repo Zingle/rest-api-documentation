@@ -256,11 +256,6 @@ For a description of the available resources see the [Resource Overview](resourc
 - **[<code>PUT</code> Update Template](/templates/PUT_update_id.md)**
 - **[<code>DELETE</code> Delete Template](/templates/DELETE_id.md)** 
 
-### [Automations][]
-- **[<code>GET</code> Automation list](/automations/GET_list.md)**
-- **[<code>GET</code> Automation](/automations/GET_id.md)**
-- **[<code>PUT</code> Update Automation](/automations/PUT_update_id.md)**
-
 [Accounts]: /accounts/
 [Services]: /services/
 [Channel Types]: /channel-types
