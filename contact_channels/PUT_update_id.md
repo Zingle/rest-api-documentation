@@ -1,6 +1,6 @@
 # Update Contact Channel
 
-    PUT services/:service_id/channels/:channel_id/contacts/:contact_id/channels/:channel_id
+    PUT services/:service_id/contacts/:contact_id/channels/:channel_id
     
 Updates a [Contact Channel] and returns the updated object
 
