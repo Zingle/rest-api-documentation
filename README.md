@@ -11,7 +11,9 @@ We provide a [Postman](https://www.getpostman.com/) collection with a set of req
 For API support, please email api.support@zingle.me.
 
 ## Authentication
-Access to the API is granted by providing your username and password using HTTP basic authentication.  The username and password used, is the same username and password you use to access the Zingle web interface.
+
+### Basic Authentication
+Access to the API is granted by providing your username and password using HTTP basic authentication. The username and password used, is the same username and password you use to access the Zingle web interface.
 
 ```no-highlight
 GET https://api.zingle.me/v1/
@@ -32,6 +34,19 @@ GET https://api.zingle.me/v1/
     }
 }
 ```
+
+### JSON Web Token Authentication (JWT)
+A JWT may be obtained using the [JWT-API](https://developers.zingle.me/api/auth-ref/jwt/get-jwt) (if using Zingle’s build-in authentication) or in the “My Settings” window in the application (if using oAuth or SSO).
+
+Once you’ve obtained a JWT, then token can be used as the Bearer token in any API request.
+e.g.
+```
+GET /resource HTTP/1.1
+Host: server.example.com
+Authorization: Bearer mF_9.B5f-4.1JqM
+```
+
+For more information see the [API developer docs](https://developers.zingle.me/api/auth).
 
 ## API Versioning
 The first part of the URI path specifies the API version you wish to access in the format `v{version_number}`. 
