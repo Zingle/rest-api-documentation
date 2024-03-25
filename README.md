@@ -8,7 +8,7 @@ Zingle is a multi-channel communications platform that allows the sending, recei
 We provide a [Postman](https://www.getpostman.com/) collection with a set of requests that introduce the basic concepts of the API.  You will need an existing Zingle account with API access to run this tutorial. The Postman collection and more information are available [here](https://github.com/Zingle/rest-api/tree/master/.postman_tutorial).
 
 ### Support
-For API support, please email api.support@zingle.me.
+For API support, please email support@zingle.me. or visit our [KB portal](https://help.zingle.me/en/articles/507349-medallia-concierge-technical-support)
 
 ## Authentication
 
